@@ -18,13 +18,12 @@ breadcrumbs:
 
 | Liczebność grupy | Czas trwania lekcji [minuty] | Cena od osoby [zł] |
 |---|---:|---:|
-| 5–6 | 50 | 45 |
-| 4 | 50 | 50 |
-| 3 | 50 | 60 |
-| 2 | 50 | 70 |
-| 1 dorosły | 50 | 110 |
-| 1 dziecko | 50 | 95 |
-| warsztaty | 90 | 50–60 |
+| 5–6 | 50 | 47 |
+| 4 | 50 | 53 |
+| 3 | 50 | 63 |
+| 2 | 50 | 74 |
+| 1 dorosły | 50 | 115 |
+| 1 dziecko | 50 | 100 |
 
 Płatności w formie uśrednionych rat miesięcznych lub semestralnych.
 
