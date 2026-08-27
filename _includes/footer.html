@@ -1,0 +1,32 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-links">
+      {%- for path in site.footer_pages -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+          <a href="{{ my_page.url | relative_url }}">
+            {{ my_page.title | escape }}
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    {%- if site.author -%}
+      <div class="footer-author">
+        {%- if site.author.name -%}
+          {{ site.author.name | escape }}
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="footer-copyright">
+      &copy; {{ site.time | date: "%Y" }}
+      {{ site.title | escape }}
+    </div>
+
+  </div>
+</footer>
+
