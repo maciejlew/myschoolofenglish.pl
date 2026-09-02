@@ -1,0 +1,344 @@
+/* ========================================
+   My School of English
+   ======================================== */
+
+.ms-section {
+  padding: 5rem 0;
+}
+
+.ms-section--light {
+  background: #f7f7f5;
+}
+
+.ms-section--cream {
+  background: #f4f0e8;
+}
+
+.ms-section--dark {
+  background: #263746;
+  color: #fff;
+}
+
+.ms-section--price {
+  background: #d85c4a;
+  color: #fff;
+  text-align: center;
+}
+
+.ms-section--cta {
+  background: #f7f7f5;
+  text-align: center;
+}
+
+.ms-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+/* Hero */
+
+.ms-hero {
+  padding: 7rem 0 6rem;
+  text-align: center;
+}
+
+.ms-hero__inner {
+  max-width: 900px;
+}
+
+.ms-hero h1 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.ms-hero__lead {
+  max-width: 650px;
+  margin: 0 auto 1.5rem;
+  font-size: 1.35rem;
+}
+
+.ms-hero__features {
+  color: #666;
+  line-height: 1.8;
+}
+
+.ms-hero__features span {
+  color: #d85c4a;
+  margin: 0 .3rem;
+}
+
+.ms-hero__enrollment {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+
+/* Nagłówki sekcji */
+
+.ms-section-heading {
+  max-width: 750px;
+  margin-bottom: 3rem;
+}
+
+.ms-section-heading h2 {
+  margin-top: .3rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+}
+
+.ms-section-heading--light h2 {
+  color: #fff;
+}
+
+.ms-kicker {
+  margin: 0 0 .5rem;
+  color: #d85c4a;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.ms-section-heading--light .ms-kicker {
+  color: #f5c6bd;
+}
+
+
+/* Przyciski */
+
+.ms-button {
+  display: inline-block;
+  padding: .9rem 1.5rem;
+  border-radius: 4px;
+  background: #d85c4a;
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .15s ease, opacity .15s ease;
+}
+
+.ms-button:hover {
+  opacity: .9;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.ms-button--outline {
+  background: transparent;
+  border: 2px solid #d85c4a;
+  color: #d85c4a !important;
+}
+
+.ms-button--white {
+  background: #fff;
+  color: #263746 !important;
+}
+
+
+/* Dlaczego my */
+
+.ms-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.ms-feature {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.ms-feature__number {
+  color: #d85c4a;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.ms-feature h3 {
+  margin-top: .5rem;
+}
+
+
+/* Dla kogo */
+
+.ms-audience {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.ms-audience__item {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.ms-audience__item h3 {
+  margin-top: 0;
+}
+
+.ms-section__action {
+  margin-top: 2rem;
+}
+
+
+/* Doświadczenie */
+
+.ms-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+.ms-tags span {
+  padding: .7rem 1rem;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 50px;
+}
+
+
+/* O pani Gosi */
+
+.ms-about {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.ms-about__image img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.ms-about blockquote {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-left: 4px solid #d85c4a;
+  background: #f7f7f5;
+  font-style: italic;
+}
+
+
+/* Opinie */
+
+.ms-testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.ms-testimonial {
+  margin: 0;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.ms-testimonial blockquote {
+  margin: 0 0 1.5rem;
+  border: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.ms-testimonial figcaption {
+  font-weight: 700;
+}
+
+
+/* Cena */
+
+.ms-price {
+  padding: 2rem 0;
+}
+
+.ms-price .ms-kicker {
+  color: #f5c6bd;
+}
+
+.ms-price__value {
+  font-size: 2rem;
+}
+
+.ms-price__value strong {
+  display: block;
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.ms-price__description {
+  margin-bottom: 2rem;
+}
+
+
+/* CTA */
+
+.ms-cta {
+  max-width: 700px;
+  margin: auto;
+}
+
+.ms-cta h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.ms-cta__phone {
+  margin-top: 1.5rem;
+}
+
+.ms-cta__phone a {
+  font-weight: 700;
+}
+
+
+/* Standardy */
+
+.ms-safeguarding {
+  padding: 2rem 0;
+  background: #eee;
+  font-size: .85rem;
+  color: #666;
+}
+
+.ms-safeguarding p {
+  margin: 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+  .ms-section {
+    padding: 3.5rem 0;
+  }
+
+  .ms-hero {
+    padding: 4rem 0;
+  }
+
+  .ms-features,
+  .ms-audience,
+  .ms-testimonials,
+  .ms-about {
+    grid-template-columns: 1fr;
+  }
+
+  .ms-about {
+    gap: 2rem;
+  }
+
+  .ms-audience {
+    gap: .75rem;
+  }
+
+}
+

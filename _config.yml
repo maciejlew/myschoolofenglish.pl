@@ -16,7 +16,6 @@ header_pages:
   - _pages/kontakt.md
 
 footer_pages:
-  - _pages/o-nas.md
   - _pages/standardy-ochrony.md
   - _pages/polityka-plikow-cookies.md
   - _pages/kontakt.md
