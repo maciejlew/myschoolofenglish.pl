@@ -47,13 +47,13 @@ Odpowiadamy sobie na pytanie: Dlaczego właściwie uczymy się angielskiego?
 
 W obliczu egzaminu zachęcamy do wytężonej pracy, sprawdzamy zaangażowanie kursantów i motywujemy.
 
-    <a class="ms-button" href="/kontakt.html">
-      Sprawdź wolne miejsca
-    </a>
+<a class="ms-button" href="/kontakt.html">
+  Sprawdź wolne miejsca
+</a>
 
-    <p class="ms-hero__phone">
-      <a href="tel:+48505099321">☎ 505 099 321</a>
-    </p>
+<p class="ms-hero__phone">
+  <a href="tel:+48505099321">☎ 505 099 321</a>
+</p>
 
 ### Zajęcia dla dorosłych
 
@@ -69,13 +69,13 @@ Na zajęciach nie ograniczamy się jedynie do zadawania pytań w oparciu o podr�
 
 Przyjemna i wesoła atmosfera, towarzysząca naszym spotkaniom, sprawia, że kursanci, dobrze się bawiąc, coraz lepiej i pewniej porozumiewają się po angielsku.
 
-    <a class="ms-button" href="/kontakt.html">
-      Sprawdź wolne miejsca
-    </a>
+<a class="ms-button" href="/kontakt.html">
+  Sprawdź wolne miejsca
+</a>
 
-    <p class="ms-hero__phone">
-      <a href="tel:+48505099321">☎ 505 099 321</a>
-    </p>
+<p class="ms-hero__phone">
+  <a href="tel:+48505099321">☎ 505 099 321</a>
+</p>
 
 #### „Let's do business!”
 
@@ -91,10 +91,10 @@ Pracujemy w oparciu o renomowane podręczniki, materiały źródłowe i nagrania
 
 W trakcie trwania kursu przeprowadzamy testy sprawdzające Państwa postępy w nauce, a na koniec egzamin, na podstawie którego sporządzamy opinie o kursantach.
 
-    <a class="ms-button" href="/kontakt.html">
-      Sprawdź wolne miejsca
-    </a>
+<a class="ms-button" href="/kontakt.html">
+  Sprawdź wolne miejsca
+</a>
 
-    <p class="ms-hero__phone">
-      <a href="tel:+48505099321">☎ 505 099 321</a>
-    </p>
+<p class="ms-hero__phone">
+  <a href="tel:+48505099321">☎ 505 099 321</a>
+</p>
