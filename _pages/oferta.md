@@ -30,27 +30,6 @@ breadcrumbs:
 
 ### Zajęcia dla dzieci
 
-#### „Let's get started!” (chwilowo nieaktualne)
-
-To zajęcia rodzinne, na które przychodzą dzieci 3-letnie w towarzystwie mam, tatusiów, babć lub dziadków.
-
-Spotykamy się na pół godzinki raz lub 2 razy w tygodniu (do ustalenia z rodzicami). Śpiewamy, bawimy się, poznajemy pierwsze słówka, rymujemy – w ten sposób powolutku, drobnymi kroczkami, oswajamy dzieci z drugim językiem.
-
-Tak wczesny wiek dziecka to bardzo dobry moment na rozpoczęcie nauki języka angielskiego. Dzieci niemalże równolegle uczą się dwóch języków – swojego ojczystego w domu oraz obcego w szkole.
-
-Miła atmosfera, pozbawiona jakiejkolwiek presji ze strony nauczyciela, obecność bliskiej osoby oraz wystrój wnętrza sprawiają, że dzieci czują się jak u siebie.
-
-#### „Let's play!” (chwilowo nieaktualne)
-
-To zajęcia przeznaczone dla przedszkolaków. Zapraszamy na nie dzieci w wieku od 4 do 6 lat.
-
-Są to spotkania 50-minutowe, przypadające raz lub dwa razy w tygodniu (do ustalenia z rodzicami), na których poprzez zabawę, śpiew, odgrywanie scenek i uczestniczenie w projektach plastycznych, dzieci stawiają coraz śmielsze kroki w języku angielskim.
-
-Podstawą kursu może być odpowiednio dobrany podręcznik, którego sympatyczni bohaterowie towarzyszą nam na każdych zajęciach, ułatwiając przyswajanie pierwszych słówek oraz zwrotów, lub materiały własne naszej kreatywnej kadry.
-
-Jednym z elementów pracy najmłodszych słuchaczy My School of English jest poznawanie żywego języka literatury anglosaskiej, tak na zajęciach, jak i w formie rozszerzonej na warsztatach literackich „Let's read”.
-
-Biblioteczka naszej szkoły rozrasta się w szybkim tempie, wzbogacając o kolejne książki Julii Donaldson, Erica Carle'a, Roalda Dahla i wielu innych poczytnych pisarzy.
 
 #### „Let's go to school!”
 
@@ -68,6 +47,14 @@ Odpowiadamy sobie na pytanie: Dlaczego właściwie uczymy się angielskiego?
 
 W obliczu egzaminu zachęcamy do wytężonej pracy, sprawdzamy zaangażowanie kursantów i motywujemy.
 
+    <a class="ms-button" href="/kontakt.html">
+      Sprawdź wolne miejsca
+    </a>
+
+    <p class="ms-hero__phone">
+      <a href="tel:+48505099321">☎ 505 099 321</a>
+    </p>
+
 ### Zajęcia dla dorosłych
 
 #### „Let's talk!”
@@ -81,6 +68,14 @@ Wydawnictwo Direct English, z którym My School of English ma przyjemność wsp�
 Na zajęciach nie ograniczamy się jedynie do zadawania pytań w oparciu o podręcznik. Stosujemy także inne materiały (źródłowe i autorskie), gry, prezentacje oraz prelekcje, ponieważ uważamy, że zróżnicowanie planu zajęć zwiększa ich efektywność.
 
 Przyjemna i wesoła atmosfera, towarzysząca naszym spotkaniom, sprawia, że kursanci, dobrze się bawiąc, coraz lepiej i pewniej porozumiewają się po angielsku.
+
+    <a class="ms-button" href="/kontakt.html">
+      Sprawdź wolne miejsca
+    </a>
+
+    <p class="ms-hero__phone">
+      <a href="tel:+48505099321">☎ 505 099 321</a>
+    </p>
 
 #### „Let's do business!”
 
@@ -96,3 +91,10 @@ Pracujemy w oparciu o renomowane podręczniki, materiały źródłowe i nagrania
 
 W trakcie trwania kursu przeprowadzamy testy sprawdzające Państwa postępy w nauce, a na koniec egzamin, na podstawie którego sporządzamy opinie o kursantach.
 
+    <a class="ms-button" href="/kontakt.html">
+      Sprawdź wolne miejsca
+    </a>
+
+    <p class="ms-hero__phone">
+      <a href="tel:+48505099321">☎ 505 099 321</a>
+    </p>
