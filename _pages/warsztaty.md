@@ -16,6 +16,10 @@ breadcrumbs:
     type: AboutPage
 ---
 
+ANGIELSKI TO COŚ WIĘCEJ NIŻ LEKCJA
+
+Czytamy. Gotujemy. Tworzymy. Odkrywamy. Mówimy po angielsku.
+
 My School of English proponuje warsztaty literackie, teatralne, kulinarne, ogrodnicze i plastyczne.
 
 ### Warsztaty literackie „Let's read!”
