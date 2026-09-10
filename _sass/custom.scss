@@ -342,3 +342,47 @@
 
 }
 
+
+/* ========================================
+Warsztaty
+======================================== */
+
+.ms-workshops {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 2rem;
+margin: 3rem 0;
+}
+
+.ms-workshop {
+padding: 2rem;
+background: #fff;
+border: 1px solid #e5e2dc;
+border-radius: 8px;
+}
+
+.ms-workshop h3 {
+margin-top: 0;
+margin-bottom: 1.5rem;
+font-size: 1.5rem;
+line-height: 1.2;
+}
+
+.ms-workshop p:last-child {
+margin-bottom: 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+.ms-workshops {
+grid-template-columns: 1fr;
+gap: 1.5rem;
+margin-top: 2rem;
+}
+
+.ms-workshop {
+padding: 1.5rem;
+}
+}

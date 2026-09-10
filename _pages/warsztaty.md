@@ -22,17 +22,22 @@ Czytamy. Gotujemy. Tworzymy. Odkrywamy. Mówimy po angielsku.
 
 My School of English proponuje warsztaty literackie, teatralne, kulinarne, ogrodnicze i plastyczne.
 
-### Warsztaty literackie „Let's read!”
+<div class="ms-workshops"> <div class="ms-workshop">
+
+<h3>Warsztaty literackie „Let's read!”</h3>
 
 To cykliczne spotkania, mające na celu przybliżenie polskim dzieciom literatury anglosaskiej w oryginalnym brzmieniu, czyli po angielsku.
 
 Biblioteczka My School of English rozrasta się w oczach, ku uciesze pani Gosi, zapalonej czytelniczki, oraz uczniów, którzy, jak się okazuje, bardzo lubią słuchać bajek, zgadywać, co będzie dalej, pomagać w czytaniu, jak również uczestniczyć w projektach plastycznych opartych na przeczytanej książce.
 
+
 Wybrane pozycje to perełki literatury dziecięcej autorstwa Julii Donaldson, Erica Carle'a, Roalda Dahla, A.A. Milne'a i wielu innych poczytnych pisarzy.
 
 Warsztaty odbywają się w siedzibie szkoły, jak również na zaproszenie w przeróżnych miejscach użyteczności publicznej, takich jak biblioteki, szkoły, przedszkola i kawiarnie.
 
-### Warsztaty ogrodnicze „Let's get dirty!”
+</div> <div class="ms-workshop">
+
+<h3>Warsztaty ogrodnicze „Let's get dirty!”</h3>
 
 To autorski projekt My School of English.
 
@@ -42,7 +47,9 @@ Poprzez kreatywną zabawę mali ogrodnicy dowiadują się, jak istotnym elemente
 
 Równie ważnym aspektem naszego projektu jest bezpośredni kontakt z naturą poprzez dosłowne ubrudzenie sobie rączek, co przecież dzieci lubią najbardziej.
 
-### Warsztaty kulinarne „Let's eat!”
+</div> <div class="ms-workshop">
+
+<h3>Warsztaty kulinarne „Let's eat!”</h3>
 
 Cieszą się największym zainteresowaniem wśród uczniów My School of English, zgodnie chyba z zasadą „przez żołądek do serca”.
 
@@ -54,7 +61,9 @@ Nic tak nie utwierdza w przekonaniu, że opłaciło się poświęcić co nieco u
 
 Efekt finalny – miodzio!
 
-### Warsztaty plastyczne „Let's draw!”
+</div> <div class="ms-workshop">
+
+<h3>Warsztaty plastyczne „Let's draw!”</h3>
 
 Czyli profesjonalne, absolutnie magiczne lekcje rysunku po angielsku.
 
@@ -64,3 +73,4 @@ W pełnym skupieniu doskonalą swoje umiejętności, tym samym rozwijając pasje
 
 O tym, jak bardzo zajęcia te lubiane są przez naszych uczniów, świadczą wypieki na ich twarzach po wyjściu z sali.
 
+</div> </div>
