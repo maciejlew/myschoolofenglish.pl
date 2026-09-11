@@ -16,28 +16,78 @@ breadcrumbs:
     type: AboutPage
 ---
 
-| Liczebność grupy | Czas trwania lekcji [minuty] | Cena od osoby [zł] |
-|---|---:|---:|
-| 5–6 | 50 | 47 |
-| 4 | 50 | 53 |
-| 3 | 50 | 63 |
-| 2 | 50 | 74 |
-| 1 dziecko | 50 | 100 |
-| 1 dorosły | 50 | 115 |
+<section class="ms-section ms-section--light">
+  <div class="ms-container">
+    <div class="ms-price-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Liczebność grupy</th>
+            <th>Czas trwania lekcji [minuty]</th>
+            <th>Cena od osoby [zł]</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>5–6</td>
+            <td>50</td>
+            <td>47</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>50</td>
+            <td>53</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>50</td>
+            <td>63</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>50</td>
+            <td>74</td>
+          </tr>
+          <tr>
+            <td>1 dziecko</td>
+            <td>50</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>1 dorosły</td>
+            <td>50</td>
+            <td>115</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-Płatności w formie uśrednionych rat miesięcznych lub semestralnych.
+    <p>Płatności w formie uśrednionych rat miesięcznych lub semestralnych.</p>
 
-Zajęcia Business English wyceniane są indywidualnie.
+    <p>Zajęcia Business English wyceniane są indywidualnie.</p>
 
-### Obozy językowe
+  </div>
+</section>
 
-Cyklicznie wyjeżdżamy na obozy językowe do Chester. Zainteresowane osoby prosimy o kontakt.
+<section class="ms-section ms-section--cream">
+  <div class="ms-container">
 
-#### Chester
+    <div class="ms-section-heading">
+      <h2>Obozy językowe</h2>
+    </div>
 
-Tygodniowy obóz języka angielskiego w malowniczym Chester.
+    <p>Cyklicznie wyjeżdżamy na obozy językowe do Chester. Zainteresowane osoby prosimy o kontakt.</p>
 
-Oferta obejmuje kurs języka angielskiego w partnerskiej szkole English in Chester, warsztaty tematyczne, wycieczki krajoznawcze, zakwaterowanie u rodzin brytyjskich, pełne wyżywienie, ubezpieczenie i opiekę rezydenta My School of English.
+    <div class="ms-feature ms-feature--chester">
+      <h3>Chester</h3>
 
-Gorąco polecamy!
+      <p>Tygodniowy obóz języka angielskiego w malowniczym Chester.</p>
+
+      <p>Oferta obejmuje kurs języka angielskiego w partnerskiej szkole English in Chester, warsztaty tematyczne, wycieczki krajoznawcze, zakwaterowanie u rodzin brytyjskich, pełne wyżywienie, ubezpieczenie i opiekę rezydenta My School of English.</p>
+
+      <p>Gorąco polecamy!</p>
+    </div>
+
+  </div>
+</section>
 
