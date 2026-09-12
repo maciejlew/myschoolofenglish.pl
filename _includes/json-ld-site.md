@@ -16,18 +16,18 @@
 {% endif %}
 <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "WebSite",
-        {% if site.name %}"name": "{{ site.name }}",{% endif %}
-        {% if site.description %}"description": "{{ site.description }}",{% endif %}
-        {% if site.url %}"url": "{{ site.url }}{{ site.baseurl }}",{% endif %}
+        {% if site.name %}"name": {{ site.name | jsonify }},{% endif %}
+        {% if site.description %}"description": {{ site.description | jsonify }},{% endif %}
+        {% if site.url %}"url": {{ site.url | append: site.baseurl | jsonify }},{% endif %}
         {% if site.author %}"author": 
             {
                 "@type": "Person",
-                "name": "{{ site.author }}"
+                "name": {{ site.author | jsonify }}
             },{% endif %}
-        {% if site.date %}"dateCreated": "{{ site.date | date: "%Y-%m-%d" }}",{% endif %}
-        "dateModified": "{{ site_modified | date: "%Y-%m-%d" }}"
+        {% if site.date %}"dateCreated": "{{ site.date | date: '%Y-%m-%d' }}",{% endif %}
+        "dateModified": "{{ site_modified | date: '%Y-%m-%d' }}"
     }
 </script>
 

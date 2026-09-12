@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="ms-post">
+
+  <header class="ms-post__header">
+
+    {% if page.categories and page.categories != empty %}
+      <div class="ms-post__kicker">
+        {{ page.categories | first }}
+      </div>
+    {% endif %}
+
+    <div class="ms-post__meta">
+
+      <time
+        class="dt-published"
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished">
+        {{ page.date | date: site.minima.date_format }}
+      </time>
+
+      {% if page.author %}
+        <span aria-hidden="true"> · </span>
+        <span>{{ page.author }}</span>
+      {% endif %}
+
+    </div>
+
+    <h1 class="ms-post__title">
+      {{ page.title | escape }}
+    </h1>
+
+    {% if page.description %}
+      <p class="ms-post__description">
+        {{ page.description }}
+      </p>
+    {% endif %}
+
+  </header>
+
+
+  <div class="ms-post__content">
+
+    {{ content }}
+
+  </div>
+
+</article>
+

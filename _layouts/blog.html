@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<div class="ms-blog">
+  <div class="ms-container">
+
+    <header class="ms-blog__intro">
+
+      <h1>{{ page.title | default: "Blog" }}</h1>
+
+      {% if page.description %}
+        <p>{{ page.description }}</p>
+      {% else %}
+        <p>
+          Praktyczne artykuły, wskazówki i inspiracje
+          związane z nauką języka angielskiego.
+        </p>
+      {% endif %}
+    </header>
+
+    <div class="ms-blog__posts">
+
+      {% for post in site.posts %}
+
+        <article class="ms-blog__post">
+
+          <div class="ms-blog__post-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: site.minima.date_format }}
+            </time>
+          </div>
+
+          <h2>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h2>
+
+          {% if post.description %}
+            <div class="ms-blog__post-excerpt">
+              {{ post.description }}
+            </div>
+          {% elsif post.excerpt %}
+            <div class="ms-blog__post-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 35 }}
+            </div>
+          {% endif %}
+
+          <div class="ms-blog__post-meta">
+
+            {% if post.categories and post.categories != empty %}
+              <span class="ms-blog__post-category">
+                {{ post.categories | first }}
+              </span>
+            {% endif %}
+
+            {% if post.author %}
+              <span>{{ post.author }}</span>
+            {% endif %}
+
+            <a href="{{ post.url | relative_url }}">
+              Czytaj artykuł →
+            </a>
+
+          </div>
+
+        </article>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+

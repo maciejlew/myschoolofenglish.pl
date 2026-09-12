@@ -1,6 +1,6 @@
 <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "{% if page.type %}{{ page.type }}{% elsif page.is_post %}BlogPosting{% else %}WebPage{% endif %}",
         {% if page.title %}"name": "{{ page.title }}",{% endif %}
         {% if page.description %}"description": "{{ page.description }}",{% endif %}

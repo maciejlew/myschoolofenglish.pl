@@ -1,12 +1,15 @@
 theme: minima
 title: My School Of English
 description: Szkoła języka angielskiego w Bytomiu
-
+lang: pl-PL
 
 collections:
   pages:
     output: true
 
+permalink: /blog/:year/:month/:day/:title/
+minima:
+  date_format: "%Y-%m-%d"
 
 header_pages:
   - _pages/oferta.md
@@ -18,6 +21,7 @@ header_pages:
 footer_pages:
   - _pages/standardy-ochrony.md
   - _pages/polityka-plikow-cookies.md
+  - _pages/blog.md
   - _pages/kontakt.md
 
 exclude:
@@ -26,4 +30,3 @@ exclude:
   - CNAME
   - Dockerfile
   - docker-compose.yml
-
