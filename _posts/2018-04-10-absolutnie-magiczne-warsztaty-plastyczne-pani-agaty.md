@@ -12,6 +12,9 @@ breadcrumbs:
     url: "/blog/"
   - title: "page.title"
     url: "page.url"
+permalink: /blog/2018/04/10/absolutnie-magiczne-warsztaty-plastyczne-pani-agaty.html
+redirect_from:
+  - /2018/04/10/absolutnie-magiczne-warsztaty-plastyczne-pani-agaty.html
 ---
 
 

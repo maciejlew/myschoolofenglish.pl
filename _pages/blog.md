@@ -2,6 +2,16 @@
 layout: blog
 title: Blog
 permalink: /blog/
+redirect_from:
+  - /tag/kreatywne-lekcje-angielskiego/page/2
+  - /tag/angielski-na-maturze
+  - /tag/kreatywne-lekcje-angielskiego
+  - /tag/szkola-jezykowa
+  - /tag/beatrix-potter
+  - /2018/08
+  - /tag/muzyka
+  - /type/image
+  - /tag/bytom
 ---
 
 <h1>{{ page.title }}</h1>
