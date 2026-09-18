@@ -411,8 +411,8 @@ margin-bottom: 0;
 @media (max-width: 800px) {
 .ms-workshops {
 grid-template-columns: 1fr;
-gap: 1.5rem;
-margin-top: 2rem;
+gap: $ms-space-md;
+margin-top: $ms-space-lg;
 }
 
 .ms-workshop {
