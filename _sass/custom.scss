@@ -2,8 +2,20 @@
    My School of English
    ======================================== */
 
+/* ========================================
+   Spacing
+   ======================================== */
+
+$ms-space-xs: .5rem;
+$ms-space-sm: 1rem;
+$ms-space-md: 1.5rem;
+$ms-space-lg: 2rem;
+$ms-space-xl: 3rem;
+$ms-space-2xl: 4rem;
+$ms-space-section: 5rem;
+
 .ms-section {
-  padding: 5rem 0;
+  padding: $ms-space-section 0;
 }
 
 .ms-section--light {
@@ -50,7 +62,7 @@
 }
 
 .ms-hero h1 {
-  margin: 0 0 1.5rem;
+  margin: 0 0 $ms-space-md;
   font-size: clamp(2.4rem, 6vw, 4.5rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
@@ -58,7 +70,7 @@
 
 .ms-hero__lead {
   max-width: 650px;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto $ms-space-md;
   font-size: 1.35rem;
 }
 
@@ -82,7 +94,7 @@
 
 .ms-section-heading {
   max-width: 750px;
-  margin-bottom: 3rem;
+  margin-bottom: $ms-space-xl;
 }
 
 .ms-section-heading h2 {
@@ -145,11 +157,11 @@
 .ms-features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: $ms-space-lg;
 }
 
 .ms-feature {
-  padding: 2rem;
+  padding: $ms-space-lg;
   background: #fff;
   border-radius: 8px;
 }
@@ -170,11 +182,11 @@
 .ms-audience {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: $ms-space-sm;
 }
 
 .ms-audience__item {
-  padding: 1.5rem;
+  padding: $ms-space-md;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
@@ -184,7 +196,7 @@
 }
 
 .ms-section__action {
-  margin-top: 2rem;
+  margin-top: $ms-space-lg;
 }
 
 
@@ -208,7 +220,7 @@
 .ms-about {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
-  gap: 4rem;
+  gap: $ms-space-2xl;
   align-items: center;
 }
 
@@ -219,8 +231,8 @@
 }
 
 .ms-about blockquote {
-  margin: 2rem 0;
-  padding: 1.5rem;
+  margin: $ms-space-lg 0;
+  padding: $ms-space-md;
   border-left: 4px solid #d85c4a;
   background: #f7f7f5;
   font-style: italic;
@@ -232,18 +244,18 @@
 .ms-testimonials {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: $ms-space-md;
 }
 
 .ms-testimonial {
   margin: 0;
-  padding: 2rem;
+  padding: $ms-space-lg;
   background: #fff;
   border-radius: 8px;
 }
 
 .ms-testimonial blockquote {
-  margin: 0 0 1.5rem;
+  margin: 0 0 $ms-space-md;
   border: 0;
   padding: 0;
   font-size: 1rem;
@@ -257,7 +269,7 @@
 /* Cena */
 
 .ms-price {
-  padding: 2rem 0;
+  padding: $ms-space-lg 0;
 }
 
 .ms-price .ms-kicker {
@@ -275,7 +287,7 @@
 }
 
 .ms-price__description {
-  margin-bottom: 2rem;
+  margin-bottom: $ms-space-lg;
 }
 
 
@@ -291,7 +303,7 @@
 }
 
 .ms-cta__phone {
-  margin-top: 1.5rem;
+  margin-top: $ms-space-md;
 }
 
 .ms-cta__phone a {
@@ -350,12 +362,12 @@ Warsztaty
 .ms-workshops {
 display: grid;
 grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 2rem;
-margin: 3rem 0;
+gap: $ms-space-lg;
+margin: $ms-space-xl 0;
 }
 
 .ms-workshop {
-padding: 2rem;
+padding: $ms-space-lg;
 background: #fff;
 border: 1px solid #e5e2dc;
 border-radius: 8px;
@@ -363,7 +375,7 @@ border-radius: 8px;
 
 .ms-workshop h3 {
 margin-top: 0;
-margin-bottom: 1.5rem;
+margin-bottom: $ms-space-md;
 font-size: 1.5rem;
 line-height: 1.2;
 }
@@ -393,11 +405,11 @@ Oferta
 
 .ms-offer-intro {
 max-width: 800px;
-margin-bottom: 3rem;
+margin-bottom: $ms-space-xl;
 }
 
 .ms-offer-intro h3 {
-margin-bottom: 1.5rem;
+margin-bottom: $ms-space-md;
 }
 
 .ms-offer-intro ul {
@@ -407,11 +419,11 @@ margin-bottom: 0;
 .ms-offer-grid {
 display: grid;
 grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 2rem;
+gap: $ms-space-lg;
 }
 
 .ms-offer-card {
-  padding: 2rem;
+  padding: $ms-space-lg;
   background: #f7f7f5;
   border-radius: 8px;
 }
@@ -434,11 +446,11 @@ gap: 2rem;
 
 .ms-offer-card .ms-button {
   display: table;
-  margin: 2rem auto 0;
+  margin: $ms-space-lg auto 0;
 }
 
 .ms-offer-phone {
-  margin-top: 1rem;
+  margin-top: $ms-space-sm;
   margin-bottom: 0;
   text-align: center;
 }
@@ -486,7 +498,7 @@ padding: 1.5rem;
 
 .ms-price-table {
   width: 100%;
-  margin: 0 0 2rem;
+  margin: 0 0 $ms-space-lg;
 
   table {
     width: 100%;
@@ -790,7 +802,7 @@ padding: 1.5rem;
 .ms-contact {
   display: grid;
   grid-template-columns: .8fr 1.2fr;
-  gap: 4rem;
+  gap: $ms-space-2xl;
   align-items: start;
 }
 
@@ -950,8 +962,8 @@ padding: 1.5rem;
 }
 
 .ms-blog__post {
-  margin-bottom: 1.5rem;
-  padding: 2rem 2.25rem;
+  margin-bottom: $ms-space-md;
+  padding: $ms-space-lg 2.25rem;
   background: #fff;
   border: 1px solid #e5e2dc;
   border-radius: 10px;
@@ -1048,7 +1060,7 @@ padding: 1.5rem;
 
 .ms-post__header {
   max-width: 850px;
-  margin: 0 auto 4rem;
+  margin: 0 auto $ms-space-2xl;
 }
 
 .ms-post__kicker {
