@@ -14,6 +14,16 @@ $ms-space-xl: 3rem;
 $ms-space-2xl: 4rem;
 $ms-space-section: 5rem;
 
+/* ========================================
+   Cards
+   ======================================== */
+
+$ms-radius: 10px;
+$ms-card-padding: 2rem;
+$ms-card-border: 1px solid #e5e2dc;
+$ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
+
+
 .ms-section {
   padding: $ms-space-section 0;
 }
@@ -161,9 +171,12 @@ $ms-space-section: 5rem;
 }
 
 .ms-feature {
-  padding: $ms-space-lg;
+  padding: $ms-card-padding;
   background: #fff;
-  border-radius: 8px;
+  border: $ms-card-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-card-shadow;
+  padding: $ms-space-lg;
 }
 
 .ms-feature__number {
@@ -248,6 +261,12 @@ $ms-space-section: 5rem;
 }
 
 .ms-testimonial {
+  margin: 0;
+  padding: $ms-card-padding;
+  background: #fff;
+  border: $ms-card-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-card-shadow;
   margin: 0;
   padding: $ms-space-lg;
   background: #fff;
@@ -367,10 +386,12 @@ margin: $ms-space-xl 0;
 }
 
 .ms-workshop {
+  padding: $ms-card-padding;
+  background: #fff;
+  border: $ms-card-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-card-shadow;
 padding: $ms-space-lg;
-background: #fff;
-border: 1px solid #e5e2dc;
-border-radius: 8px;
 }
 
 .ms-workshop h3 {
@@ -395,6 +416,11 @@ margin-top: 2rem;
 }
 
 .ms-workshop {
+  padding: $ms-card-padding;
+  background: #fff;
+  border: $ms-card-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-card-shadow;
 padding: 1.5rem;
 }
 }
@@ -423,6 +449,11 @@ gap: $ms-space-lg;
 }
 
 .ms-offer-card {
+  padding: $ms-card-padding;
+  background: #f7f7f5;
+  border: $ms-card-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-card-shadow;
   padding: $ms-space-lg;
   background: #f7f7f5;
   border-radius: 8px;
@@ -488,6 +519,11 @@ max-width: none;
 }
 
 .ms-offer-card {
+  padding: $ms-card-padding;
+  background: #f7f7f5;
+  border: $ms-card-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-card-shadow;
 padding: 1.5rem;
 }
 }
@@ -568,10 +604,10 @@ padding: 1.5rem;
 .ms-feature--chester {
   max-width: 850px;
   margin-top: 2.5rem;
-  padding: 2.5rem;
-  border-radius: 10px;
+  padding: $ms-card-padding;
+  border-radius: $ms-radius;
   background: #fff;
-  box-shadow: 0 5px 20px rgba(38, 55, 70, .07);
+  box-shadow: $ms-card-shadow;
 
   h3 {
     margin: 0 0 1rem;
