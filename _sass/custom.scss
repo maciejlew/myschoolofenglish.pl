@@ -3,8 +3,24 @@
    ======================================== */
 
 /* ========================================
-   Spacing
+   Design system
    ======================================== */
+
+/* Colors */
+
+$ms-color-navy: #263746;
+$ms-color-coral: #d85c4a;
+$ms-color-cream: #f4f0e8;
+$ms-color-light: #f7f7f5;
+$ms-color-white: #fff;
+
+$ms-color-text: #333;
+$ms-color-muted: #666;
+$ms-color-muted-light: #777;
+$ms-color-border: #e5e2dc;
+
+
+/* Spacing */
 
 $ms-space-xs: .5rem;
 $ms-space-sm: 1rem;
@@ -14,53 +30,91 @@ $ms-space-xl: 3rem;
 $ms-space-2xl: 4rem;
 $ms-space-section: 5rem;
 
-/* ========================================
-   Cards
-   ======================================== */
 
-$ms-radius: 10px;
+/* Layout */
+
+$ms-container-width: 1100px;
+$ms-content-width: 850px;
+$ms-text-width: 750px;
+
+
+/* Cards */
+
 $ms-card-padding: 2rem;
 $ms-card-border: 1px solid #e5e2dc;
 $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 
+
+/* Radius */
+
+$ms-radius-sm: 6px;
+$ms-radius: 10px;
+$ms-radius-pill: 999px;
+
+
+/* Borders */
+
+$ms-card-border: 1px solid $ms-color-border;
+
+
+/* Shadows */
+
+$ms-shadow-sm: 0 3px 12px rgba(38, 55, 70, .04);
+$ms-shadow-md: 0 5px 20px rgba(38, 55, 70, .07);
+$ms-shadow-lg: 0 8px 25px rgba(38, 55, 70, .10);
+
+
+/* Breakpoints */
+
+$ms-breakpoint-wide: 1200px;
+$ms-breakpoint-tablet: 900px;
+$ms-breakpoint-mobile: 700px;
+$ms-breakpoint-small: 480px;
+
+
+/* ========================================
+   Spacing
+   ======================================== */
 
 .ms-section {
   padding: $ms-space-section 0;
 }
 
 .ms-section--light {
-  background: #f7f7f5;
+  background: $ms-color-light;
 }
 
 .ms-section--cream {
-  background: #f4f0e8;
+  background: $ms-color-cream;
 }
 
 .ms-section--dark {
-  background: #263746;
-  color: #fff;
+  background: $ms-color-navy;
+  color: $ms-color-white;
 }
 
 .ms-section--price {
-  background: #d85c4a;
-  color: #fff;
+  background: $ms-color-coral;
+  color: $ms-color-white;
   text-align: center;
 }
 
 .ms-section--cta {
-  background: #f7f7f5;
+  background: $ms-color-light;
   text-align: center;
 }
 
 .ms-container {
-  max-width: 1100px;
+  max-width: $ms-container-width;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 
-/* Hero */
+/* ========================================
+   Hero
+   ======================================== */
 
 .ms-hero {
   padding: 7rem 0 6rem;
@@ -85,25 +139,27 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 .ms-hero__features {
-  color: #666;
+  color: $ms-color-muted;
   line-height: 1.8;
 }
 
 .ms-hero__features span {
-  color: #d85c4a;
+  color: $ms-color-coral;
   margin: 0 .3rem;
 }
 
 .ms-hero__enrollment {
-  margin-top: 2rem;
+  margin-top: $ms-space-lg;
   font-weight: 700;
 }
 
 
-/* Nagłówki sekcji */
+/* ========================================
+   Nagłówki sekcji
+   ======================================== */
 
 .ms-section-heading {
-  max-width: 750px;
+  max-width: $ms-text-width;
   margin-bottom: $ms-space-xl;
 }
 
@@ -114,12 +170,12 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 .ms-section-heading--light h2 {
-  color: #fff;
+  color: $ms-color-white;
 }
 
 .ms-kicker {
   margin: 0 0 .5rem;
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-size: .8rem;
   font-weight: 700;
   letter-spacing: .12em;
@@ -131,14 +187,16 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* Przyciski */
+/* ========================================
+   Przyciski
+   ======================================== */
 
 .ms-button {
   display: inline-block;
   padding: .9rem 1.5rem;
   border-radius: 4px;
-  background: #d85c4a;
-  color: #fff !important;
+  background: $ms-color-coral;
+  color: $ms-color-white !important;
   font-weight: 700;
   text-decoration: none;
   transition: transform .15s ease, opacity .15s ease;
@@ -152,17 +210,19 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 
 .ms-button--outline {
   background: transparent;
-  border: 2px solid #d85c4a;
-  color: #d85c4a !important;
+  border: 2px solid $ms-color-coral;
+  color: $ms-color-coral !important;
 }
 
 .ms-button--white {
-  background: #fff;
-  color: #263746 !important;
+  background: $ms-color-white;
+  color: $ms-color-navy !important;
 }
 
 
-/* Dlaczego my */
+/* ========================================
+   Dlaczego my
+   ======================================== */
 
 .ms-features {
   display: grid;
@@ -172,15 +232,15 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 
 .ms-feature {
   padding: $ms-card-padding;
-  background: #fff;
+  background: $ms-color-white;
   border: $ms-card-border;
   border-radius: $ms-radius;
-  box-shadow: $ms-card-shadow;
+  box-shadow: $ms-shadow-md;
   padding: $ms-space-lg;
 }
 
 .ms-feature__number {
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-size: .8rem;
   font-weight: 700;
 }
@@ -190,7 +250,9 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* Dla kogo */
+/* ========================================
+   Dla kogo
+   ======================================== */
 
 .ms-audience {
   display: grid;
@@ -213,7 +275,9 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* Doświadczenie */
+/* ========================================
+   Doświadczenie
+   ======================================== */
 
 .ms-tags {
   display: flex;
@@ -224,11 +288,13 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 .ms-tags span {
   padding: .7rem 1rem;
   border: 1px solid rgba(255,255,255,.3);
-  border-radius: 50px;
+  border-radius: $ms-radius-pill;
 }
 
 
-/* O pani Gosi */
+/* ========================================
+   O pani Gosi
+   ======================================== */
 
 .ms-about {
   display: grid;
@@ -240,19 +306,21 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 .ms-about__image img {
   display: block;
   width: 100%;
-  border-radius: 8px;
+  border-radius: $ms-radius-sm;
 }
 
 .ms-about blockquote {
   margin: $ms-space-lg 0;
   padding: $ms-space-md;
-  border-left: 4px solid #d85c4a;
-  background: #f7f7f5;
+  border-left: 4px solid $ms-color-coral;
+  background: $ms-color-light;
   font-style: italic;
 }
 
 
-/* Opinie */
+/* ========================================
+   Opinie
+   ======================================== */
 
 .ms-testimonials {
   display: grid;
@@ -263,13 +331,13 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 .ms-testimonial {
   margin: 0;
   padding: $ms-card-padding;
-  background: #fff;
+  background: $ms-color-white;
   border: $ms-card-border;
   border-radius: $ms-radius;
-  box-shadow: $ms-card-shadow;
+  box-shadow: $ms-shadow-md;
   margin: 0;
   padding: $ms-space-lg;
-  background: #fff;
+  background: $ms-color-white;
   border-radius: 8px;
 }
 
@@ -285,7 +353,9 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* Cena */
+/* ========================================
+   Cena
+   ======================================== */
 
 .ms-price {
   padding: $ms-space-lg 0;
@@ -310,7 +380,9 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* CTA */
+/* ========================================
+   CTA
+   ======================================== */
 
 .ms-cta {
   max-width: 700px;
@@ -330,13 +402,15 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* Standardy */
+/* ========================================
+   Standardy
+   ======================================== */
 
 .ms-safeguarding {
-  padding: 2rem 0;
+  padding: $ms-space-lg 0;
   background: #eee;
   font-size: .85rem;
-  color: #666;
+  color: $ms-color-muted;
 }
 
 .ms-safeguarding p {
@@ -344,9 +418,11 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 }
 
 
-/* Mobile */
+/* ========================================
+   Mobile
+   ======================================== */
 
-@media (max-width: 800px) {
+@media (max-width: $ms-breakpoint-mobile) {
 
   .ms-section {
     padding: 3.5rem 0;
@@ -364,7 +440,7 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
   }
 
   .ms-about {
-    gap: 2rem;
+    gap: $ms-space-lg;
   }
 
   .ms-audience {
@@ -375,102 +451,105 @@ $ms-card-shadow: 0 5px 20px rgba(38, 55, 70, .07);
 
 
 /* ========================================
-Warsztaty
-======================================== */
+   Warsztaty
+   ======================================== */
 
 .ms-workshops {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: $ms-space-lg;
-margin: $ms-space-xl 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $ms-space-lg;
+  margin: $ms-space-xl 0;
 }
 
 .ms-workshop {
   padding: $ms-card-padding;
-  background: #fff;
+  background: $ms-color-white;
   border: $ms-card-border;
   border-radius: $ms-radius;
-  box-shadow: $ms-card-shadow;
-padding: $ms-space-lg;
+  box-shadow: $ms-shadow-md;
+  padding: $ms-space-lg;
 }
 
 .ms-workshop h3 {
-margin-top: 0;
-margin-bottom: $ms-space-md;
-font-size: 1.5rem;
-line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: $ms-space-md;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 .ms-workshop p:last-child {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 /* Mobile */
 
-@media (max-width: 800px) {
-.ms-workshops {
-grid-template-columns: 1fr;
-gap: $ms-space-md;
-margin-top: $ms-space-lg;
+@media (max-width: $ms-breakpoint-mobile) {
+
+  .ms-workshops {
+    grid-template-columns: 1fr;
+    gap: $ms-space-md;
+    margin-top: $ms-space-lg;
+  }
+
+  .ms-workshop {
+    padding: $ms-card-padding;
+    background: $ms-color-white;
+    border: $ms-card-border;
+    border-radius: $ms-radius;
+    box-shadow: $ms-shadow-md;
+    padding: 1.5rem;
+  }
+
 }
 
-.ms-workshop {
-  padding: $ms-card-padding;
-  background: #fff;
-  border: $ms-card-border;
-  border-radius: $ms-radius;
-  box-shadow: $ms-card-shadow;
-padding: 1.5rem;
-}
-}
 
 /* ========================================
-Oferta
-======================================== */
+   Oferta
+   ======================================== */
 
 .ms-offer-intro {
-max-width: 800px;
-margin-bottom: $ms-space-xl;
+  max-width: 800px;
+  margin-bottom: $ms-space-xl;
 }
 
 .ms-offer-intro h3 {
-margin-bottom: $ms-space-md;
+  margin-bottom: $ms-space-md;
 }
 
 .ms-offer-intro ul {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .ms-offer-grid {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: $ms-space-lg;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $ms-space-lg;
 }
 
 .ms-offer-card {
   padding: $ms-card-padding;
-  background: #f7f7f5;
+  background: $ms-color-light;
   border: $ms-card-border;
   border-radius: $ms-radius;
-  box-shadow: $ms-card-shadow;
+  box-shadow: $ms-shadow-md;
   padding: $ms-space-lg;
-  background: #f7f7f5;
+  background: $ms-color-light;
   border-radius: 8px;
 }
 
 .ms-offer-card h3 {
   margin-top: 0;
   margin-bottom: .75rem;
-  color: #263746;
+  color: $ms-color-navy;
   font-size: 1.6rem;
   line-height: 1.2;
 }
 
 .ms-offer-card h4 {
   margin-top: 0;
-  margin-bottom: 1.5rem;
-  color: #d85c4a;
+  margin-bottom: $ms-space-md;
+  color: $ms-color-coral;
   font-size: 1.1rem;
   line-height: 1.3;
 }
@@ -487,46 +566,50 @@ gap: $ms-space-lg;
 }
 
 .ms-offer-phone a {
-  color: #263746;
+  color: $ms-color-navy;
   font-weight: 700;
   text-decoration: none;
 }
 
 .ms-offer-phone a:hover {
-  color: #d85c4a;
+  color: $ms-color-coral;
 }
 
 
 /* Trzecia karta na środku */
 
 .ms-offer-card:last-child {
-grid-column: 1 / -1;
-max-width: calc(50% - 1rem);
-width: 100%;
-justify-self: center;
+  grid-column: 1 / -1;
+  max-width: calc(50% - 1rem);
+  width: 100%;
+  justify-self: center;
 }
+
 
 /* Mobile */
 
-@media (max-width: 800px) {
-.ms-offer-grid {
-grid-template-columns: 1fr;
+@media (max-width: $ms-breakpoint-mobile) {
+
+  .ms-offer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ms-offer-card:last-child {
+    grid-column: auto;
+    max-width: none;
+  }
+
+  .ms-offer-card {
+    padding: $ms-card-padding;
+    background: $ms-color-light;
+    border: $ms-card-border;
+    border-radius: $ms-radius;
+    box-shadow: $ms-shadow-md;
+    padding: 1.5rem;
+  }
+
 }
 
-.ms-offer-card:last-child {
-grid-column: auto;
-max-width: none;
-}
-
-.ms-offer-card {
-  padding: $ms-card-padding;
-  background: #f7f7f5;
-  border: $ms-card-border;
-  border-radius: $ms-radius;
-  box-shadow: $ms-card-shadow;
-padding: 1.5rem;
-}
-}
 
 /* ========================================
    Cennik
@@ -540,11 +623,11 @@ padding: 1.5rem;
     width: 100%;
     margin: 0;
     border: 1px solid #dedbd5;
-    border-radius: 10px;
+    border-radius: $ms-radius;
     border-spacing: 0;
     border-collapse: separate;
-    background: #fff;
-    box-shadow: 0 5px 20px rgba(38, 55, 70, .07);
+    background: $ms-color-white;
+    box-shadow: $ms-shadow-md;
     overflow: hidden;
   }
 
@@ -557,8 +640,8 @@ padding: 1.5rem;
   }
 
   th {
-    background: #263746;
-    color: #fff;
+    background: $ms-color-navy;
+    color: $ms-color-white;
     font-size: .85rem;
     font-weight: 700;
     line-height: 1.4;
@@ -573,12 +656,12 @@ padding: 1.5rem;
   }
 
   td {
-    color: #333;
+    color: $ms-color-text;
     font-size: 1rem;
   }
 
   td:last-child {
-    color: #d85c4a;
+    color: $ms-color-coral;
     font-size: 1.15rem;
     font-weight: 700;
   }
@@ -602,16 +685,16 @@ padding: 1.5rem;
    ======================================== */
 
 .ms-feature--chester {
-  max-width: 850px;
+  max-width: $ms-content-width;
   margin-top: 2.5rem;
   padding: $ms-card-padding;
   border-radius: $ms-radius;
-  background: #fff;
-  box-shadow: $ms-card-shadow;
+  background: $ms-color-white;
+  box-shadow: $ms-shadow-md;
 
   h3 {
     margin: 0 0 1rem;
-    color: #263746;
+    color: $ms-color-navy;
     font-size: 1.7rem;
     line-height: 1.2;
   }
@@ -622,7 +705,7 @@ padding: 1.5rem;
 
   p:last-child {
     margin-bottom: 0;
-    color: #d85c4a;
+    color: $ms-color-coral;
     font-weight: 700;
   }
 }
@@ -632,7 +715,7 @@ padding: 1.5rem;
    Cennik — mobile
    ======================================== */
 
-@media (max-width: 700px) {
+@media (max-width: $ms-breakpoint-mobile) {
 
   .ms-price-table {
 
@@ -662,9 +745,9 @@ padding: 1.5rem;
 
       padding: .9rem 1rem;
 
-      border-radius: 8px;
-      background: #263746;
-      color: #fff;
+      border-radius: $ms-radius-sm;
+      background: $ms-color-navy;
+      color: $ms-color-white;
     }
 
     thead th {
@@ -673,7 +756,7 @@ padding: 1.5rem;
       border: 0;
 
       background: transparent;
-      color: #fff;
+      color: $ms-color-white;
 
       font-size: .7rem;
       font-weight: 700;
@@ -707,13 +790,13 @@ padding: 1.5rem;
       padding: 1.25rem;
 
       border: 1px solid #dedbd5;
-      border-radius: 10px;
-      background: #fff;
+      border-radius: $ms-radius;
+      background: $ms-color-white;
 
-      box-shadow: 0 3px 12px rgba(38, 55, 70, .05);
+      box-shadow: $ms-shadow-sm;
 
       &:hover {
-        background: #fff;
+        background: $ms-color-white;
       }
     }
 
@@ -733,7 +816,7 @@ padding: 1.5rem;
       grid-area: group;
       align-self: center;
 
-      color: #263746;
+      color: $ms-color-navy;
       font-size: 1.05rem;
       font-weight: 700;
       line-height: 1.3;
@@ -749,7 +832,7 @@ padding: 1.5rem;
 
       margin-top: .55rem;
 
-      color: #777;
+      color: $ms-color-muted-light;
       font-size: .9rem;
       line-height: 1.4;
 
@@ -768,7 +851,7 @@ padding: 1.5rem;
       grid-area: price;
       align-self: center;
 
-      color: #d85c4a;
+      color: $ms-color-coral;
       font-size: 1.35rem;
       font-weight: 700;
       line-height: 1;
@@ -787,7 +870,7 @@ padding: 1.5rem;
      ---------------------------------------- */
 
   .ms-feature--chester {
-    margin-top: 2rem;
+    margin-top: $ms-space-lg;
     padding: 1.5rem;
 
     h3 {
@@ -801,7 +884,7 @@ padding: 1.5rem;
    Cennik — bardzo małe telefony
    ======================================== */
 
-@media (max-width: 420px) {
+@media (max-width: $ms-breakpoint-small) {
 
   .ms-price-table {
 
@@ -831,6 +914,7 @@ padding: 1.5rem;
   }
 }
 
+
 /* ========================================
    Kontakt
    ======================================== */
@@ -852,8 +936,8 @@ padding: 1.5rem;
 }
 
 .ms-contact__details h2 {
-  margin: 0 0 1.5rem;
-  color: #263746;
+  margin: 0 0 $ms-space-md;
+  color: $ms-color-navy;
   font-size: 1.25rem;
   line-height: 1.4;
 }
@@ -863,7 +947,7 @@ padding: 1.5rem;
 }
 
 .ms-contact__details a {
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-weight: 700;
   text-decoration: none;
 }
@@ -887,8 +971,8 @@ padding: 1.5rem;
   height: 420px;
   margin: 0;
   border: 0;
-  border-radius: 8px;
-  box-shadow: 0 5px 20px rgba(38, 55, 70, .1);
+  border-radius: $ms-radius-sm;
+  box-shadow: $ms-shadow-md;
 }
 
 .ms-contact__map-link {
@@ -897,7 +981,7 @@ padding: 1.5rem;
 }
 
 .ms-contact__map-link a {
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-weight: 700;
 }
 
@@ -917,7 +1001,7 @@ padding: 1.5rem;
    Kontakt — mobile
    ======================================== */
 
-@media (max-width: 800px) {
+@media (max-width: $ms-breakpoint-mobile) {
 
   .ms-contact {
     grid-template-columns: 1fr;
@@ -944,10 +1028,10 @@ padding: 1.5rem;
    Kontakt — małe telefony
    ======================================== */
 
-@media (max-width: 480px) {
+@media (max-width: $ms-breakpoint-small) {
 
   .ms-contact {
-    gap: 2rem;
+    gap: $ms-space-lg;
   }
 
   .ms-contact__details h2 {
@@ -956,7 +1040,7 @@ padding: 1.5rem;
 
   .ms-contact__map iframe {
     height: 300px;
-    border-radius: 6px;
+    border-radius: $ms-radius-sm;
   }
 
   .ms-contact__map-link {
@@ -965,45 +1049,46 @@ padding: 1.5rem;
 
 }
 
+
 /* ========================================
    Blog
    ======================================== */
 
 .ms-blog {
-  padding: 5rem 0;
-  background: #f7f7f5;
+  padding: $ms-space-section 0;
+  background: $ms-color-light;
 }
 
 .ms-blog__intro {
-  max-width: 750px;
+  max-width: $ms-text-width;
   margin-bottom: 3.5rem;
 }
 
 .ms-blog__intro h1 {
   margin: .3rem 0 1rem;
-  color: #263746;
+  color: $ms-color-navy;
   font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 1.05;
 }
 
 .ms-blog__intro p {
-  max-width: 650px;
+  max-width: $ms-text-width;
   margin: 0;
   font-size: 1.2rem;
-  color: #666;
+  color: $ms-color-muted;
 }
 
 .ms-blog__posts {
-  max-width: 850px;
+  max-width: $ms-content-width;
 }
 
 .ms-blog__post {
   margin-bottom: $ms-space-md;
   padding: $ms-space-lg 2.25rem;
-  background: #fff;
-  border: 1px solid #e5e2dc;
-  border-radius: 10px;
-  box-shadow: 0 3px 12px rgba(38, 55, 70, .04);
+  background: $ms-color-white;
+  border: 1px solid $ms-color-border;
+  border-radius: $ms-radius;
+  box-shadow: $ms-shadow-sm;
   transition:
     transform .15s ease,
     box-shadow .15s ease;
@@ -1011,7 +1096,7 @@ padding: 1.5rem;
 
 .ms-blog__post:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(38, 55, 70, .08);
+  box-shadow: $ms-shadow-lg;
 }
 
 .ms-blog__post-date {
@@ -1024,7 +1109,7 @@ padding: 1.5rem;
 
 .ms-blog__post h2 {
   margin: 0 0 .75rem;
-  color: #263746;
+  color: $ms-color-navy;
   font-size: clamp(1.5rem, 3vw, 2rem);
   line-height: 1.2;
 }
@@ -1035,7 +1120,7 @@ padding: 1.5rem;
 }
 
 .ms-blog__post h2 a:hover {
-  color: #d85c4a;
+  color: $ms-color-coral;
 }
 
 .ms-blog__post-excerpt {
@@ -1049,12 +1134,12 @@ padding: 1.5rem;
   flex-wrap: wrap;
   align-items: center;
   gap: .5rem 1rem;
-  color: #777;
+  color: $ms-color-muted-light;
   font-size: .8rem;
 }
 
 .ms-blog__post-category {
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .06em;
@@ -1067,7 +1152,7 @@ padding: 1.5rem;
   }
 
   .ms-blog__post {
-    padding: 1.5rem;
+    padding: $ms-space-md;
   }
 
   .ms-blog__intro {
@@ -1086,22 +1171,23 @@ padding: 1.5rem;
 
 }
 
+
 /* ========================================
    Blog — post
    ======================================== */
 
 .ms-post {
-  padding: 5rem 0 6rem;
+  padding: $ms-space-section 0 6rem;
 }
 
 .ms-post__header {
-  max-width: 850px;
+  max-width: $ms-content-width;
   margin: 0 auto $ms-space-2xl;
 }
 
 .ms-post__kicker {
   margin-bottom: .75rem;
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-size: .8rem;
   font-weight: 700;
   letter-spacing: .12em;
@@ -1110,40 +1196,40 @@ padding: 1.5rem;
 
 .ms-post__meta {
   margin-bottom: 1.25rem;
-  color: #777;
+  color: $ms-color-muted-light;
   font-size: .85rem;
 }
 
 .ms-post__title {
   margin: 0 0 1.25rem;
-  color: #263746;
+  color: $ms-color-navy;
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
 }
 
 .ms-post__description {
-  max-width: 700px;
+  max-width: $ms-text-width;
   margin: 0;
-  color: #666;
+  color: $ms-color-muted;
   font-size: 1.25rem;
   line-height: 1.6;
 }
 
 .ms-post__content {
-  max-width: 750px;
+  max-width: $ms-text-width;
   margin: 0 auto;
 }
 
 .ms-post__content p {
-  margin-bottom: 1.5rem;
+  margin-bottom: $ms-space-md;
   line-height: 1.8;
 }
 
 .ms-post__content h2 {
   margin-top: 3.5rem;
   margin-bottom: 1rem;
-  color: #263746;
+  color: $ms-color-navy;
   font-size: 2rem;
   line-height: 1.2;
 }
@@ -1151,21 +1237,21 @@ padding: 1.5rem;
 .ms-post__content h3 {
   margin-top: 2.5rem;
   margin-bottom: .75rem;
-  color: #263746;
+  color: $ms-color-navy;
   font-size: 1.4rem;
   line-height: 1.3;
 }
 
 .ms-post__content a {
-  color: #d85c4a;
+  color: $ms-color-coral;
   font-weight: 700;
 }
 
 .ms-post__content blockquote {
   margin: 2.5rem 0;
-  padding: 1.5rem 2rem;
-  border-left: 4px solid #d85c4a;
-  background: #f7f7f5;
+  padding: $ms-space-md $ms-space-lg;
+  border-left: 4px solid $ms-color-coral;
+  background: $ms-color-light;
   color: #555;
   font-style: italic;
 }
@@ -1175,12 +1261,12 @@ padding: 1.5rem;
   max-width: 100%;
   height: auto;
   margin: 2.5rem auto;
-  border-radius: 8px;
+  border-radius: $ms-radius-sm;
 }
 
 .ms-post__content ul,
 .ms-post__content ol {
-  margin-bottom: 1.5rem;
+  margin-bottom: $ms-space-md;
   line-height: 1.8;
 }
 
@@ -1191,7 +1277,7 @@ padding: 1.5rem;
   }
 
   .ms-post__header {
-    margin-bottom: 3rem;
+    margin-bottom: $ms-space-lg;
   }
 
   .ms-post__title {
@@ -1203,3 +1289,4 @@ padding: 1.5rem;
   }
 
 }
+
