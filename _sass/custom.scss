@@ -40,7 +40,6 @@ $ms-text-width: 750px;
 
 /* Cards */
 
-$ms-card-padding: 2rem;
 $ms-card-border: 1px solid $ms-color-border;
 
 
@@ -74,6 +73,17 @@ $ms-text-base: 1rem;
 $ms-text-lg: 1.2rem;
 $ms-text-xl: 1.5rem;
 $ms-text-2xl: 2rem;
+
+
+/* Card component */
+
+@mixin ms-card($background: $ms-color-white, $border: $ms-card-border) {
+  padding: $ms-space-lg;
+  background: $background;
+  border: $border;
+  border-radius: $ms-radius-md;
+  box-shadow: $ms-shadow-md;
+}
 
 
 /* ========================================
@@ -235,11 +245,7 @@ $ms-text-2xl: 2rem;
 }
 
 .ms-feature {
-  padding: $ms-space-lg;
-  background: $ms-color-white;
-  border: $ms-card-border;
-  border-radius: $ms-radius-md;
-  box-shadow: $ms-shadow-md;
+  @include ms-card;
 }
 
 .ms-feature__number {
@@ -332,12 +338,8 @@ $ms-text-2xl: 2rem;
 }
 
 .ms-testimonial {
+  @include ms-card;
   margin: 0;
-  padding: $ms-space-lg;
-  background: $ms-color-white;
-  border: $ms-card-border;
-  border-radius: $ms-radius-md;
-  box-shadow: $ms-shadow-md;
 }
 
 .ms-testimonial blockquote {
@@ -461,11 +463,7 @@ $ms-text-2xl: 2rem;
 }
 
 .ms-workshop {
-  padding: $ms-space-lg;
-  background: $ms-color-white;
-  border: $ms-card-border;
-  border-radius: $ms-radius-md;
-  box-shadow: $ms-shadow-md;
+  @include ms-card;
 }
 
 .ms-workshop h3 {
@@ -521,11 +519,7 @@ $ms-text-2xl: 2rem;
 }
 
 .ms-offer-card {
-  padding: $ms-space-lg;
-  background: $ms-color-light;
-  border: $ms-card-border;
-  border-radius: $ms-radius-md;
-  box-shadow: $ms-shadow-md;
+  @include ms-card;
 }
 
 .ms-offer-card h3 {
@@ -670,12 +664,9 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-feature--chester {
+  @include ms-card;
   max-width: $ms-content-width;
   margin-top: 2.5rem;
-  padding: $ms-card-padding;
-  border-radius: $ms-radius-md;
-  background: $ms-color-white;
-  box-shadow: $ms-shadow-md;
 
   h3 {
     margin: 0 0 1rem;
