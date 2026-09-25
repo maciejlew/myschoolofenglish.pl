@@ -86,6 +86,23 @@ $ms-text-2xl: 2rem;
 }
 
 
+/* Grid layout */
+
+@mixin ms-grid($columns, $gap) {
+  display: grid;
+  grid-template-columns: $columns;
+  gap: $gap;
+}
+
+@mixin ms-grid-collapse($columns, $gap: null) {
+  grid-template-columns: $columns;
+
+  @if $gap != null {
+    gap: $gap;
+  }
+}
+
+
 /* ========================================
    Spacing
    ======================================== */
@@ -239,9 +256,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-features {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: $ms-space-lg;
+  @include ms-grid(repeat(2, 1fr), $ms-space-lg);
 }
 
 .ms-feature {
@@ -264,9 +279,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-audience {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: $ms-space-sm;
+  @include ms-grid(repeat(4, 1fr), $ms-space-sm);
 }
 
 .ms-audience__item {
@@ -306,9 +319,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-about {
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: $ms-space-2xl;
+  @include ms-grid(1fr 1.3fr, $ms-space-2xl);
   align-items: center;
 }
 
@@ -332,9 +343,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-testimonials {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: $ms-space-md;
+  @include ms-grid(repeat(3, 1fr), $ms-space-md);
 }
 
 .ms-testimonial {
@@ -445,7 +454,7 @@ $ms-text-2xl: 2rem;
   }
 
   .ms-audience {
-    gap: .75rem;
+    @include ms-grid-collapse(1fr, .75rem);
   }
 
 }
@@ -456,9 +465,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-workshops {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: $ms-space-lg;
+  @include ms-grid(repeat(2, minmax(0, 1fr)), $ms-space-lg);
   margin: $ms-space-xl 0;
 }
 
@@ -483,8 +490,7 @@ $ms-text-2xl: 2rem;
 @media (max-width: $ms-breakpoint-mobile) {
 
   .ms-workshops {
-    grid-template-columns: 1fr;
-    gap: $ms-space-md;
+    @include ms-grid-collapse(1fr, $ms-space-md);
     margin-top: $ms-space-lg;
   }
 
@@ -513,9 +519,7 @@ $ms-text-2xl: 2rem;
 }
 
 .ms-offer-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: $ms-space-lg;
+  @include ms-grid(repeat(2, minmax(0, 1fr)), $ms-space-lg);
 }
 
 .ms-offer-card {
@@ -575,7 +579,7 @@ $ms-text-2xl: 2rem;
 @media (max-width: $ms-breakpoint-mobile) {
 
   .ms-offer-grid {
-    grid-template-columns: 1fr;
+    @include ms-grid-collapse(1fr);
   }
 
   .ms-offer-card:last-child {
@@ -883,9 +887,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-contact {
-  display: grid;
-  grid-template-columns: .8fr 1.2fr;
-  gap: $ms-space-2xl;
+  @include ms-grid(.8fr 1.2fr, $ms-space-2xl);
   align-items: start;
 }
 
@@ -967,8 +969,7 @@ $ms-text-2xl: 2rem;
 @media (max-width: $ms-breakpoint-mobile) {
 
   .ms-contact {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
+    @include ms-grid-collapse(1fr, 2.5rem);
   }
 
   .ms-contact__details {
