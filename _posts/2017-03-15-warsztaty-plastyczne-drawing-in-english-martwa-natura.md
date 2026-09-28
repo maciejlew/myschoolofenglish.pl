@@ -14,5 +14,5 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Ubiegłej soboty, ku uciesze pięciu dziewczynek zainteresowanych rysunkiem, odbyły się premierowe warsztaty plastyczne "Drawing in English". Tematem spotkania była martwa natura, w tej roli mieszanka warzywno-owocowa, przytaszczona przez sprawczynię całego przedsięwzięcia, panią Agatę. Po krótkiej prezentacji poświęconej historii malarstwa i wykładzie na temat podstawowych technik, nasze młode artystki przystąpiły do części praktycznej. W pełnym skupieniu i pod bacznym okiem naszej ekspertki, krok po kroku doskonaliły swoje umiejętności. Efekty przerosły ich oczekiwania.
+Ubiegłej soboty, ku uciesze pięciu dziewczynek zainteresowanych rysunkiem, odbyły się premierowe [warsztaty plastyczne "Drawing in English"](/warsztaty.html#warsztaty-plastyczne). Tematem spotkania była martwa natura, w tej roli mieszanka warzywno-owocowa, przytaszczona przez sprawczynię całego przedsięwzięcia, panią Agatę. Po krótkiej prezentacji poświęconej historii malarstwa i wykładzie na temat podstawowych technik, nasze młode artystki przystąpiły do części praktycznej. W pełnym skupieniu i pod bacznym okiem naszej ekspertki, krok po kroku doskonaliły swoje umiejętności. Efekty przerosły ich oczekiwania.
 

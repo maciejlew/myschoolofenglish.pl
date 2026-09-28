@@ -14,7 +14,7 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Rozpoczynamy wakacyjny cykl warsztatów literackich *“Let’s read”*. W każdą środę o 17-tej będziemy zaznajamiać się z twórczością Erica Carle, amerykańskiego pisarza bardzo popularnych bajek. Gościny udzieli nam Big Baba Cupcakes, zaprzyjaźniona kawiarnia bytomskiej Agory, której babeczki polecamy wszystkim łasuchom.
+Rozpoczynamy wakacyjny cykl [warsztatów literackich *“Let’s read”*](/warsztaty.html#warsztaty-literackie). W każdą środę o 17-tej będziemy zaznajamiać się z twórczością Erica Carle, amerykańskiego pisarza bardzo popularnych bajek. Gościny udzieli nam [Big Baba Cupcakes](/blog/2016/05/22/bardzo-glodna-gasienica-z-wizyta-w-kawiarni.html), zaprzyjaźniona kawiarnia bytomskiej Agory, której babeczki polecamy wszystkim łasuchom.
 
 Harmonogram spotkań będzie następujący:
 

@@ -16,7 +16,7 @@ breadcrumbs:
 
 Zainspirowana pewną kłótnią w damskiej toalecie (nie będąc równocześnie jej uczestniczką), wpadłam na pomysł zaangażowania zwaśnionych dam we wspólny projekt :)
 
-Tak oto powstał musical "NOT A LOVE STORY", którego premierę mieliśmy w czerwcu 2016 roku.
+Tak oto powstał musical "NOT A LOVE STORY", którego [premierę mieliśmy w czerwcu 2016 roku](/blog/2016/06/20/uroczyste-zakonczenie-roku-szkolnego-201516.html).
 
 Poniżej scenariusz mojego autorstwa, może się komuś przyda :)
 

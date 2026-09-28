@@ -14,7 +14,7 @@ breadcrumbs:
 layout: post
 ---
 
-Zapraszamy wszystkich zainteresowanych nauką języka angielskiego do zapoznania się z ofertą My School of English.
+Zapraszamy wszystkich zainteresowanych nauką języka angielskiego do zapoznania się z [ofertą My School of English](/oferta.html).
 
 Co nas wyróżnia:
 
@@ -27,7 +27,7 @@ Co nas wyróżnia:
 - praca jest naszą pasją, a szkoła drugim domem,
 - staramy się odpowiadać na indywidualne potrzeby naszych uczniów,
 - uczymy od przedszkola do seniora :),
-- nie załamujemy rąk przed egzaminem ósmoklasisty i maturą — lubimy wyzwania.
+- nie załamujemy rąk przed [egzaminem ósmoklasisty](/blog/2018/09/02/sprawa-jest-powazna-juz-za-8-miesiecy-egzamin-osmoklasisty.html) i [maturą](/blog/2018/09/13/juz-za-rok-matura-wroc-za-8-miesiecy.html) — lubimy wyzwania.
 
-Nie zwlekaj! Zadzwoń i dopytaj o szczegóły lub napisz wiadomość, a skontaktujemy się z Tobą.
+Nie zwlekaj! [Zadzwoń i dopytaj o szczegóły lub napisz wiadomość](/kontakt.html), a skontaktujemy się z Tobą.
 

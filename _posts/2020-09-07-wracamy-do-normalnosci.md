@@ -16,7 +16,7 @@ breadcrumbs:
 
 ## Wracamy do normalności :) miejmy nadzieję, że na stałe.
 
-Zapraszamy zainteresowanych do siedziby My School of English w Bytomiu przy ulicy Moniuszki 20.
+Zapraszamy zainteresowanych do siedziby My School of English w Bytomiu [przy ulicy Moniuszki 20](/kontakt.html).
 
 Choć nie straszne nam komunikowanie się online, zaczynamy nowy rok szkolny stacjonarnie. Przestrzegamy, rzecz jasna, odgórnych zaleceń sanitarnych, a więc na zajęcia przychodzimy zdrowi, w maseczkach lub przyłbicach, dezynfekujemy ręce i zachowujemy dystans.
 

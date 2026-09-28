@@ -16,7 +16,7 @@ breadcrumbs:
 
 Absolutnie autorski projekt My school of English, w myśl zasady angielskiego uczymy inaczej.
 
-Zainspirowana zarówno postacią, jak i twórczością Beatrix Potter, autorki wielce poczytnych powiastek dla dzieci (Peter Rabbit, Squirrel Nutkin, Benjamin Bunny, Jemima Puddle-Duck i wielu innych), ekolożki i ogrodniczki w jednym, postanowiłam zorganizować w My school of English warsztaty literacko-ogrodnicze.
+Zainspirowana zarówno postacią, jak i [twórczością Beatrix Potter](/blog/2016/08/24/warsztaty-literacko-przyrodnicze-sladami-beatrix-potter-zapisy-juz-teraz.html), autorki wielce poczytnych powiastek dla dzieci (Peter Rabbit, Squirrel Nutkin, Benjamin Bunny, Jemima Puddle-Duck i wielu innych), ekolożki i ogrodniczki w jednym, postanowiłam zorganizować w My school of English [warsztaty literacko-ogrodnicze](/warsztaty.html#warsztaty-ogrodnicze).
 
 W rolę bohatera spotkania idealnie wcielił się niesforny Piotruś Królik, którego skłonności do psocenia bardzo szybko udzieliły się naszym małym gościom. Nie było to dla nas niespodzianką, gdy zabawa w ogrodnika spodobała się dzieciom aż nadto; nic tak nie cieszy, jak piasek, ziemia, czy błoto. Rozmawialiśmy o tym, jak rozmnażają się rośliny, oczywiście po angielsku, zasadziliśmy nasiona marchewki i rzodkiewki i rozsadziliśmy krokusy tak, ażeby każdy mógł wziąć jedną roślinkę do domu. Pytaniom: gdzie postawić doniczkę: w słońcu, czy cieniu, kiedy przesadzić, jak mocno podlewać, jak często... nie było końca.
 

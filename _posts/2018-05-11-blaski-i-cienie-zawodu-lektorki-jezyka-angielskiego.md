@@ -14,7 +14,7 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Miejska Biblioteka Publiczna w Bytomiu zaprosiła mnie tej wiosny na spotkanie z dwiema trzecimi klasami okolicznych szkół, celem opowiedzenia, na czym polega mój zawód, jakie wypada mieć predyspozycje oraz wykształcenie. Zastanawiając się nad tym, co chciałabym przekazać moim słuchaczom przygotowałam torbę pełną rekwizytów, bez których nie wyobrażam sobie swojej pracy. Nie chciałam wygłaszać nudnego monologu, ciekawa byłam raczej, co tak młodzi ludzie wiedzą na temat pracy nauczyciela (obserwują nas przecież na co dzień), i jak się okazało mają całkiem spore pojęcie o niuansach naszej profesji.
+Miejska Biblioteka Publiczna w Bytomiu zaprosiła mnie tej wiosny na spotkanie z dwiema trzecimi klasami okolicznych szkół, celem opowiedzenia, [na czym polega mój zawód](/kadra.html), jakie wypada mieć predyspozycje oraz wykształcenie. Zastanawiając się nad tym, co chciałabym przekazać moim słuchaczom przygotowałam torbę pełną rekwizytów, bez których nie wyobrażam sobie swojej pracy. Nie chciałam wygłaszać nudnego monologu, ciekawa byłam raczej, co tak młodzi ludzie wiedzą na temat pracy nauczyciela (obserwują nas przecież na co dzień), i jak się okazało mają całkiem spore pojęcie o niuansach naszej profesji.
 
 Swoją opowieść zaczęłam od wydobycia z mojej tajemniczej torby płyty The Beatles i skakanki oraz pytania: Jak myślicie, co te dwie rzeczy robią w mojej torbie? Odpowiedzi, choć nietrafione, były nad podziw interesujące... „Bo lubi sobie pani poskakać na lekcji” przebiło wszelkie spekulacje.
 

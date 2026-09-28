@@ -16,7 +16,7 @@ breadcrumbs:
 
 Lenka to nasza stała klientka, bardzo grzeczna i mądra dziewczynka, a Maciek chce się przyłączyć, bo spodobały mu się nasze pomysły.
 
-Drogi rodzicu, jeżeli masz dziecko w pierwszej klasie szkoły podstawowej, to namawiamy Cię z czystym sumieniem do zapisania go do tej właśnie grupy.
+Drogi rodzicu, jeżeli masz dziecko w pierwszej klasie szkoły podstawowej, to namawiamy Cię z czystym sumieniem do [zapisania go do tej właśnie grupy](/oferta.html#zajecia-dla-dzieci).
 
 Będzie sympatycznie, ciekawie i bardzo po angielsku!
 

@@ -16,7 +16,7 @@ breadcrumbs:
 
 Ilekroć nadarzy się okazja pakuję w mig bagaż podręczny i choćby na weekend uciekam do Londynu. Lubię tam wracać, zachodzić w te same miejsca, odkrywać nowe, chłonąć energię miasta, które kiedyś było też moje. A ponieważ lubię się dzielić radością, zabieram więc z sobą osoby mi bliskie, przyjaciół i znajomych.
 
-Zainspirowana ofertą zaprzyjaźnionego biura podróży "Let's fly", namówiłam cztery dorosłe kursantki na jednodniową, spontaniczną wycieczkę do Londynu. Pomysł co najmniej szalony okazał się strzałem w dziesiątkę; wszystkie panie, choć zmęczone, wróciły przeszczęśliwe, z mocnym postanowieniem odwiedzenia Londynu raz jeszcze.
+Zainspirowana ofertą zaprzyjaźnionego biura podróży "Let's fly", namówiłam cztery dorosłe kursantki na [jednodniową, spontaniczną wycieczkę do Londynu](/oferta.html). Pomysł co najmniej szalony okazał się strzałem w dziesiątkę; wszystkie panie, choć zmęczone, wróciły przeszczęśliwe, z mocnym postanowieniem odwiedzenia Londynu raz jeszcze.
 
 A było to tak...
 
@@ -38,7 +38,7 @@ Osobiście lubię, będąc w Londynie, wstąpić tu na chwilę, wybrać sobie je
 
 Po przerwie na lunch zakupiłyśmy 1-dniowe bilety na metro i przemieściłyśmy się do Greenwich. Naszym celem było zdobycie południka zero, który, jak wiadomo, przebiega przez Królewskie Obserwatorium Astronomiczne, położone na niewielkim wzniesieniu. Rozciąga się stamtąd przepiękny widok na panoramę miasta.
 
-Wracając do centrum, zahaczyłyśmy o Londyńską Tower, średniowieczne więzienie, z którego podobno nie było ucieczki. To tu została ścięta druga żona Henryka VIII, Ann Boleyn, jak wielu zresztą innych za czasów panowania niesławnego króla. Obecnie znajduje się tu muzeum, nawiązujące do mrocznej przeszłości, oraz skarbiec, w którym przechowywane są klejnoty i insygnia koronacyjne. Całości strzegą tak zwani "beefeaters", strażnicy mieszkający tu wraz z rodzinami.
+Wracając do centrum, zahaczyłyśmy o Londyńską Tower, średniowieczne więzienie, z którego podobno nie było ucieczki. To tu została ścięta druga żona [Henryka VIII](/blog/2017/06/20/warsztaty-historyczne-w-bibliotece-publicznej-miejskiej-w-bytomiu.html), Ann Boleyn, jak wielu zresztą innych za czasów panowania niesławnego króla. Obecnie znajduje się tu muzeum, nawiązujące do mrocznej przeszłości, oraz skarbiec, w którym przechowywane są klejnoty i insygnia koronacyjne. Całości strzegą tak zwani "beefeaters", strażnicy mieszkający tu wraz z rodzinami.
 
 W tak sprzyjających okolicznościach przyrody nie obyło się bez zrobienia sobie pamiątkowych zdjęć na tle Tower Bridge. Zawsze sobie obiecuję, że pewnego dnia zdobędę się na odwagę i przejdę się tą kładką dla pieszych, zawieszoną wysoko pomiędzy wieżami.
 

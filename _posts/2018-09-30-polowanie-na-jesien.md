@@ -14,7 +14,7 @@ breadcrumbs:
 layout: post
 ---
 
-Coś, co zdecydowanie wyróżnia My School of English na tle innych szkół językowych, to autorskie warsztaty pani Agaty. Za każdym razem zaskakujące, niezmiennie edukacyjne, przepełnione pozytywną energią, po prostu magiczne.
+Coś, co zdecydowanie wyróżnia My School of English na tle innych szkół językowych, to [autorskie warsztaty pani Agaty](/warsztaty.html#warsztaty-plastyczne). Za każdym razem zaskakujące, niezmiennie edukacyjne, przepełnione pozytywną energią, po prostu magiczne.
 
 Tym razem grupa śmiałków postanowiła upolować jesień. Wyedukowani w temacie chyba najmniej lubianej pory roku, mali zdobywcy, pod opieką pani Agaty i pani Gosi, wyruszyli na poszukiwanie skarbów.
 

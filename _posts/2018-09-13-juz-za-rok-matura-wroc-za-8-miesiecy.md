@@ -14,9 +14,9 @@ breadcrumbs:
 layout: post
 ---
 
-Szybka decyzja! Już dziś, to jest w czwartek 13 września startuje kurs przygotowujący do matury. Spotkania 2-godzinne raz w tygodniu, właśnie w czwartki o 17.15.
+Szybka decyzja! Już dziś, to jest w czwartek 13 września startuje [kurs przygotowujący do matury](/oferta.html). Spotkania 2-godzinne raz w tygodniu, właśnie w czwartki o 17.15.
 
-Zajęcia poprowadzi nasza specjalistka od zadań trudnych :) pani Aneta Wilemska-Rudnik.
+Zajęcia poprowadzi nasza specjalistka od zadań trudnych :) [pani Aneta Wilemska-Rudnik](/blog/2017/09/14/przygotowanie-do-matury.html).
 
 Zapraszamy! Ostatnie miejsca!
 

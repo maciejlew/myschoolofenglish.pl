@@ -17,14 +17,14 @@ Serdecznie zapraszamy dzieci i dorosłych do naszej kreatywnej szkoły talentów
 
 Oprócz zajęć standardowych przygotowaliśmy szeroką ofertę warsztatów językowych i okolicznościowych. W tym roku szkolnym czekają na nas następujące wydarzenia:
 
-- Halloween
-- Grinchmas
+- [Halloween](/blog/2017/11/25/halloween-party.html)
+- [Grinchmas](/blog/2017/12/22/grinch-mas.html)
 - warsztaty podróżnicze "Palcem po mapie"
-- "Kosmiczne Walentynki" – nie tylko dla zakochanych
-- warsztaty rodzinne – cykliczne spotkania dzieci z opiekunami i wspólna zabawa w angielski
-- warsztaty plastyczne "Drawing in English"
-- warsztaty ogrodnicze "English garden"
-- warsztaty literackie "Let's read!"
+- ["Kosmiczne Walentynki"](/blog/2017/02/27/kosmiczne-walentynki-nie-tylko-dla-zakochanych.html) – nie tylko dla zakochanych
+- [warsztaty rodzinne](/blog/2017/06/19/warsztaty-rodzinne-bo-z-mama-jakos-razniej-lets-get-together.html) – cykliczne spotkania dzieci z opiekunami i wspólna zabawa w angielski
+- [warsztaty plastyczne "Drawing in English"](/blog/2017/03/15/warsztaty-plastyczne-drawing-in-english-martwa-natura.html)
+- [warsztaty ogrodnicze "English garden"](/blog/2017/04/15/warsztaty-literacko-ogrodnicze-english-garden.html)
+- [warsztaty literackie "Let's read!"](/blog/2016/07/27/wakacyjne-warsztaty-literackie.html)
 
 I WIELE INNYCH ATRAKCJI!
 

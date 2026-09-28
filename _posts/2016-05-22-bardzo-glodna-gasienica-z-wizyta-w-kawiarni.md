@@ -14,9 +14,9 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Warsztaty literackie "Let's read".
+[Warsztaty literackie "Let's read"](/warsztaty.html#warsztaty-literackie).
 
 Po raz kolejny udowodniliśmy, że angielskiego można się uczyć absolutnie wszędzie. Tym razem odwiedziliśmy zaprzyjaźnioną kawiarnię Big Baba Cupcakes. Nasza nieustannie głodna gąsienica mogła co nieco dorzucić do swej tygodniowej diety, nic więc dziwnego, że zrobiła się taaaka wielka.
 
-"The Very Hungry Caterpillar" by Eric Carle to niekwestionowana klasyka literatury dziecięcej i nieoceniona pomoc dydaktyczna nauczycieli angielskiego. Przepiękne ilustracje i dość łatwy przekaz zjednują naszej łakomczuszce wielbicieli na całym świecie.
+"The Very Hungry Caterpillar" by [Eric Carle](/blog/2016/07/27/wakacyjne-warsztaty-literackie.html) to niekwestionowana klasyka literatury dziecięcej i nieoceniona pomoc dydaktyczna nauczycieli angielskiego. Przepiękne ilustracje i dość łatwy przekaz zjednują naszej łakomczuszce wielbicieli na całym świecie.
 

@@ -18,7 +18,7 @@ Zapisy na rok szkolny 2025/26 ruszają już dziś.
 
 Serdecznie zapraszamy dzieci od pierwszej klasy szkoły podstawowej, nastolatków i dorosłych.
 
-Kontakt pod numerem telefonu **505-099-321**
+[Kontakt pod numerem telefonu](/kontakt.html) **505-099-321**
 
 lub mailowo **mbachanek.myschool@gmail.com**
 

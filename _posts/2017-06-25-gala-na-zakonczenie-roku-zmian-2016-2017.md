@@ -18,9 +18,9 @@ Mijający rok był naprawdę udany, w założeniu reformatorski, obfitujący w r
 Stąd wzięły się nasze pomysły na warsztaty tematyczne, póki co w ramach zajęć dodatkowych, a od przyszłego roku, mamy nadzieję, również w pakiecie zajęć standardowych. Zróżnicowanie tematyczne warsztatów miało na celu zainteresowanie maksymalnie wszystkich kursantów My school of English, jak również pokazanie Państwu, choć przede wszystkim dzieciom, jak bardzo wszechobecny jest język angielski i że w naszej szkole, oprócz języka, można nauczyć się wielu innych rzeczy:
 
 - jak profesjonalnie narysować autoportret,
-- jak zinterpretować "Małego Księcia",
-- jak rozsadzić krokusy,
-- jak powstała Wielka Brytania,
+- jak [zinterpretować "Małego Księcia"](/blog/2017/02/27/kosmiczne-walentynki-nie-tylko-dla-zakochanych.html),
+- jak [rozsadzić krokusy](/blog/2017/04/15/warsztaty-literacko-ogrodnicze-english-garden.html),
+- jak [powstała Wielka Brytania](/blog/2017/06/20/warsztaty-historyczne-w-bibliotece-publicznej-miejskiej-w-bytomiu.html),
 - jak obchodzone są święta, te nam znane, jak również te nieznane w krajach anglosaskich,
 - jak przygotować Borsucze Ogony, a przede wszystkim jak one smakują...
 

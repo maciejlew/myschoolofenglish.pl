@@ -14,11 +14,11 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Zwracamy się przede wszystkim do uczniów klas drugich liceum. Zajęcia odbywają się raz w tygodniu, a materiału jest ogrom, stąd pomysł, ażeby rozpocząć przygotowania do matury już w klasie drugiej.
+Zwracamy się przede wszystkim do uczniów klas drugich liceum. Zajęcia odbywają się raz w tygodniu, a materiału jest ogrom, stąd pomysł, ażeby rozpocząć [przygotowania do matury](/oferta.html) już w klasie drugiej.
 
 Zachęcamy tych, którzy nie czują się pewnie i wolą spokojne, solidne podejście do tematu.
 
-Zajęcia poprowadzi pani Aneta, nasza nowa lektorka i egzaminatorka maturalna w jednym.
+Zajęcia poprowadzi [pani Aneta](/blog/2018/09/13/juz-za-rok-matura-wroc-za-8-miesiecy.html), nasza nowa lektorka i egzaminatorka maturalna w jednym.
 
 Zapraszamy!
 

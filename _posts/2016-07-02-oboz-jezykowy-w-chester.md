@@ -14,7 +14,7 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Po raz pierwszy w swej działalności, My school of English we współpracy z English in Chester- angielską szkołą językową, zorganizowała wakacyjny obóz językowy w Chester. Przebogaty pakiet obejmował: kurs językowy w English in Chester (zajęcia z native speaker’ami), zakwaterowanie u rodzin brytyjskich, pełne angielskie wyżywienie, wycieczki fakultatywne, warsztaty historyczne i opiekę rezydenta My school of English (w tej roli pani Gosia). W opinii, tak uczestników, jak i pani Gosi, wyjazd ten okazał się strzałem w dziesiątkę i na stałe wpisał w kalendarium poczynań szkoły!
+Po raz pierwszy w swej działalności, My school of English we współpracy z English in Chester- angielską szkołą językową, zorganizowała [wakacyjny obóz językowy w Chester](/cennik.html#chester). Przebogaty pakiet obejmował: kurs językowy w English in Chester (zajęcia z native speaker’ami), zakwaterowanie u rodzin brytyjskich, pełne angielskie wyżywienie, wycieczki fakultatywne, warsztaty historyczne i opiekę rezydenta My school of English (w tej roli pani Gosia). W opinii, tak uczestników, jak i pani Gosi, wyjazd ten okazał się strzałem w dziesiątkę i na stałe wpisał w kalendarium poczynań szkoły!
 
 Chester to urokliwe miasto w zachodniej Anglii, przesiąknięte tradycją, historią i wysoką kulturą. Celem naszej wizyty było doświadczenie powyższych, a bogaty program obozu bardzo nam w tym pomógł.
 
@@ -34,7 +34,7 @@ W ramach doświadczania historii na własnej skórze, uczestniczyliśmy w trenin
 
 Przykładów obecności kultury w życiu mieszkańców Chester jest wiele, my mieliśmy cudowną okazję obejrzenia premiery sztuki Szekspira zatytułowanej “Jak wam się podoba” (oczywiście w oryginale). W sezonie letnim Grosvenor Park Open Air Theatre wystawia Szekspira w sposób, jaki z pewnością spodobałby się samemu autorowi. Amfiteatr znajduje się w parku, widownia zgromadzona jest wokół sceny, a całe wydarzenie przypomina trochę piknik, gdyż jedzenie i picie nie jest zabronione podczas przedstawienia. Wysoka kultura bez zadęcia.
 
-Niezwykle ważnym elementem naszego pobytu w Chester było poznanie twórczości Beatrix Potter, poczytnej pisarki dla dzieci, na powiastkach której wychowało się niejedno pokolenie Brytyjczyków. Podczas niedzielnej wycieczki do Krainy Jezior, odwiedziliśmy dom autorki na Hill Top Farm oraz bajkowe muzeum poświęcone jej twórczości.
+Niezwykle ważnym elementem naszego pobytu w Chester było poznanie [twórczości Beatrix Potter](/blog/2016/08/24/warsztaty-literacko-przyrodnicze-sladami-beatrix-potter-zapisy-juz-teraz.html), poczytnej pisarki dla dzieci, na powiastkach której wychowało się niejedno pokolenie Brytyjczyków. Podczas niedzielnej wycieczki do Krainy Jezior, odwiedziliśmy dom autorki na Hill Top Farm oraz bajkowe muzeum poświęcone jej twórczości.
 
 Wielu dzieciom bardzo spodobała się wizyta w Blue Planet Aquarium, gdzie oprócz podziwiania rekinów, płaszczek, rozgwiazd i tym podobnych stworzeń pływających, odbyliśmy lekcję biologii.
 

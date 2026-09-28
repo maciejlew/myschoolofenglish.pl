@@ -22,5 +22,5 @@ Czerwona kredka poskarżyła się na przepracowanie i brak urlopu nawet w świę
 
 Jak mały Duncan poradził sobie z pretensjami kredek? Zachęcam do lektury.
 
-Książeczka śmieszna, mądra i bardzo przydatna w nauce języka angielskiego. Jedna z pozycji biblioteczki My school of English :) Absolutny hit czytelniczy wśród naszych uczniów.
+Książeczka śmieszna, mądra i bardzo przydatna w nauce języka angielskiego. Jedna z pozycji [biblioteczki My school of English](/warsztaty.html#warsztaty-literackie) :) Absolutny hit czytelniczy wśród naszych uczniów.
 

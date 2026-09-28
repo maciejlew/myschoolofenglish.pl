@@ -14,7 +14,7 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Klub Gier Planszowych, tegoroczna inicjatywa My School of English, okazał się strzałem w dziesiątkę. Nasi kursanci uwielbiają planszówki! O tak, brzmi to niewiarygodnie, ale współczesne dzieciaki, tak bardzo na co dzień zaaferowane światem wirtualnym, bezmyślnie podawanym im na tacy, potrafią i chcą bawić się jak ich rodzice niegdyś. My School of English z największą przyjemnością stwarza im środowisko przyjazne rozwojowi wyobraźni i umiejętności.
+[Klub Gier Planszowych](/blog/2017/09/10/nowosc-klub-gier-planszowych.html), tegoroczna inicjatywa My School of English, okazał się strzałem w dziesiątkę. Nasi kursanci uwielbiają planszówki! O tak, brzmi to niewiarygodnie, ale współczesne dzieciaki, tak bardzo na co dzień zaaferowane światem wirtualnym, bezmyślnie podawanym im na tacy, potrafią i chcą bawić się jak ich rodzice niegdyś. My School of English z największą przyjemnością stwarza im środowisko przyjazne rozwojowi wyobraźni i umiejętności.
 
 Sobotnie spotkania Klubu Gier Planszowych są nieodpłatne dla naszych kursantów.
 

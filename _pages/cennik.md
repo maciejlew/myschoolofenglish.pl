@@ -16,7 +16,7 @@ breadcrumbs:
     type: AboutPage
 ---
 
-<section class="ms-section ms-section--light">
+<section class="ms-section ms-section--light" id="cennik">
   <div class="ms-container">
     <div class="ms-price-table">
       <table>
@@ -69,7 +69,7 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="ms-section ms-section--cream">
+<section class="ms-section ms-section--cream" id="obozy-jezykowe">
   <div class="ms-container">
 
     <div class="ms-section-heading">
@@ -78,7 +78,7 @@ breadcrumbs:
 
     <p>Cyklicznie wyjeżdżamy na obozy językowe do Chester. Zainteresowane osoby prosimy o kontakt.</p>
 
-    <div class="ms-feature ms-feature--chester">
+    <div class="ms-feature ms-feature--chester" id="chester">
       <h3>Chester</h3>
 
       <p>Tygodniowy obóz języka angielskiego w malowniczym Chester.</p>

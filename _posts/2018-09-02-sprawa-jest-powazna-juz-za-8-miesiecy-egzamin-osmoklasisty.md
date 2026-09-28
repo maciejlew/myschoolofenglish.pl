@@ -16,7 +16,7 @@ layout: post
 
 Egzamin ósmoklasisty łatwy nie będzie. Należy temat potraktować jak najbardziej serio i to już na początku roku szkolnego.
 
-My School of English proponuje w tej sytuacji intensywny kurs wrzesień–kwiecień, 2 razy w tygodniu po 75 min. Kluczem do sukcesu będzie tutaj zaangażowanie młodzieży, a więc regularna praca własna w domu, weryfikowana w szkole comiesięcznym egzaminem próbnym.
+My School of English proponuje w tej sytuacji [intensywny kurs wrzesień–kwiecień](/oferta.html), 2 razy w tygodniu po 75 min. Kluczem do sukcesu będzie tutaj zaangażowanie młodzieży, a więc regularna praca własna w domu, weryfikowana w szkole comiesięcznym egzaminem próbnym.
 
 Jeżeli zależy Ci na dobrym wyniku, ale zdajesz sobie sprawę, że bez Twojego wkładu własnego będzie naprawdę trudno, to zapraszamy do nas. Na pewno pomożemy!
 

@@ -14,7 +14,7 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Nigdy nie jest za późno na naukę angielskiego, śmiem twierdzić, że za wcześnie też nie. W My school of English uczymy od przedszkola do seniora!
+Nigdy nie jest za późno na naukę angielskiego, śmiem twierdzić, że za wcześnie też nie. W My school of English uczymy [od przedszkola do seniora](/oferta.html)!
 
 Specjalistką od nauczania najmłodszych kursantów jest pani Agata, prywatnie mama trójki dzieci. To ona wpadła na pomysł zorganizowania warsztatów rodzinnych, na których maluchy w towarzystwie swoich mam bawiły się w angielski. Familijna atmosfera, urozmaicone zabawy oraz pląsy w takt muzyki z łatwością przekonały najbardziej nieśmiałych.
 

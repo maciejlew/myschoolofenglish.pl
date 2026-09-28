@@ -14,7 +14,7 @@ breadcrumbs:
 layout: post
 ---
 
-Już w najbliższą sobotę, 29 września zapraszamy na Dzień Drzwi Otwartych! W godzinach 14–18 można do nas wpaść, obejrzeć My School of English od środka i na spokojnie porozmawiać przy kawie lub herbacie.
+Już w najbliższą sobotę, 29 września zapraszamy na Dzień Drzwi Otwartych! W godzinach 14–18 [można do nas wpaść](/kontakt.html), obejrzeć My School of English od środka i na spokojnie porozmawiać przy kawie lub herbacie.
 
 Jeżeli nadal poszukujesz szkoły marzeń, zajrzyj do nas! Być może to my spełnimy Twoje oczekiwania.
 

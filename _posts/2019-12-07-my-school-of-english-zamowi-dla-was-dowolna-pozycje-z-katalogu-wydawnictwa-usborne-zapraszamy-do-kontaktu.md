@@ -16,5 +16,5 @@ layout: post
 
 My School of English zamówi dla Was dowolną pozycję z katalogu wydawnictwa Usborne.
 
-Zapraszamy do kontaktu.
+[Zapraszamy do kontaktu](/kontakt.html).
 

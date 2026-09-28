@@ -22,7 +22,7 @@ Czytamy. Gotujemy. Tworzymy. Odkrywamy. Mówimy po angielsku.
 
 My School of English proponuje warsztaty literackie, teatralne, kulinarne, ogrodnicze i plastyczne.
 
-<div class="ms-workshops"> <div class="ms-workshop">
+<div class="ms-workshops"> <div class="ms-workshop" id="warsztaty-literackie">
 
 <h3>Warsztaty literackie „Let's read!”</h3>
 
@@ -35,7 +35,7 @@ Wybrane pozycje to perełki literatury dziecięcej autorstwa Julii Donaldson, Er
 
 Warsztaty odbywają się w siedzibie szkoły, jak również na zaproszenie w przeróżnych miejscach użyteczności publicznej, takich jak biblioteki, szkoły, przedszkola i kawiarnie.
 
-</div> <div class="ms-workshop">
+</div> <div class="ms-workshop" id="warsztaty-ogrodnicze">
 
 <h3>Warsztaty ogrodnicze „Let's get dirty!”</h3>
 
@@ -47,7 +47,7 @@ Poprzez kreatywną zabawę mali ogrodnicy dowiadują się, jak istotnym elemente
 
 Równie ważnym aspektem naszego projektu jest bezpośredni kontakt z naturą poprzez dosłowne ubrudzenie sobie rączek, co przecież dzieci lubią najbardziej.
 
-</div> <div class="ms-workshop">
+</div> <div class="ms-workshop" id="warsztaty-kulinarne">
 
 <h3>Warsztaty kulinarne „Let's eat!”</h3>
 
@@ -61,7 +61,7 @@ Nic tak nie utwierdza w przekonaniu, że opłaciło się poświęcić co nieco u
 
 Efekt finalny – miodzio!
 
-</div> <div class="ms-workshop">
+</div> <div class="ms-workshop" id="warsztaty-plastyczne">
 
 <h3>Warsztaty plastyczne „Let's draw!”</h3>
 
