@@ -3,9 +3,13 @@ layout: post
 title: "Gala na zakończenie roku zmian 2016/2017"
 date: 2017-06-25 13:46:37 +0200
 description: "Podsumowanie pełnego zmian roku w My school of English. Warsztaty plastyczne, literackie, ogrodnicze, historyczne, kulturowe i rodzinne pokazały, że język angielski może być narzędziem do poznawania świata i rozwijania własnych zainteresowań."
-breadcrumb:
-  - "Strona główna"
-  - "Blog"
+breadcrumbs:
+  - title: "Strona główna"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "page.title"
+    url: "page.url"
 author: Małgorzata Bachanek
 ---
 

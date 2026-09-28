@@ -3,9 +3,13 @@ layout: post
 title: "ZAPISY NA ROK SZKOLNY 2016/2017"
 date: 2016-09-01 12:49:00 +0200
 description: "Zapraszamy dzieci i dorosłych do kreatywnej szkoły talentów i języka angielskiego. W roku szkolnym 2016/2017 przygotowaliśmy zajęcia językowe oraz bogaty program warsztatów i wydarzeń."
-breadcrumb:
-  - "Strona główna"
-  - "Blog"
+breadcrumbs:
+  - title: "Strona główna"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "page.title"
+    url: "page.url"
 author: Małgorzata Bachanek
 ---
 

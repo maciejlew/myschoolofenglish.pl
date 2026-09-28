@@ -3,9 +3,13 @@ layout: post
 title: "Warsztaty literacko-przyrodnicze 'Śladami Beatrix Potter' ZAPISY JUŻ TERAZ"
 date: 2016-08-24 10:43:48 +0200
 description: "Zapraszamy na warsztaty literacko-przyrodnicze poświęcone Beatrix Potter, jej twórczości, niezwykłemu życiorysowi i pasji ogrodniczej. W programie poznawanie miejsc związanych z pisarką w Krainie Jezior."
-breadcrumb:
-  - "Strona główna"
-  - "Blog"
+breadcrumbs:
+  - title: "Strona główna"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "page.title"
+    url: "page.url"
 author: Małgorzata Bachanek
 ---
 

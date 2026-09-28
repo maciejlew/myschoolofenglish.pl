@@ -34,8 +34,11 @@
   "publisher": {
     "@type": "Organization",
     "name": {{ site.name | jsonify }}
-  }
+  },
   {% endif %}
+
+  {%- include json-ld-breadcrumb.md -%}
+
 }
 </script>
 
