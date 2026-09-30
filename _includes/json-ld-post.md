@@ -2,43 +2,43 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
+  "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }}
 
-  {% if page.title %}
-  "headline": {{ page.title | jsonify }},
+  {% if page.title %},
+  "headline": {{ page.title | jsonify }}
   {% endif %}
 
-  {% if page.description %}
-  "description": {{ page.description | jsonify }},
+  {% if page.description %},
+  "description": {{ page.description | jsonify }}
   {% endif %}
 
-  "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }},
-
-  {% if page.date %}
-  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  {% if page.date %},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }}
   {% endif %}
 
-  {% if page.last_modified_at %}
-  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
-  {% elsif page.date %}
-  "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
+  {% if page.last_modified_at %},
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }}
+  {% elsif page.date %},
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }}
   {% endif %}
 
-  {% if page.author or site.author %}
+  {% if page.author or site.author %},
   "author": {
     "@type": "Person",
     "name": {{ page.author | default: site.author | jsonify }}
-  },
+  }
   {% endif %}
 
-  {% if site.name %}
+  {% if site.name %},
   "publisher": {
     "@type": "Organization",
     "name": {{ site.name | jsonify }}
   }
   {% endif %}
 
-  {% if page.breadcrumbs %},{% endif %}
+  {% if page.breadcrumbs %},
   {%- include json-ld-breadcrumb.md -%}
+  {% endif %}
 
 }
 </script>

@@ -26,16 +26,28 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        {% if site.name %}"name": {{ site.name | jsonify }},{% endif %}
-        {% if site.description %}"description": {{ site.description | jsonify }},{% endif %}
-        {% if site.url %}"url": {{ site.url | append: site.baseurl | jsonify }},{% endif %}
-        {% if site.author %}"author": 
+        "dateCreated": {{ "2012.08.27 17:28:35" | date_to_xmlschema | jsonify }},
+        "dateModified": {{ site_modified | date_to_xmlschema | jsonify }}
+
+        {% if site.name %},
+        "name": {{ site.name | jsonify }}
+        {% endif %}
+
+        {% if site.description %},
+        "description": {{ site.description | jsonify }}
+        {% endif %}
+
+        {% if site.url %},
+        "url": {{ site.url | append: site.baseurl | jsonify }}
+        {% endif %}
+
+        {% if site.author %},
+        "author": 
             {
                 "@type": "Person",
                 "name": {{ site.author | jsonify }}
-            },{% endif %}
-        "dateCreated": {{ "2012.08.27 17:28:35" | date_to_xmlschema | jsonify }},
-        "dateModified": {{ site_modified | date_to_xmlschema | jsonify }}
+            }
+        {% endif %}
     }
 </script>
 
