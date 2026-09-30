@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Oferta"
-description: "Oferta My School of English – zajęcia z języka angielskiego dla dzieci, młodzieży i dorosłych."
+description: "Angielski w Bytomiu: zajęcia grupowe (do 6 osób) i indywidualne dla dzieci, młodzieży i dorosłych. Matura, egzamin ósmoklasisty, FCE, CAE, Business English."
 keywords: oferta, angielski Bytom, kurs angielskiego, angielski dla dzieci, angielski dla dorosłych, Business English
 permalink: /oferta.html
 redirect_from: /oferta

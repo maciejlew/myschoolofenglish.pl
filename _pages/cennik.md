@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Cennik"
-description: "Cennik zajęć języka angielskiego oraz warsztatów My School of English."
+description: "Cennik lekcji angielskiego w Bytomiu: od 47 zł za 50 minut w grupie, zajęcia indywidualne i obozy językowe w Chester. Sprawdź ceny."
 keywords: cennik, ceny angielskiego, kurs angielskiego, My School of English, Bytom
 permalink: /cennik.html
 redirect_from: /cennik

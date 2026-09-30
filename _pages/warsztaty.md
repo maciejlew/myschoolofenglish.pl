@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Warsztaty"
-description: "Warsztaty językowe My School of English: literackie, teatralne, kulinarne, ogrodnicze i plastyczne."
+description: "Warsztaty po angielsku w Bytomiu: literackie, kulinarne, ogrodnicze i plastyczne dla dzieci. Nauka języka przez zabawę w My School of English."
 keywords: warsztaty językowe, warsztaty angielski, angielski dla dzieci, My School of English, Bytom
 permalink: /warsztaty.html
 redirect_from: /warsztaty

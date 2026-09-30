@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Kadra"
-description: "Poznaj kadrę My School of English – szkoły języka angielskiego w Bytomiu."
+description: "Małgorzata Bachanek – założycielka My School of English w Bytomiu, lektorka z wieloletnim doświadczeniem i autorka edukacyjnych gier do nauki angielskiego."
 keywords: kadra, lektor angielskiego, Małgorzata Bachanek, My School of English, Bytom
 permalink: /kadra.html
 redirect_from: /kadra

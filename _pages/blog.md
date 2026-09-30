@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Blog
+description: "Blog My School of English w Bytomiu: relacje z warsztatów, obozów językowych w Chester, wydarzeń szkolnych i inspiracje do nauki angielskiego."
 permalink: /blog/
 redirect_from:
   - /tag/kreatywne-lekcje-angielskiego/page/2

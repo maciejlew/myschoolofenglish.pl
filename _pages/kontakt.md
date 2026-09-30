@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Kontakt"
-description: "Skontaktuj się z My School of English w Bytomiu. Znajdziesz nas przy ul. Moniuszki 20."
+description: "Kontakt z My School of English w Bytomiu, ul. Moniuszki 20. Zadzwoń 505-099-321 lub napisz i zapisz dziecko na zajęcia angielskiego."
 keywords: kontakt, My School of English, Bytom, Moniuszki 20, szkoła językowa
 permalink: /kontakt.html
 redirect_from: /kontakt

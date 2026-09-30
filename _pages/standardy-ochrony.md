@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Standardy ochrony"
-description: "Standardy ochrony małoletnich w My School of English."
+description: "Standardy ochrony małoletnich w My School of English w Bytomiu – pełna i skrócona wersja dokumentu oraz załączniki do pobrania."
 keywords: standardy ochrony małoletnich, bezpieczeństwo dzieci, My School of English
 permalink: /standardy-ochrony.html
 redirect_from: /standardy-ochrony

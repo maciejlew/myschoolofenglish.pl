@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "O szkole"
-description: "Poznaj My School of English – szkołę języka angielskiego w Bytomiu."
+description: "My School of English w Bytomiu: angielski dla dzieci, młodzieży i dorosłych. Grupy do 6 osób, matura, egzamin ósmoklasisty, Business English."
 keywords: szkoła językowa, angielski Bytom, My School of English, nauka angielskiego
 permalink: /
 redirect_from: /o-nas.html
