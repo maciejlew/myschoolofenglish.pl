@@ -14,7 +14,7 @@
   "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }},
 
   {% if page.date %}
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   {% endif %}
 
   {% if page.last_modified_at %}
