@@ -9,7 +9,7 @@
                 "@type": "Person",
                 "name": {% if page.author %}{{ page.author | jsonify }}{% else %}{{ site.author | jsonify }}{% endif %}
             },{% endif %}
-        {% if page.date %}"dateCreated": {{ page.date }},{% endif %}
+        {% if page.date %}"dateCreated": {{ page.date| date_to_xmlschema | jsonify }},{% endif %}
 
         "url": {{ site.url }}{{ site.baseurl }}{{ page.url }}
 

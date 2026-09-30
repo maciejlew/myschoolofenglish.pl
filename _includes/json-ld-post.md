@@ -18,9 +18,9 @@
   {% endif %}
 
   {% if page.last_modified_at %}
-  "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
   {% elsif page.date %}
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
   {% endif %}
 
   {% if page.author or site.author %}

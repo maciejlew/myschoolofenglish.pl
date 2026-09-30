@@ -1,19 +1,27 @@
-{% assign site_modified = site.date %}
-{% if site.posts %}
-    {% for post in site.posts %}
-        {% if post.date %}
-            {% assign site_modified = post.date %}
-            {% break %}
-        {% endif %}
-    {% endfor %}
-{% endif %}
-{% if site.pages %}
-    {% for page in site.pages %}
-        {% if page.date and page.date > site_modified %}
-            {% assign site_modified = page.date %}
-        {% endif %}
-    {% endfor %}
-{% endif %}
+{%- assign site_modified = nil -%}
+{%- assign site_modified_ts = 0 -%}
+
+{%- for post in site.posts -%}
+  {%- if post.date -%}
+    {%- assign site_modified = post.date -%}
+    {%- assign site_modified_ts = post.date | date: "%s" | plus: 0 -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for p in site.pages -%}
+  {%- if p.date -%}
+    {%- assign p_ts = p.date | date: "%s" | plus: 0 -%}
+    {%- if p_ts > site_modified_ts -%}
+      {%- assign site_modified = p.date -%}
+      {%- assign site_modified_ts = p_ts -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- unless site_modified -%}
+  {%- assign site_modified = site.time -%}
+{%- endunless -%}
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -26,8 +34,8 @@
                 "@type": "Person",
                 "name": {{ site.author | jsonify }}
             },{% endif %}
-        {% if site.date %}"dateCreated": "{{ site.date | date: '%Y-%m-%d' }}",{% endif %}
-        "dateModified": "{{ site_modified | date: '%Y-%m-%d' }}"
+        "dateCreated": {{ "2012.08.27 17:28:35" | date_to_xmlschema | jsonify }},
+        "dateModified": {{ site_modified | date_to_xmlschema | jsonify }}
     }
 </script>
 
