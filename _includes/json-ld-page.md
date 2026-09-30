@@ -11,9 +11,11 @@
             },{% endif %}
         {% if page.date %}"dateCreated": "{{ page.date }}",{% endif %}
 
+        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+
+        {% if page.breadcrumbs %},{% endif %}
         {%- include json-ld-breadcrumb.md -%}
 
-        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
     }
 </script>
 

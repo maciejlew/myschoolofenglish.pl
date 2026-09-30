@@ -34,9 +34,10 @@
   "publisher": {
     "@type": "Organization",
     "name": {{ site.name | jsonify }}
-  },
+  }
   {% endif %}
 
+  {% if page.breadcrumbs %},{% endif %}
   {%- include json-ld-breadcrumb.md -%}
 
 }
