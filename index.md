@@ -25,4 +25,3 @@ redirect_from: /o-nas.html
 
 {% include o-nas/standardy.html %}
 
-{% include json-ld-site.md %}
