@@ -13,6 +13,16 @@ redirect_from:
   - /tag/muzyka
   - /type/image
   - /tag/bytom
+  - /blog/2017/09/04/zapraszamy-juz-mozna.html
+  - /blog/2017/10/07/poznajmy-sie-lepiej.html
+  - /blog/2017/12/27/wesolych-swiat.html
+  - /blog/2018/01/01/szczesliwego-nowego-roku.html
+  - /blog/2018/01/12/bal-karnawalowy-w-my-school-of-english.html
+  - /blog/2018/03/30/rozwijamy-talenty-po-angielsku.html
+  - /blog/2018/04/10/absolutnie-magiczne-warsztaty-plastyczne-pani-agaty.html
+  - /blog/2018/05/01/konkurs-talentow-w-my-school-of-english.html
+  - /blog/2018/08/22/szkola-jezykowa-od-kuchni.html
+  - /blog/2017/08/17/how-to-make-a-comedy.html
 ---
 
 <h1>{{ page.title }}</h1>
