@@ -14,6 +14,9 @@ breadcrumbs:
   - url: page.url
     title: page.title
     type: AboutPage
+redirect_from:
+  - /oferta
+  - /tag/angielski-dla-dzieci
 ---
 
 <div class="ms-offer-intro">

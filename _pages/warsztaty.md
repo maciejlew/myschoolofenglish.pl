@@ -14,6 +14,12 @@ breadcrumbs:
   - url: page.url
     title: page.title
     type: AboutPage
+redirect_from:
+  - /warsztaty
+  - /tag/warsztaty
+  - /tag/warsztaty-literackie
+  - /tag/warsztaty-plastyczne
+  - /tag/warsztaty-jezykowe
 ---
 
 ANGIELSKI TO COŚ WIĘCEJ NIŻ LEKCJA

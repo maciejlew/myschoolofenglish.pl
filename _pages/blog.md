@@ -23,6 +23,11 @@ redirect_from:
   - /blog/2018/05/01/konkurs-talentow-w-my-school-of-english.html
   - /blog/2018/08/22/szkola-jezykowa-od-kuchni.html
   - /blog/2017/08/17/how-to-make-a-comedy.html
+  - /author/gosia
+  - /category/koncepty
+  - /tag/inspiracja
+  - /tag/literatura-dziecieca
+  - /tag/literatura-anglosaska
 ---
 
 <h1>{{ page.title }}</h1>
