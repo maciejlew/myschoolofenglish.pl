@@ -338,6 +338,25 @@ $ms-text-2xl: 2rem;
 }
 
 
+/* Wariant ze zdjęciem pionowym (np. Kadra) */
+
+.ms-about--portrait {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  align-items: start;
+}
+
+.ms-about--portrait .ms-about__image img {
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  box-shadow: $ms-shadow-md;
+}
+
+.ms-about--portrait .ms-about__text p:first-child {
+  margin-top: 0;
+}
+
+
 /* ========================================
    Opinie
    ======================================== */
@@ -451,6 +470,11 @@ $ms-text-2xl: 2rem;
 
   .ms-about {
     gap: $ms-space-lg;
+  }
+
+  .ms-about--portrait .ms-about__image {
+    max-width: 360px;
+    margin: 0 auto;
   }
 
   .ms-audience {
