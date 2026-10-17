@@ -10,6 +10,7 @@ redirect_from:
   - /tag/szkola-jezykowa
   - /tag/beatrix-potter
   - /2018/08
+  - /2018/08/22/szkola-jezykowa-od-kuchni.html
   - /tag/muzyka
   - /type/image
   - /tag/bytom
