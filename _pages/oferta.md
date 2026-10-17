@@ -4,7 +4,6 @@ title: "Oferta"
 description: "Angielski w Bytomiu: zajęcia grupowe (do 6 osób) i indywidualne dla dzieci, młodzieży i dorosłych. Matura, egzamin ósmoklasisty, FCE, CAE, Business English."
 keywords: oferta, angielski Bytom, kurs angielskiego, angielski dla dzieci, angielski dla dorosłych, Business English
 permalink: /oferta.html
-redirect_from: /oferta
 type: AboutPage
 date: "2017-08-06 21:59:11"
 breadcrumbs:
