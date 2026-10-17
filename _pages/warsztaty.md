@@ -19,6 +19,7 @@ redirect_from:
   - /tag/warsztaty-literackie
   - /tag/warsztaty-plastyczne
   - /tag/warsztaty-jezykowe
+  - /tag/warsztaty-jezykowe/page/2
   - /tag/rysunek
   - /tag/warsztaty-kreatywne
   - /tag/kreatywne-warsztaty

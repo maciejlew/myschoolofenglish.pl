@@ -16,6 +16,11 @@ breadcrumbs:
 redirect_from:
   - /oferta
   - /tag/angielski-dla-dzieci
+  - /tag/angielski-dla-doroslych
+  - /tag/egzamin-osmoklasisty
+  - /tag/kurs-przygotowujacy-do-egzaminu-osmoklasisty
+  - /tag/przygotowanie-do-matury
+  - /tag/matura-z-angielskiego
 ---
 
 <div class="ms-offer-intro">

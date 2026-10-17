@@ -12,6 +12,8 @@ breadcrumbs:
   - title: "page.title"
     url: "page.url"
 layout: post
+redirect_from:
+  - /2018/09/03/zostalo-290-dni-do-wakacji.html
 ---
 
 Samych pozytywnych emocji, uśmiechu co dzień i rozlicznych powodów do zadowolenia z siebie w nadchodzącym roku szkolnym życzy My School of English :)

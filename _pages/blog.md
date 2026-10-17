@@ -60,6 +60,50 @@ redirect_from:
   - /2017/02
   - /2018/01
   - /2018/05
+  # tagi (część 2)
+  - /tag/weekend-w-londynie
+  - /tag/inspirowac
+  - /tag/poczatek-roku-szkolnego
+  - /tag/angielski-bytom
+  - /tag/zapisy-do-szkoly-jezykowej
+  - /tag/zapisy
+  - /tag/literatura-angielska
+  - /tag/przedstawienie-w-szkole-jezylowej
+  - /tag/angielski-slask
+  - /tag/jezyk-angielski
+  - /tag/zajecia-pozalekcyjne
+  - /tag/klub-gier-planszowych
+  - /tag/my-school-of-english
+  - /tag/kreatywna-szkola-jezyka-angielskiego
+  - /tag/anglia
+  - /tag/czytanie-ksiazek-po-angielsku
+  - /tag/praca-w-szkole-jezykowej
+  # feedy
+  - /tag/szczesliwego-nowego-roku/feed
+  - /tag/angielski-z-native-speakerami/feed
+  - /author/gosia/feed
+  # kategorie, formaty, paginacja
+  - /category/inspiracje
+  - /type/link
+  - /page/3
+  # archiwa dat (część 2)
+  - /2016/05
+  - /2016/07
+  - /2016/09
+  - /2016/12
+  - /2017/01
+  - /2017/03
+  - /2017/04
+  - /2017/06
+  - /2017/08
+  - /2017/09
+  - /2017/10
+  - /2017/12
+  - /2018/03
+  - /2018/06
+  - /2018/09
+  - /2019/12
+  - /2020/09
 ---
 
 <h1>{{ page.title }}</h1>

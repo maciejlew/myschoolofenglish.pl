@@ -12,6 +12,8 @@ breadcrumbs:
   - title: "page.title"
     url: "page.url"
 layout: post
+redirect_from:
+  - /2018/09/30/polowanie-na-jesien.html
 ---
 
 Coś, co zdecydowanie wyróżnia My School of English na tle innych szkół językowych, to [autorskie warsztaty pani Agaty](/warsztaty.html#warsztaty-plastyczne). Za każdym razem zaskakujące, niezmiennie edukacyjne, przepełnione pozytywną energią, po prostu magiczne.

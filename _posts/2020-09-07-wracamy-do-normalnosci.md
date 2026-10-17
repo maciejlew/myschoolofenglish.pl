@@ -12,6 +12,8 @@ breadcrumbs:
     url: "/blog/"
   - title: "page.title"
     url: "page.url"
+redirect_from:
+  - /2020/09/07/915.html
 ---
 
 ## Wracamy do normalności :) miejmy nadzieję, że na stałe.
