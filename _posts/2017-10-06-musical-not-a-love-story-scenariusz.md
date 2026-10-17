@@ -12,6 +12,8 @@ breadcrumbs:
     url: "/blog/"
   - title: "page.title"
     url: "page.url"
+redirect_from:
+  - /2017/10/06/musical-not-a-love-story-scenariusz.html
 ---
 
 Zainspirowana pewną kłótnią w damskiej toalecie (nie będąc równocześnie jej uczestniczką), wpadłam na pomysł zaangażowania zwaśnionych dam we wspólny projekt :)

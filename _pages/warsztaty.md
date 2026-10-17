@@ -20,6 +20,10 @@ redirect_from:
   - /tag/warsztaty-literackie
   - /tag/warsztaty-plastyczne
   - /tag/warsztaty-jezykowe
+  - /tag/rysunek
+  - /tag/warsztaty-kreatywne
+  - /tag/kreatywne-warsztaty
+  - /tag/warsztaty-po-angielsku
 ---
 
 ANGIELSKI TO COŚ WIĘCEJ NIŻ LEKCJA

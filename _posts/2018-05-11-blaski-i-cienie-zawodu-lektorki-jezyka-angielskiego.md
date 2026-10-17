@@ -12,6 +12,8 @@ breadcrumbs:
     url: "/blog/"
   - title: "page.title"
     url: "page.url"
+redirect_from:
+  - /2018/05/11/blaski-i-cienie-zawodu-lektorki-jezyka-angielskiego.html
 ---
 
 Miejska Biblioteka Publiczna w Bytomiu zaprosiła mnie tej wiosny na spotkanie z dwiema trzecimi klasami okolicznych szkół, celem opowiedzenia, [na czym polega mój zawód](/kadra.html), jakie wypada mieć predyspozycje oraz wykształcenie. Zastanawiając się nad tym, co chciałabym przekazać moim słuchaczom przygotowałam torbę pełną rekwizytów, bez których nie wyobrażam sobie swojej pracy. Nie chciałam wygłaszać nudnego monologu, ciekawa byłam raczej, co tak młodzi ludzie wiedzą na temat pracy nauczyciela (obserwują nas przecież na co dzień), i jak się okazało mają całkiem spore pojęcie o niuansach naszej profesji.

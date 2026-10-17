@@ -28,6 +28,37 @@ redirect_from:
   - /tag/inspiracja
   - /tag/literatura-dziecieca
   - /tag/literatura-anglosaska
+  # nowe: tagi
+  - /tag/angielski
+  - /tag/angielski-w-bytomiu
+  - /tag/angielski-bytom/page/3
+  - /tag/angielski-z-mama
+  - /tag/szkola-jezykowa/page/2
+  - /tag/szkola-jezykowa-w-bytomiu
+  - /tag/certyfikaty
+  - /tag/christmas
+  - /tag/czytelnictwo
+  - /tag/karnawal-dla-dzieci
+  - /tag/koniec-roku
+  - /tag/kraina-jezior
+  - /tag/lekcja-biologii-po-angielsku
+  - /tag/pasja-do-angielskiego
+  - /tag/wydawnictwo-usborne
+  - /tag/zawod-lektora-angielskiego
+  - /tag/zapisy-do-szkoly-jezykowej/feed
+  # nowe: kategorie i paginacja
+  - /category/aktualnosci
+  - /category/aktualnosci/page/4
+  - /page/5
+  # nowe: formaty wpisów
+  - /type/image/page/2
+  - /type/gallery
+  - /type/video
+  - /type/audio
+  # nowe: archiwa dat
+  - /2017/02
+  - /2018/01
+  - /2018/05
 ---
 
 <h1>{{ page.title }}</h1>

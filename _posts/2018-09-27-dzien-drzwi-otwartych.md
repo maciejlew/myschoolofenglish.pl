@@ -12,6 +12,8 @@ breadcrumbs:
   - title: "page.title"
     url: "page.url"
 layout: post
+redirect_from:
+  - /2018/09/27/dzien-drzwi-otwartych.html
 ---
 
 Już w najbliższą sobotę, 29 września zapraszamy na Dzień Drzwi Otwartych! W godzinach 14–18 [można do nas wpaść](/kontakt.html), obejrzeć My School of English od środka i na spokojnie porozmawiać przy kawie lub herbacie.

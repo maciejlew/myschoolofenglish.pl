@@ -12,6 +12,8 @@ breadcrumbs:
     url: "/blog/"
   - title: "page.title"
     url: "page.url"
+redirect_from:
+  - /2017/08/03/czym-zajmuje-sie-nauczycielkawlascicielka-szkoly-na-baaardzo-dlugich-wakacjach.html
 ---
 
 Jeśli na głowie ma dwa wymagające koty, dalekie podróże nie wchodzą w grę; zabija więc czas. I tak uczy się zdrowego gotowania, nadrabia zaległości czytelnicze, zaległości serialowe, wymyśla remonty szkoły, konstruuje nową stronę internetową, bywa na koncertach... lecz im bliżej września, tym bardziej ciągnie ją do planowania lekcji, warsztatów, życia szkoły w ogóle.

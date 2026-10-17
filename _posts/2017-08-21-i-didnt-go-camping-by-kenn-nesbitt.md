@@ -12,6 +12,8 @@ breadcrumbs:
     url: "/blog/"
   - title: "page.title"
     url: "page.url"
+redirect_from:
+  - /2017/08/21/i-didnt-go-camping-by-kenn-nesbitt.html
 ---
 
 Już za niedługo dowiemy się wszystkiego... Kto gdzie był, z kim i jak długo. Co było fajne, a co nie. Gdzie warto pojechać, co warto obejrzeć. Mam tylko nadzieję, że nikt z naszych uczniów nie okaże się podmiotem lirycznym następującego wiersza Kenna Nesbitta :)

@@ -12,6 +12,8 @@ breadcrumbs:
   - title: "page.title"
     url: "page.url"
 layout: post
+redirect_from:
+  - /2019/12/07/my-school-of-english-zamowi-dla-was-dowolna-pozycje-z-katalogu-wydawnictwa-usborne-zapraszamy-do-kontaktu.html
 ---
 
 My School of English zamówi dla Was dowolną pozycję z katalogu wydawnictwa Usborne.
