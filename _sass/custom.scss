@@ -587,13 +587,10 @@ $ms-text-2xl: 2rem;
   color: $ms-color-coral;
 }
 
-
-/* Trzecia karta na środku */
-
 .ms-offer-card:last-child {
   grid-column: 1 / -1;
-  max-width: calc(50% - 1rem);
-  width: 100%;
+  box-sizing: border-box;
+  width: calc((100% - #{$ms-space-lg}) / 2);
   justify-self: center;
 }
 
@@ -608,7 +605,8 @@ $ms-text-2xl: 2rem;
 
   .ms-offer-card:last-child {
     grid-column: auto;
-    max-width: none;
+    width: auto;
+    justify-self: stretch;
   }
 
   .ms-offer-card {
