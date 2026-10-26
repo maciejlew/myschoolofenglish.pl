@@ -13,6 +13,8 @@ $ms-color-coral: #d85c4a;
 $ms-color-cream: #f4f0e8;
 $ms-color-light: #f7f7f5;
 $ms-color-white: #fff;
+$ms-color-page: $ms-color-white; /* sidebar columns background */
+$ms-color-column: $ms-color-cream; /* main column background */
 
 $ms-color-text: #333;
 $ms-color-muted: #666;
@@ -36,6 +38,8 @@ $ms-space-section: 5rem;
 $ms-container-width: 1100px;
 $ms-content-width: 850px;
 $ms-text-width: 750px;
+$ms-shell-width: $ms-container-width; /* main column width */
+$ms-gutter: 2rem; /* main column margin */
 
 
 /* Cards */
@@ -138,8 +142,96 @@ $ms-text-2xl: 2rem;
 .ms-container {
   max-width: $ms-container-width;
   margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: $ms-gutter;
+  padding-right: $ms-gutter;
+}
+
+
+/* ========================================
+   Page layout: main column
+   ======================================== */
+
+/*
+  Minima render chain: `main.page-content > .wrapper > (page content)`
+  `.wrapper` is the main column, it defines:
+    * page background color
+    * shadow
+    * side columns with same color as navigation bar
+*/
+
+html body {
+  background: $ms-color-page;
+}
+
+.site-header,
+.site-footer {
+  background: $ms-color-page;
+}
+
+.site-header .wrapper,
+.site-footer .wrapper {
+  box-sizing: border-box;
+  max-width: $ms-shell-width;
+  padding-left: $ms-gutter;
+  padding-right: $ms-gutter;
+}
+
+.page-content {
+  padding: 0;
+}
+
+.page-content > .wrapper {
+  box-sizing: border-box;
+  max-width: $ms-shell-width;
+  padding: 0;
+  background: $ms-color-column;
+  border-left: $ms-card-border;
+  border-right: $ms-card-border;
+  box-shadow: $ms-shadow-lg;
+}
+
+
+/* Subpages (layout "page"): title is a part of column */
+
+.page-content .post-header {
+  margin: 0;
+  padding: $ms-space-2xl $ms-gutter $ms-space-lg;
+  border-bottom: $ms-card-border;
+}
+
+.page-content .post-title {
+  margin: 0;
+  color: $ms-color-navy;
+  font-size: clamp($ms-text-xl, 5vw, $ms-text-2xl);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.page-content .post-content {
+  margin: 0;
+  padding: $ms-space-xl $ms-gutter $ms-space-section;
+}
+
+.page-content .post-content > p,
+.page-content .post-content > ul,
+.page-content .post-content > ol {
+  max-width: $ms-text-width;
+}
+
+
+/* Subpages sections fill whole column width */
+
+.page-content .post-content > .ms-section {
+  margin-left: -$ms-gutter;
+  margin-right: -$ms-gutter;
+}
+
+.page-content .post-content > .ms-section:first-child {
+  margin-top: -$ms-space-xl;
+}
+
+.page-content .post-content > .ms-section:last-child {
+  margin-bottom: -$ms-space-section;
 }
 
 
@@ -190,8 +282,11 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-section-heading {
-  max-width: $ms-text-width;
   margin-bottom: $ms-space-xl;
+}
+
+.ms-section-heading p {
+  max-width: $ms-text-width;
 }
 
 .ms-section-heading h2 {
@@ -530,7 +625,6 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-offer-intro {
-  max-width: 800px;
   margin-bottom: $ms-space-xl;
 }
 
@@ -691,7 +785,6 @@ $ms-text-2xl: 2rem;
 
 .ms-feature--chester {
   @include ms-card;
-  max-width: $ms-content-width;
   margin-top: 2.5rem;
 
   h3 {
@@ -1064,10 +1157,6 @@ $ms-text-2xl: 2rem;
   color: $ms-color-muted;
 }
 
-.ms-blog__posts {
-  max-width: $ms-content-width;
-}
-
 .ms-blog__post {
   margin-bottom: $ms-space-md;
   padding: $ms-space-lg 2.25rem;
@@ -1163,7 +1252,7 @@ $ms-text-2xl: 2rem;
    ======================================== */
 
 .ms-post {
-  padding: $ms-space-section 0 6rem;
+  padding: $ms-space-section $ms-gutter 6rem;
 }
 
 .ms-post__header {
@@ -1259,7 +1348,7 @@ $ms-text-2xl: 2rem;
 @media (max-width: 600px) {
 
   .ms-post {
-    padding: 3.5rem 0 4rem;
+    padding: 3.5rem $ms-gutter 4rem;
   }
 
   .ms-post__header {
