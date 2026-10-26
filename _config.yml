@@ -34,3 +34,5 @@ exclude:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+theme_color: "#1d428a"
