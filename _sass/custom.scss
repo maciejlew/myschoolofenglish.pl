@@ -8,18 +8,18 @@
 
 /* Colors */
 
-$ms-color-navy: #263746;
-$ms-color-coral: #d85c4a;
-$ms-color-cream: #f4f0e8;
-$ms-color-light: #f7f7f5;
+$ms-color-navy: #1d428a; /* British blue (lighter than Union Jack navy) */
+$ms-color-coral: #c8102e; /* British red */
+$ms-color-cream: #e6edf9; /* pale blue (class names keep "cream") */
+$ms-color-light: #f6f8fc;
 $ms-color-white: #fff;
-$ms-color-page: $ms-color-white; /* sidebar columns background */
-$ms-color-column: $ms-color-cream; /* main column background */
+$ms-color-page: #dfe7f5; /* sidebar columns background */
+$ms-color-column: $ms-color-white; /* main column background */
 
-$ms-color-text: #333;
-$ms-color-muted: #666;
-$ms-color-muted-light: #777;
-$ms-color-border: #e5e2dc;
+$ms-color-text: #1f2937;
+$ms-color-muted: #4b5563;
+$ms-color-muted-light: #5b6472;
+$ms-color-border: #d3dcee;
 
 
 /* Spacing */
@@ -56,9 +56,9 @@ $ms-radius-pill: 999px;
 
 /* Shadows */
 
-$ms-shadow-sm: 0 3px 12px rgba(38, 55, 70, .04);
-$ms-shadow-md: 0 5px 20px rgba(38, 55, 70, .07);
-$ms-shadow-lg: 0 8px 25px rgba(38, 55, 70, .10);
+$ms-shadow-sm: 0 3px 12px rgba(29, 66, 138, .04);
+$ms-shadow-md: 0 5px 20px rgba(29, 66, 138, .07);
+$ms-shadow-lg: 0 8px 25px rgba(29, 66, 138, .10);
 
 
 /* Breakpoints */
@@ -166,6 +166,15 @@ html body {
 .site-header,
 .site-footer {
   background: $ms-color-page;
+}
+
+.site-header {
+  border-top: 6px solid $ms-color-navy;
+  border-bottom: 3px solid $ms-color-coral;
+}
+
+.site-footer {
+  border-top: 3px solid $ms-color-coral;
 }
 
 .site-header .wrapper,
@@ -309,7 +318,7 @@ html body {
 }
 
 .ms-section-heading--light .ms-kicker {
-  color: #f5c6bd;
+  color: #ffe4e8;
 }
 
 
@@ -379,7 +388,7 @@ html body {
 
 .ms-audience__item {
   padding: $ms-space-md;
-  border: 1px solid #ddd;
+  border: 1px solid $ms-color-border;
   border-radius: $ms-radius-md;
 }
 
@@ -486,7 +495,7 @@ html body {
 }
 
 .ms-price .ms-kicker {
-  color: #f5c6bd;
+  color: #ffe4e8;
 }
 
 .ms-price__value {
@@ -532,7 +541,7 @@ html body {
 
 .ms-safeguarding {
   padding: $ms-space-lg 0;
-  background: #eee;
+  background: $ms-color-cream;
   font-size: $ms-text-xs;
   color: $ms-color-muted;
 }
@@ -721,7 +730,7 @@ html body {
   table {
     width: 100%;
     margin: 0;
-    border: 1px solid #dedbd5;
+    border: 1px solid $ms-color-border;
     border-radius: $ms-radius-md;
     border-spacing: 0;
     border-collapse: separate;
@@ -734,7 +743,7 @@ html body {
   td {
     padding: 1.15rem 1.25rem;
     border: 0;
-    border-bottom: 1px solid #e8e5df;
+    border-bottom: 1px solid #dfe6f3;
     vertical-align: middle;
   }
 
@@ -769,7 +778,7 @@ html body {
     transition: background-color .15s ease;
 
     &:hover {
-      background: #faf9f6;
+      background: $ms-color-light;
     }
 
     &:last-child td {
@@ -876,7 +885,7 @@ html body {
         "group price"
         "duration duration";
       padding: 1.25rem;
-      border: 1px solid #dedbd5;
+      border: 1px solid $ms-color-border;
       border-radius: $ms-radius-md;
       background: $ms-color-white;
       box-shadow: $ms-shadow-sm;
@@ -921,7 +930,7 @@ html body {
 
       &::before {
         content: "Czas trwania lekcji: ";
-        color: #555;
+        color: $ms-color-muted;
       }
     }
 
@@ -1176,7 +1185,7 @@ html body {
 
 .ms-blog__post-date {
   margin-bottom: .6rem;
-  color: #888;
+  color: $ms-color-muted-light;
   font-size: $ms-text-xs;
   font-weight: 700;
   letter-spacing: .05em;
@@ -1200,7 +1209,7 @@ html body {
 
 .ms-blog__post-excerpt {
   margin-bottom: 1.25rem;
-  color: #555;
+  color: $ms-color-muted;
   line-height: 1.7;
 }
 
@@ -1327,7 +1336,7 @@ html body {
   padding: $ms-space-md $ms-space-lg;
   border-left: 4px solid $ms-color-coral;
   background: $ms-color-light;
-  color: #555;
+  color: $ms-color-muted;
   font-style: italic;
 }
 
