@@ -16,7 +16,7 @@ breadcrumbs:
     type: AboutPage
 ---
 
-<section class="ms-section ms-section--light" id="cennik">
+<section class="ms-section ms-section--subtle" id="cennik">
   <div class="ms-container">
     <div class="ms-price-table">
       <table>
@@ -69,7 +69,7 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="ms-section ms-section--cream" id="obozy-jezykowe">
+<section class="ms-section ms-section--alt" id="obozy-jezykowe">
   <div class="ms-container">
 
     <div class="ms-section-heading">

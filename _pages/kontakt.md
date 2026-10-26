@@ -16,7 +16,7 @@ breadcrumbs:
     type: ContactPage
 ---
 
-<section class="ms-section ms-section--light">
+<section class="ms-section ms-section--subtle">
   <div class="ms-container">
     <div class="ms-contact">
 
@@ -56,7 +56,7 @@ breadcrumbs:
 </section>
 
 
-<section class="ms-section ms-section--cream">
+<section class="ms-section ms-section--alt">
   <div class="ms-container">
 
     <div class="ms-cta">

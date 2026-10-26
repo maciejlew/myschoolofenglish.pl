@@ -133,15 +133,15 @@ $ms-text-2xl: 2rem;
   padding: $ms-space-section 0;
 }
 
-.ms-section--light {
+.ms-section--subtle {
   background: $ms-color-surface-subtle;
 }
 
-.ms-section--cream {
+.ms-section--alt {
   background: $ms-color-surface-alt;
 }
 
-.ms-section--dark {
+.ms-section--primary {
   background: $ms-color-primary;
   color: $ms-color-text-inverse;
 }
@@ -322,7 +322,7 @@ html body {
   line-height: 1.1;
 }
 
-.ms-section-heading--light h2 {
+.ms-section-heading--inverse h2 {
   color: $ms-color-text-inverse;
 }
 
@@ -335,7 +335,7 @@ html body {
   text-transform: uppercase;
 }
 
-.ms-section-heading--light .ms-kicker {
+.ms-section-heading--inverse .ms-kicker {
   color: $ms-color-accent-soft;
 }
 
@@ -367,7 +367,7 @@ html body {
   color: $ms-color-accent !important;
 }
 
-.ms-button--white {
+.ms-button--inverse {
   background: $ms-color-surface;
   color: $ms-color-primary !important;
 }
