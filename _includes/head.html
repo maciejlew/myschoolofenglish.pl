@@ -5,6 +5,8 @@
 
   {%- seo -%}
 
+  {%- include json-ld-organization.md -%}
+
   {%- if page.layout == "post" -%}
     {%- include json-ld-post.md -%}
   {%- elsif page.url == "/" -%}

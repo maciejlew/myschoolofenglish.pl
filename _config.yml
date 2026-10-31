@@ -3,6 +3,23 @@ title: My School Of English
 description: "My School of English w Bytomiu: angielski dla dzieci, młodzieży i dorosłych. Grupy do 6 osób, matura, egzamin ósmoklasisty, Business English."
 lang: pl-PL
 
+organization:
+  name: "My School of English"
+  telephone: "+48505099321"
+  email: "mbachanek.myschool@gmail.com"
+  price_range: "47-115 zł"
+  address:
+    street: "ul. Moniuszki 20"
+    postal_code: "41-902"
+    city: "Bytom"
+    region: "śląskie"
+    country: "PL"
+  geo:
+    latitude: 50.35039
+    longitude: 18.920259
+  same_as:
+    - "https://www.facebook.com/MySchoolOfEnglish"
+
 collections:
   pages:
     output: true

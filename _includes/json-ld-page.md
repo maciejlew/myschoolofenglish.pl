@@ -20,6 +20,10 @@
             }
         {% endif %}
 
+        {% if site.organization %},
+        "publisher": { "@id": {{ site.url | append: site.baseurl | append: "/#organization" | jsonify }} }
+        {% endif %}
+
         {% if page.date %},
         "dateCreated": {{ page.date| date_to_xmlschema | jsonify }}
         {% endif %}

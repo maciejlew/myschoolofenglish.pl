@@ -26,11 +26,12 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": {{ site.url | append: site.baseurl | append: "/#website" | jsonify }},
         "dateCreated": {{ "2012.08.27 17:28:35" | date_to_xmlschema | jsonify }},
         "dateModified": {{ site_modified | date_to_xmlschema | jsonify }}
 
-        {% if site.name %},
-        "name": {{ site.name | jsonify }}
+        {% if site.title %},
+        "name": {{ site.title | jsonify }}
         {% endif %}
 
         {% if site.description %},
@@ -41,12 +42,8 @@
         "url": {{ site.url | append: site.baseurl | jsonify }}
         {% endif %}
 
-        {% if site.author %},
-        "author": 
-            {
-                "@type": "Person",
-                "name": {{ site.author | jsonify }}
-            }
+        {% if site.organization %},
+        "publisher": { "@id": {{ site.url | append: site.baseurl | append: "/#organization" | jsonify }} }
         {% endif %}
     }
 </script>

@@ -29,11 +29,8 @@
   }
   {% endif %}
 
-  {% if site.name %},
-  "publisher": {
-    "@type": "Organization",
-    "name": {{ site.name | jsonify }}
-  }
+  {% if site.organization %},
+  "publisher": { "@id": {{ site.url | append: site.baseurl | append: "/#organization" | jsonify }} }
   {% endif %}
 
   {% if page.breadcrumbs %},
