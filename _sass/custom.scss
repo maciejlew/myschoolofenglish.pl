@@ -131,6 +131,32 @@ $ms-text-2xl: 2rem;
   }
 }
 
+/* Headers */
+
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6 {
+  color: $ms-color-primary;
+}
+
+.page-content .ms-section--primary h1,
+.page-content .ms-section--primary h2,
+.page-content .ms-section--primary h3,
+.page-content .ms-section--primary h4,
+.page-content .ms-section--primary h5,
+.page-content .ms-section--primary h6,
+.page-content .ms-section--price h1,
+.page-content .ms-section--price h2,
+.page-content .ms-section--price h3,
+.page-content .ms-section--price h4,
+.page-content .ms-section--price h5,
+.page-content .ms-section--price h6 {
+  color: $ms-color-text-inverse;
+}
+
 
 /* ========================================
    Spacing
@@ -272,7 +298,6 @@ html body {
 
 .page-content .post-title {
   margin: 0;
-  color: $ms-color-primary;
   font-size: clamp($ms-text-xl, 5vw, $ms-text-2xl);
   line-height: 1.05;
   letter-spacing: -0.03em;
@@ -364,10 +389,6 @@ html body {
   margin-top: .3rem;
   font-size: clamp($ms-text-xl, 4vw, $ms-text-2xl);
   line-height: 1.1;
-}
-
-.ms-section-heading--inverse h2 {
-  color: $ms-color-text-inverse;
 }
 
 .ms-kicker {
@@ -718,7 +739,6 @@ html body {
 .ms-offer-card h3 {
   margin-top: 0;
   margin-bottom: .75rem;
-  color: $ms-color-primary;
   font-size: $ms-text-xl;
   line-height: 1.2;
 }
@@ -860,7 +880,6 @@ html body {
 
   h3 {
     margin: 0 0 1rem;
-    color: $ms-color-primary;
     font-size: $ms-text-lg;
     line-height: 1.2;
   }
@@ -1088,7 +1107,6 @@ html body {
 
 .ms-contact__details h2 {
   margin: 0 0 $ms-space-md;
-  color: $ms-color-primary;
   font-size: $ms-text-lg;
   line-height: 1.4;
 }
@@ -1216,7 +1234,6 @@ html body {
 
 .ms-blog__intro h1 {
   margin: .3rem 0 1rem;
-  color: $ms-color-primary;
   font-size: clamp($ms-text-xl, 5vw, $ms-text-2xl);
   line-height: 1.05;
 }
@@ -1255,7 +1272,6 @@ html body {
 
 .ms-blog__post h2 {
   margin: 0 0 .75rem;
-  color: $ms-color-primary;
   font-size: clamp($ms-text-xl, 3vw, $ms-text-2xl);
   line-height: 1.2;
 }
@@ -1348,7 +1364,6 @@ html body {
 
 .ms-post__title {
   margin: 0 0 1.25rem;
-  color: $ms-color-primary;
   font-size: clamp($ms-text-xl, 6vw, $ms-text-2xl);
   line-height: 1.05;
   letter-spacing: -0.03em;
@@ -1375,7 +1390,6 @@ html body {
 .ms-post__content h2 {
   margin-top: 3.5rem;
   margin-bottom: 1rem;
-  color: $ms-color-primary;
   font-size: $ms-text-2xl;
   line-height: 1.2;
 }
@@ -1383,7 +1397,6 @@ html body {
 .ms-post__content h3 {
   margin-top: 2.5rem;
   margin-bottom: .75rem;
-  color: $ms-color-primary;
   font-size: $ms-text-xl;
   line-height: 1.3;
 }
