@@ -60,6 +60,13 @@ $ms-shell-width: $ms-container-width; /* main column width */
 $ms-gutter: 2rem; /* main column margin */
 
 
+/* Header */
+
+$ms-header-height: 60px;             /* header content height: logo + vertical padding */
+$ms-logo-height: 44px;               /* logo height in the header */
+$ms-minima-palm: 600px;              /* Minima's own mobile menu breakpoint ($on-palm) */
+
+
 /* Cards */
 
 $ms-card-border: 1px solid $ms-color-border;
@@ -201,6 +208,43 @@ html body {
   max-width: $ms-shell-width;
   padding-left: $ms-gutter;
   padding-right: $ms-gutter;
+}
+
+
+/* Header: logo instead of the text title */
+
+.site-title {
+  display: flex;
+  align-items: center;
+  height: $ms-header-height;
+  margin: 0;
+  line-height: 1;
+}
+
+.site-title__logo {
+  display: block;
+  width: auto;
+  height: $ms-logo-height;
+}
+
+/* Desktop: menu vertically centered against the logo */
+
+@media (min-width: #{$ms-minima-palm + 1}) {
+
+  .site-nav {
+    line-height: $ms-header-height;
+  }
+
+}
+
+/* Mobile: hamburger button (36px + 2px border) centered against the logo */
+
+@media (max-width: $ms-minima-palm) {
+
+  .site-nav {
+    top: calc(#{$ms-header-height} / 2 - 19px);
+  }
+
 }
 
 .page-content {
