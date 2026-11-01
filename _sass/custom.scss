@@ -114,6 +114,30 @@ $ms-text-2xl: 2rem;
   box-shadow: $ms-shadow-md;
 }
 
+/* Card interaction */
+
+.ms-feature,
+.ms-testimonial,
+.ms-workshop,
+.ms-offer-card,
+.ms-audience__item,
+.ms-blog__post {
+  transition: transform .15s ease, box-shadow .15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $ms-shadow-lg;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
 
 /* Grid layout */
 
@@ -470,9 +494,8 @@ html body {
 }
 
 .ms-audience__item {
+  @include ms-card;
   padding: $ms-space-md;
-  border: 1px solid $ms-color-border;
-  border-radius: $ms-radius-md;
 }
 
 .ms-audience__item h3 {
@@ -1246,20 +1269,9 @@ html body {
 }
 
 .ms-blog__post {
+  @include ms-card;
   margin-bottom: $ms-space-md;
   padding: $ms-space-lg 2.25rem;
-  background: $ms-color-surface;
-  border: 1px solid $ms-color-border;
-  border-radius: $ms-radius-md;
-  box-shadow: $ms-shadow-sm;
-  transition:
-    transform .15s ease,
-    box-shadow .15s ease;
-}
-
-.ms-blog__post:hover {
-  transform: translateY(-2px);
-  box-shadow: $ms-shadow-lg;
 }
 
 .ms-blog__post-date {
