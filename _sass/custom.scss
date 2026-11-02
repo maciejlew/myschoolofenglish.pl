@@ -658,6 +658,42 @@ html body {
 
 
 /* ========================================
+   Wide
+   ======================================== */
+
+@media (max-width: $ms-breakpoint-wide) {
+
+  .ms-about {
+    gap: $ms-space-xl;
+  }
+
+}
+
+
+/* ========================================
+   Tablet
+   ======================================== */
+
+@media (max-width: $ms-breakpoint-tablet) {
+
+  .ms-audience {
+    @include ms-grid-collapse(repeat(2, 1fr));
+  }
+
+  .ms-testimonials {
+    @include ms-grid-collapse(repeat(2, minmax(0, 1fr)));
+  }
+
+  /* 3rd testimonial take full width */
+
+  .ms-testimonial:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+/* ========================================
    Mobile
    ======================================== */
 
@@ -689,6 +725,10 @@ html body {
 
   .ms-audience {
     @include ms-grid-collapse(1fr, .75rem);
+  }
+
+  .ms-testimonial:last-child:nth-child(odd) {
+    grid-column: auto;
   }
 
 }
@@ -1319,7 +1359,7 @@ html body {
   letter-spacing: .06em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: $ms-breakpoint-mobile) {
 
   .ms-blog {
     padding: 3.5rem 0;
@@ -1441,7 +1481,7 @@ html body {
   line-height: 1.8;
 }
 
-@media (max-width: 600px) {
+@media (max-width: $ms-breakpoint-mobile) {
 
   .ms-post {
     padding: 3.5rem $ms-gutter 4rem;
