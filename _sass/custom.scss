@@ -103,6 +103,8 @@ $ms-text-lg: 1.2rem;
 $ms-text-xl: 1.5rem;
 $ms-text-2xl: 2rem;
 
+$ms-text-h1-min: 1.75rem;
+
 
 /* Card component */
 
@@ -155,7 +157,14 @@ $ms-text-2xl: 2rem;
   }
 }
 
+
 /* Headers */
+
+@mixin ms-h1 {
+  font-size: clamp($ms-text-h1-min, 6vw, $ms-text-2xl);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
 
 .page-content h1,
 .page-content h2,
@@ -322,9 +331,7 @@ html body {
 
 .page-content .post-title {
   margin: 0;
-  font-size: clamp($ms-text-xl, 5vw, $ms-text-2xl);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  @include ms-h1;
 }
 
 .page-content .post-content {
@@ -370,9 +377,7 @@ html body {
 
 .ms-hero h1 {
   margin: 0 0 $ms-space-md;
-  font-size: clamp($ms-text-xl, 6vw, $ms-text-2xl);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  @include ms-h1;
 }
 
 .ms-hero__lead {
@@ -1297,8 +1302,7 @@ html body {
 
 .ms-blog__intro h1 {
   margin: .3rem 0 1rem;
-  font-size: clamp($ms-text-xl, 5vw, $ms-text-2xl);
-  line-height: 1.05;
+  @include ms-h1;
 }
 
 .ms-blog__intro p {
@@ -1416,9 +1420,7 @@ html body {
 
 .ms-post__title {
   margin: 0 0 1.25rem;
-  font-size: clamp($ms-text-xl, 6vw, $ms-text-2xl);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  @include ms-h1;
 }
 
 .ms-post__description {
@@ -1442,14 +1444,14 @@ html body {
 .ms-post__content h2 {
   margin-top: 3.5rem;
   margin-bottom: 1rem;
-  font-size: $ms-text-2xl;
+  font-size: $ms-text-xl;
   line-height: 1.2;
 }
 
 .ms-post__content h3 {
   margin-top: 2.5rem;
   margin-bottom: .75rem;
-  font-size: $ms-text-xl;
+  font-size: $ms-text-lg;
   line-height: 1.3;
 }
 
@@ -1489,10 +1491,6 @@ html body {
 
   .ms-post__header {
     margin-bottom: $ms-space-lg;
-  }
-
-  .ms-post__title {
-    font-size: clamp($ms-text-xl, 10vw, $ms-text-2xl);
   }
 
   .ms-post__description {
