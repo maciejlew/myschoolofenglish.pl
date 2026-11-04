@@ -54,7 +54,6 @@ $ms-space-section: 5rem;
 /* Layout */
 
 $ms-container-width: 1100px;
-$ms-content-width: 850px;
 $ms-text-width: 750px;
 $ms-shell-width: $ms-container-width; /* main column width */
 $ms-gutter: 2rem; /* main column margin */
@@ -1438,7 +1437,7 @@ html body {
 }
 
 .ms-post__header {
-  max-width: $ms-content-width;
+  max-width: $ms-text-width;
   margin: 0 auto $ms-space-2xl;
 }
 
