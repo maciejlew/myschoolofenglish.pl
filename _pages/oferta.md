@@ -23,18 +23,41 @@ redirect_from:
   - /tag/matura-z-angielskiego
 ---
 
-<div class="ms-offer-intro">
-Nasza oferta obejmuje:
-zajęcia indywidualne i grupowe (maksymalnie 6 osób),
-zajęcia dla dzieci i dorosłych (od podstawówki do seniorów),
-przygotowanie do egzaminu ósmoklasisty, matury, FCE, CAE,
-Business English,
-Direct English,
-zajęcia plenerowe,
-warsztaty językowe na miejscu i w Anglii,
-kursy językowe w Anglii,
-wycieczki do Anglii.
-</div> <div class="ms-offer-grid"> <div class="ms-offer-card" id="zajecia-dla-dzieci"> <h3>Zajęcia dla dzieci</h3> <h4>„Let's go to school!”</h4>
+<section class="ms-section ms-section--subtle" markdown="1">
+<div class="ms-container" markdown="1">
+
+<div class="ms-section-heading" markdown="1">
+
+## Nasza oferta obejmuje
+
+</div>
+
+<div class="ms-offer-intro" markdown="1">
+
+- zajęcia indywidualne i grupowe (maksymalnie 6 osób)
+- zajęcia dla dzieci i dorosłych (od podstawówki do seniorów)
+- przygotowanie do egzaminu ósmoklasisty, matury, FCE, CAE
+- Business English
+- Direct English
+- zajęcia plenerowe
+- warsztaty językowe na miejscu i w Anglii
+- kursy językowe w Anglii
+- wycieczki do Anglii
+
+</div>
+
+</div>
+</section>
+
+<section class="ms-section ms-section--alt" markdown="1">
+<div class="ms-container" markdown="1">
+<div class="ms-offer-grid" markdown="1">
+
+<div class="ms-offer-card" markdown="1">
+
+### Zajęcia dla dzieci {#zajecia-dla-dzieci}
+
+#### „Let's go to school!”
 
 To zajęcia dla dzieci szkolnych, od podstawówki do liceum.
 
@@ -50,7 +73,18 @@ Odpowiadamy sobie na pytanie: Dlaczego właściwie uczymy się angielskiego?
 
 W obliczu egzaminu zachęcamy do wytężonej pracy, sprawdzamy zaangażowanie kursantów i motywujemy.
 
-<a class="ms-button" href="/kontakt.html"> Sprawdź wolne miejsca </a> <p class="ms-offer-phone"> <a href="tel:+48505099321">☎ 505 099 321</a> </p> </div> <div class="ms-offer-card" id="zajecia-dla-doroslych"> <h3>Zajęcia dla dorosłych</h3> <h4>„Let's talk!”</h4>
+[Sprawdź wolne miejsca](/kontakt.html){: .ms-button}
+
+[☎ 505 099 321](tel:+48505099321)
+{: .ms-offer-phone}
+
+</div>
+
+<div class="ms-offer-card" markdown="1">
+
+### Zajęcia dla dorosłych {#zajecia-dla-doroslych}
+
+#### „Let's talk!”
 
 To zajęcia dla dorosłych mające na celu przełamanie bariery w swobodnym posługiwaniu się językiem angielskim.
 
@@ -62,7 +96,18 @@ Na zajęciach nie ograniczamy się jedynie do zadawania pytań w oparciu o podr�
 
 Przyjemna i wesoła atmosfera, towarzysząca naszym spotkaniom, sprawia, że kursanci, dobrze się bawiąc, coraz lepiej i pewniej porozumiewają się po angielsku.
 
-<a class="ms-button" href="/kontakt.html"> Sprawdź wolne miejsca </a> <p class="ms-offer-phone"> <a href="tel:+48505099321">☎ 505 099 321</a> </p> </div> <div class="ms-offer-card" id="business-english"> <h3>„Let's do business!”</h3> <h4>Zajęcia te skierowane są do klientów korporacyjnych.</h4>
+[Sprawdź wolne miejsca](/kontakt.html){: .ms-button}
+
+[☎ 505 099 321](tel:+48505099321)
+{: .ms-offer-phone}
+
+</div>
+
+<div class="ms-offer-card" markdown="1">
+
+### „Let's do business!” {#business-english}
+
+#### Zajęcia te skierowane są do klientów korporacyjnych.
 
 Formuła zajęć oraz ich treść, częstotliwość i miejsce spotkań (siedziba szkoły czy firmy) są do ustalenia indywidualnie.
 
@@ -74,4 +119,13 @@ Pracujemy w oparciu o renomowane podręczniki, materiały źródłowe i nagrania
 
 W trakcie trwania kursu przeprowadzamy testy sprawdzające Państwa postępy w nauce, a na koniec egzamin, na podstawie którego sporządzamy opinie o kursantach.
 
-<a class="ms-button" href="/kontakt.html"> Sprawdź wolne miejsca </a> <p class="ms-offer-phone"> <a href="tel:+48505099321">☎ 505 099 321</a> </p> </div> </div>
+[Sprawdź wolne miejsca](/kontakt.html){: .ms-button}
+
+[☎ 505 099 321](tel:+48505099321)
+{: .ms-offer-phone}
+
+</div>
+
+</div>
+</div>
+</section>

@@ -16,11 +16,22 @@ breadcrumbs:
     type: AboutPage
 ---
 
-Tworzymy bezpieczną przestrzeń dla każdego dziecka.
+<section class="ms-section ms-section--subtle" markdown="1">
+<div class="ms-container" markdown="1">
 
+<div class="ms-section-heading" markdown="1">
 
+## Tworzymy bezpieczną przestrzeń dla każdego dziecka.
+
+</div>
+
+<div class="ms-docs" markdown="1">
 
 - [Standardy ochrony małoletnich My School of English](/files/standardy-ochrony/standardy-ochrony-maloletnich-my-school-of-english.pdf)
 - [Standardy ochrony małoletnich My School of English – wersja skrócona](/files/standardy-ochrony/standardy-ochrony-maloletnich-my-school-of-english-wersja-skrocona.pdf)
 - [Załączniki do standardów](/files/standardy-ochrony/zalaczniki-do-standardow-ochrony-maloletnich-my-school-of-english.pdf)
 
+</div>
+
+</div>
+</section>

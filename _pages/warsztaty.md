@@ -26,28 +26,39 @@ redirect_from:
   - /tag/warsztaty-po-angielsku
 ---
 
-ANGIELSKI TO COŚ WIĘCEJ NIŻ LEKCJA
+<section class="ms-section ms-section--subtle" markdown="1">
+<div class="ms-container" markdown="1">
+
+<div class="ms-section-heading" markdown="1">
 
 Czytamy. Gotujemy. Tworzymy. Odkrywamy. Mówimy po angielsku.
+{: .ms-kicker}
+
+## Angielski to coś więcej niż lekcja
 
 My School of English proponuje warsztaty literackie, teatralne, kulinarne, ogrodnicze i plastyczne.
 
-<div class="ms-workshops"> <div class="ms-workshop" id="warsztaty-literackie">
+</div>
 
-<h3>Warsztaty literackie „Let's read!”</h3>
+<div class="ms-workshops" markdown="1">
+
+<div class="ms-workshop" markdown="1">
+
+### Warsztaty literackie „Let's read!” {#warsztaty-literackie}
 
 To cykliczne spotkania, mające na celu przybliżenie polskim dzieciom literatury anglosaskiej w oryginalnym brzmieniu, czyli po angielsku.
 
 Biblioteczka My School of English rozrasta się w oczach, ku uciesze pani Gosi, zapalonej czytelniczki, oraz uczniów, którzy, jak się okazuje, bardzo lubią słuchać bajek, zgadywać, co będzie dalej, pomagać w czytaniu, jak również uczestniczyć w projektach plastycznych opartych na przeczytanej książce.
 
-
 Wybrane pozycje to perełki literatury dziecięcej autorstwa Julii Donaldson, Erica Carle'a, Roalda Dahla, A.A. Milne'a i wielu innych poczytnych pisarzy.
 
 Warsztaty odbywają się w siedzibie szkoły, jak również na zaproszenie w przeróżnych miejscach użyteczności publicznej, takich jak biblioteki, szkoły, przedszkola i kawiarnie.
 
-</div> <div class="ms-workshop" id="warsztaty-ogrodnicze">
+</div>
 
-<h3>Warsztaty ogrodnicze „Let's get dirty!”</h3>
+<div class="ms-workshop" markdown="1">
+
+### Warsztaty ogrodnicze „Let's get dirty!” {#warsztaty-ogrodnicze}
 
 To autorski projekt My School of English.
 
@@ -57,9 +68,11 @@ Poprzez kreatywną zabawę mali ogrodnicy dowiadują się, jak istotnym elemente
 
 Równie ważnym aspektem naszego projektu jest bezpośredni kontakt z naturą poprzez dosłowne ubrudzenie sobie rączek, co przecież dzieci lubią najbardziej.
 
-</div> <div class="ms-workshop" id="warsztaty-kulinarne">
+</div>
 
-<h3>Warsztaty kulinarne „Let's eat!”</h3>
+<div class="ms-workshop" markdown="1">
+
+### Warsztaty kulinarne „Let's eat!” {#warsztaty-kulinarne}
 
 Cieszą się największym zainteresowaniem wśród uczniów My School of English, zgodnie chyba z zasadą „przez żołądek do serca”.
 
@@ -71,9 +84,11 @@ Nic tak nie utwierdza w przekonaniu, że opłaciło się poświęcić co nieco u
 
 Efekt finalny – miodzio!
 
-</div> <div class="ms-workshop" id="warsztaty-plastyczne">
+</div>
 
-<h3>Warsztaty plastyczne „Let's draw!”</h3>
+<div class="ms-workshop" markdown="1">
+
+### Warsztaty plastyczne „Let's draw!” {#warsztaty-plastyczne}
 
 Czyli profesjonalne, absolutnie magiczne lekcje rysunku po angielsku.
 
@@ -83,4 +98,9 @@ W pełnym skupieniu doskonalą swoje umiejętności, tym samym rozwijając pasje
 
 O tym, jak bardzo zajęcia te lubiane są przez naszych uczniów, świadczą wypieki na ich twarzach po wyjściu z sali.
 
-</div> </div>
+</div>
+
+</div>
+
+</div>
+</section>

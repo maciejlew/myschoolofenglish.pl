@@ -121,6 +121,7 @@ $ms-text-h1-min: 1.75rem;
 .ms-feature,
 .ms-testimonial,
 .ms-workshop,
+.ms-docs li,
 .ms-offer-card,
 .ms-audience__item,
 .ms-blog__post {
@@ -220,7 +221,6 @@ $ms-text-h1-min: 1.75rem;
 
 .ms-section--cta {
   background: $ms-color-surface-subtle;
-  text-align: center;
 }
 
 .ms-container {
@@ -631,6 +631,7 @@ html body {
 .ms-cta {
   max-width: 700px;
   margin: auto;
+  text-align: center;
 }
 
 .ms-cta h2 {
@@ -745,7 +746,6 @@ html body {
 
 .ms-workshops {
   @include ms-grid(repeat(2, minmax(0, 1fr)), $ms-space-lg);
-  margin: $ms-space-xl 0;
 }
 
 .ms-workshop {
@@ -770,7 +770,6 @@ html body {
 
   .ms-workshops {
     @include ms-grid-collapse(1fr, $ms-space-md);
-    margin-top: $ms-space-lg;
   }
 
   .ms-workshop {
@@ -784,16 +783,15 @@ html body {
    Oferta
    ======================================== */
 
-.ms-offer-intro {
-  margin-bottom: $ms-space-xl;
-}
-
-.ms-offer-intro h3 {
-  margin-bottom: $ms-space-md;
-}
-
 .ms-offer-intro ul {
-  margin-bottom: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: $ms-space-xl;
+}
+
+.ms-offer-intro li {
+  margin-bottom: $ms-space-xs;
+  break-inside: avoid;
 }
 
 .ms-offer-grid {
@@ -866,6 +864,39 @@ html body {
     padding: 1.5rem;
   }
 
+  .ms-offer-intro ul {
+    columns: 1;
+  }
+
+}
+
+
+/* ========================================
+    Docs
+   ======================================== */
+
+.ms-docs ul {
+  display: grid;
+  gap: $ms-space-sm;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ms-docs li {
+  @include ms-card;
+  margin: 0;
+  padding: $ms-space-md;
+}
+
+.ms-docs a {
+  color: $ms-color-primary;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ms-docs a:hover {
+  color: $ms-color-accent;
 }
 
 

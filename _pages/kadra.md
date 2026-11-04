@@ -16,6 +16,8 @@ breadcrumbs:
     type: AboutPage
 ---
 
+<section class="ms-section ms-section--subtle" markdown="1">
+<div class="ms-container" markdown="1">
 <div class="ms-about ms-about--portrait" markdown="1">
 
 <div class="ms-about__image">
@@ -41,3 +43,5 @@ Prywatnie: miłośniczka kotów, muzyki britpopowej i czekolady.
 </div>
 
 </div>
+</div>
+</section>
