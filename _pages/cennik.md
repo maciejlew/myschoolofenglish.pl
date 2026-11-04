@@ -73,6 +73,7 @@ breadcrumbs:
   <div class="ms-container">
 
     <div class="ms-section-heading">
+      <p class="ms-kicker">Wyjazdy do Anglii</p>
       <h2>Obozy językowe</h2>
     </div>
 
