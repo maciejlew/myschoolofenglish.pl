@@ -47,6 +47,40 @@
   {% if org.same_as and org.same_as.size > 0 %},
   "sameAs": {{ org.same_as | jsonify }}
   {% endif %}
+
+  {% if org.founding_date %},
+  "foundingDate": {{ org.founding_date | jsonify }}
+  {% endif %}
+
+  {% if org.logo %},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ org.logo | absolute_url | jsonify }}
+    {% if org.logo_width %},
+    "width": {{ org.logo_width | jsonify }}
+    {% endif %}
+    {% if org.logo_height %},
+    "height": {{ org.logo_height | jsonify }}
+    {% endif %}
+  },
+  "image": {{ org.logo | absolute_url | jsonify }}
+  {% endif %}
+
+  {% if org.founder %},
+  "founder": {
+    "@type": "Person",
+    "name": {{ org.founder.name | jsonify }}
+    {% if org.founder.job_title %},
+    "jobTitle": {{ org.founder.job_title | jsonify }}
+    {% endif %}
+    {% if org.founder.url %},
+    "url": {{ org.founder.url | absolute_url | jsonify }}
+    {% endif %}
+    {% if org.founder.image %},
+    "image": {{ org.founder.image | absolute_url | jsonify }}
+    {% endif %}
+  }
+  {% endif %}
 }
 </script>
 {%- endif -%}

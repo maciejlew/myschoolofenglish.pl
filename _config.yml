@@ -12,6 +12,15 @@ organization:
   telephone: "+48505099321"
   email: "mbachanek.myschool@gmail.com"
   price_range: "47-115 zł"
+  founding_date: "2012"
+  logo: "/assets/img/logo/my-school-of-english-logo-132.png"
+  logo_width: 180
+  logo_height: 132
+  founder:
+    name: "Małgorzata Bachanek"
+    job_title: "Założycielka i lektorka"
+    url: "/kadra.html"
+    image: "/assets/img/kadra/malgorzata-bachanek-960.jpg"
   address:
     street: "ul. Moniuszki 20"
     postal_code: "41-902"
