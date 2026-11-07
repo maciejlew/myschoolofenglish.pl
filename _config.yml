@@ -2,6 +2,10 @@ theme: minima
 title: My School Of English
 description: "My School of English w Bytomiu: angielski dla dzieci, młodzieży i dorosłych. Grupy do 6 osób, matura, egzamin ósmoklasisty, Business English."
 lang: pl-PL
+url: "https://myschoolofenglish.pl"
+
+# Open Graph image (1200x630 px)
+# image: "/assets/img/og/my-school-of-english-og.png"
 
 organization:
   name: "My School of English"
@@ -49,6 +53,7 @@ exclude:
   - docker-compose.yml
 
 plugins:
+  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-sitemap
 
