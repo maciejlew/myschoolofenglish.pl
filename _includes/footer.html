@@ -22,8 +22,13 @@
       </div>
     {%- endif -%}
 
+    {%- assign copyright_end = site.time | date: "%Y" -%}
+    {%- assign copyright_start = site.organization.founding_date | slice: 0, 4 | default: copyright_end -%}
     <div class="footer-copyright">
-      &copy; {{ site.time | date: "%Y" }}
+      &copy;
+      {%- if copyright_start != copyright_end %} {{ copyright_start }}&ndash;{{ copyright_end }}
+      {%- else %} {{ copyright_end }}
+      {%- endif %}
       {{ site.title | escape }}
     </div>
 
