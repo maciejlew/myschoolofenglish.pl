@@ -269,6 +269,35 @@ html body {
 }
 
 
+/* Footer: social profile link */
+
+.footer-social {
+  margin-top: $ms-space-sm;
+}
+
+.footer-social__link {
+  display: inline-flex;
+  align-items: center;
+  gap: $ms-space-xs;
+  min-height: 44px;
+  color: $ms-color-primary;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    color: $ms-color-accent;
+    text-decoration: underline;
+  }
+}
+
+.footer-social__icon {
+  flex: none;
+  width: 24px;
+  height: 24px;
+}
+
+
 /* Header: logo instead of the text title */
 
 .site-title {
