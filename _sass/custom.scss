@@ -603,6 +603,14 @@ html body {
   font-weight: 700;
 }
 
+.ms-testimonials__note {
+  max-width: $ms-text-width;
+  margin: $ms-space-md 0 0;
+  color: $ms-color-text-subtle;
+  font-size: $ms-text-xs;
+  line-height: 1.5;
+}
+
 
 /* ========================================
    Cena
