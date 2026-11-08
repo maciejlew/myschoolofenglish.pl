@@ -272,6 +272,9 @@ html body {
 /* Footer: social profile link */
 
 .footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 $ms-space-md;
   margin-top: $ms-space-sm;
 }
 
