@@ -269,16 +269,16 @@ html body {
 }
 
 
-/* Footer: social profile link */
+/* Footer: profile links (class names avoid the word "social", which adblock filters hide) */
 
-.footer-social {
+.footer-profiles {
   display: flex;
   flex-wrap: wrap;
   gap: 0 $ms-space-md;
   margin-top: $ms-space-sm;
 }
 
-.footer-social__link {
+.footer-profiles__link {
   display: inline-flex;
   align-items: center;
   gap: $ms-space-xs;
@@ -294,7 +294,7 @@ html body {
   }
 }
 
-.footer-social__icon {
+.footer-profiles__icon {
   flex: none;
   width: 24px;
   height: 24px;
