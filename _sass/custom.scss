@@ -269,20 +269,50 @@ html body {
 }
 
 
-/* Footer: profile links (class names avoid the word "social", which adblock filters hide) */
+/* Footer: logo + navigation columns + bottom bar
+   Class names avoid Minima's own `.footer-col*` and the word "social"
+   (adblock filters hide it). */
 
-.footer-profiles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 $ms-space-md;
-  margin-top: $ms-space-sm;
+.site-footer {
+  padding: $ms-space-xl 0 $ms-space-lg;
 }
 
-.footer-profiles__link {
+.footer-grid {
+  @include ms-grid(minmax(0, 1.2fr) repeat(3, minmax(0, 1fr)), $ms-space-xl);
+  align-items: start;
+}
+
+.footer-brand a {
+  display: inline-block;
+}
+
+.footer-brand__logo {
+  display: block;
+  width: auto;
+  height: $ms-logo-height;
+}
+
+.footer-nav__title {
+  margin: 0 0 $ms-space-sm;
+  color: $ms-color-accent;
+  font-size: $ms-text-xs;
+  font-weight: 700;
+  letter-spacing: .12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.footer-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav__link {
   display: inline-flex;
   align-items: center;
   gap: $ms-space-xs;
-  min-height: 44px;
+  min-height: 40px;
   color: $ms-color-primary;
   font-weight: 700;
   text-decoration: none;
@@ -294,10 +324,54 @@ html body {
   }
 }
 
-.footer-profiles__icon {
+.footer-nav__icon {
   flex: none;
   width: 24px;
   height: 24px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: $ms-space-xs $ms-space-md;
+  margin-top: $ms-space-xl;
+  padding-top: $ms-space-md;
+  border-top: 1px solid rgba($ms-color-primary, .15);
+  color: $ms-color-text-muted;
+  font-size: $ms-text-sm;
+}
+
+@media (max-width: $ms-breakpoint-tablet) {
+
+  .footer-grid {
+    @include ms-grid-collapse(repeat(3, minmax(0, 1fr)), $ms-space-lg);
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+}
+
+@media (max-width: $ms-breakpoint-mobile) {
+
+  .footer-grid {
+    @include ms-grid-collapse(repeat(2, minmax(0, 1fr)));
+  }
+
+  .footer-bottom {
+    margin-top: $ms-space-lg;
+  }
+
+}
+
+@media (max-width: $ms-breakpoint-small) {
+
+  .footer-grid {
+    @include ms-grid-collapse(1fr);
+  }
+
 }
 
 

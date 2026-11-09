@@ -49,11 +49,22 @@ header_pages:
   - _pages/kadra.md
   - _pages/kontakt.md
 
-footer_pages:
-  - _pages/standardy-ochrony.md
-  - _pages/polityka-plikow-cookies.md
-  - _pages/blog.md
-  - _pages/kontakt.md
+footer_columns:
+  - title: "Nauka"
+    pages:
+      - _pages/oferta.md
+      - _pages/warsztaty.md
+      - _pages/cennik.md
+  - title: "Szkoła"
+    pages:
+      - _pages/kadra.md
+      - _pages/blog.md
+      - _pages/standardy-ochrony.md
+      - _pages/polityka-plikow-cookies.md
+  - title: "Znajdź nas"
+    pages:
+      - _pages/kontakt.md
+    profiles: true
 
 exclude:
   - Gemfile

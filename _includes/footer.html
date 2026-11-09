@@ -3,68 +3,96 @@
 
   <div class="wrapper">
 
-    <div class="footer-links">
-      {%- for path in site.footer_pages -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-          <a href="{{ my_page.url | relative_url }}">
-            {{ my_page.title | escape }}
-          </a>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
-
     {%- assign facebook_url = site.organization.same_as | where_exp: "url", "url contains 'facebook.com'" | first -%}
     {%- assign instagram_url = site.organization.same_as | where_exp: "url", "url contains 'instagram.com'" | first -%}
-    {%- if facebook_url or instagram_url -%}
-      <div class="footer-profiles">
-        {%- if facebook_url -%}
-        <a class="footer-profiles__link"
-           href="{{ facebook_url }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="Facebook (otwiera się w nowej karcie)">
-          <svg class="footer-profiles__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
-            <path fill="currentColor" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
-          </svg>
-          <span>Facebook</span>
-        </a>
-        {%- endif -%}
-        {%- if instagram_url -%}
-        <a class="footer-profiles__link"
-           href="{{ instagram_url }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="Instagram (otwiera się w nowej karcie)">
-          <svg class="footer-profiles__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
-            <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/>
-            <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
-            <circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/>
-          </svg>
-          <span>Instagram</span>
-        </a>
-        {%- endif -%}
-      </div>
-    {%- endif -%}
 
-    {%- if site.author -%}
-      <div class="footer-author">
-        {%- if site.author.name -%}
-          {{ site.author.name | escape }}
-        {%- endif -%}
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="{{ '/' | relative_url }}">
+          <img
+            class="footer-brand__logo"
+            src="{{ '/assets/img/logo/my-school-of-english-logo-44.png' | relative_url }}"
+            srcset="{{ '/assets/img/logo/my-school-of-english-logo-44.png' | relative_url }} 1x,
+                    {{ '/assets/img/logo/my-school-of-english-logo-88.png' | relative_url }} 2x,
+                    {{ '/assets/img/logo/my-school-of-english-logo-132.png' | relative_url }} 3x"
+            width="60"
+            height="44"
+            alt="{{ site.title | escape }} – strona główna"
+            loading="lazy"
+            decoding="async">
+        </a>
       </div>
-    {%- endif -%}
+
+      {%- for column in site.footer_columns -%}
+        <nav class="footer-nav" aria-labelledby="footer-nav-{{ forloop.index }}">
+          <h2 class="footer-nav__title" id="footer-nav-{{ forloop.index }}">{{ column.title | escape }}</h2>
+
+          <ul class="footer-nav__list">
+            {%- for path in column.pages -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <li>
+                  <a class="footer-nav__link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+
+            {%- if column.profiles -%}
+              {%- if facebook_url -%}
+                <li>
+                  <a class="footer-nav__link"
+                     href="{{ facebook_url }}"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Facebook (otwiera się w nowej karcie)">
+                    <svg class="footer-nav__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+                      <path fill="currentColor" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+                    </svg>
+                    <span>Facebook</span>
+                  </a>
+                </li>
+              {%- endif -%}
+              {%- if instagram_url -%}
+                <li>
+                  <a class="footer-nav__link"
+                     href="{{ instagram_url }}"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Instagram (otwiera się w nowej karcie)">
+                    <svg class="footer-nav__icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+                      <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/>
+                    </svg>
+                    <span>Instagram</span>
+                  </a>
+                </li>
+              {%- endif -%}
+            {%- endif -%}
+          </ul>
+        </nav>
+      {%- endfor -%}
+
+    </div>
 
     {%- assign copyright_end = site.time | date: "%Y" -%}
     {%- assign copyright_start = site.organization.founding_date | slice: 0, 4 | default: copyright_end -%}
-    <div class="footer-copyright">
-      &copy;
-      {%- if copyright_start != copyright_end %} {{ copyright_start }}&ndash;{{ copyright_end }}
-      {%- else %} {{ copyright_end }}
-      {%- endif %}
-      {{ site.title | escape }}
+    <div class="footer-bottom">
+
+      {%- if site.author and site.author.name -%}
+        <div class="footer-author">{{ site.author.name | escape }}</div>
+      {%- endif -%}
+
+      <div class="footer-copyright">
+        &copy;
+        {%- if copyright_start != copyright_end %} {{ copyright_start }}&ndash;{{ copyright_end }}
+        {%- else %} {{ copyright_end }}
+        {%- endif %}
+        {{ site.title | escape }}
+      </div>
+
     </div>
 
   </div>
 </footer>
-
