@@ -34,12 +34,9 @@ breadcrumbs:
 
         <iframe
           src="https://maps.google.pl/maps?f=q&amp;source=s_q&amp;hl=pl&amp;geocode=&amp;q=bytom+moniuszki+20&amp;aq=&amp;sll=50.347761,18.920431&amp;sspn=0.03582,0.063429&amp;ie=UTF8&amp;hq=&amp;hnear=Stanis%C5%82awa+Moniuszki+20,+Bytom,+%C5%9Bl%C4%85skie&amp;t=m&amp;ll=50.35039,18.920259&amp;spn=0.019169,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"
+          title="Mapa Google z lokalizacją My School of English, Bytom, ul. Moniuszki 20"
           width="425"
-          height="350"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          scrolling="no">
+          height="350">
         </iframe>
 
         <p class="ms-contact__map-link">
