@@ -1,0 +1,29 @@
+{%- comment -%}
+  Prints text (HTML-escaped) and marks English fragments with lang="en"
+  (WCAG 3.1.2 Language of Parts).
+
+  Parameters:
+    text  - the text to print (title, description)
+    whole - language code when the WHOLE text is in another language
+            (e.g. title_lang: en)
+    parts - list of fragments of the text that are in English
+            (e.g. title_en_parts, description_en_parts); each fragment must
+            appear in the text exactly as written
+
+  Example in a post's front matter:
+    title: 'Warsztaty plastyczne "Drawing in English" - martwa natura.'
+    title_en_parts: ["Drawing in English"]
+{%- endcomment -%}
+{%- assign lop_out = include.text | escape -%}
+{%- if include.whole -%}
+  <span lang="{{ include.whole | escape }}">{{ lop_out }}</span>
+{%- elsif include.parts -%}
+  {%- for lop_part in include.parts -%}
+    {%- assign lop_esc = lop_part | escape -%}
+    {%- capture lop_wrapped -%}<span lang="en">{{ lop_esc }}</span>{%- endcapture -%}
+    {%- assign lop_out = lop_out | replace: lop_esc, lop_wrapped -%}
+  {%- endfor -%}
+  {{- lop_out -}}
+{%- else -%}
+  {{- lop_out -}}
+{%- endif -%}

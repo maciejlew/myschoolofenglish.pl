@@ -36,7 +36,7 @@ Czytamy. Gotujemy. Tworzymy. Odkrywamy. Mówimy po angielsku.
 
 ## Angielski to coś więcej niż lekcja
 
-My School of English proponuje warsztaty literackie, teatralne, kulinarne, ogrodnicze i plastyczne.
+<span lang="en">My School of English</span> proponuje warsztaty literackie, teatralne, kulinarne, ogrodnicze i plastyczne.
 
 </div>
 
@@ -44,11 +44,11 @@ My School of English proponuje warsztaty literackie, teatralne, kulinarne, ogrod
 
 <div class="ms-workshop" markdown="1">
 
-### Warsztaty literackie „Let's read!” {#warsztaty-literackie}
+### Warsztaty literackie „<span lang="en">Let's read!</span>” {#warsztaty-literackie}
 
 To cykliczne spotkania, mające na celu przybliżenie polskim dzieciom literatury anglosaskiej w oryginalnym brzmieniu, czyli po angielsku.
 
-Biblioteczka My School of English rozrasta się w oczach, ku uciesze pani Gosi, zapalonej czytelniczki, oraz uczniów, którzy, jak się okazuje, bardzo lubią słuchać bajek, zgadywać, co będzie dalej, pomagać w czytaniu, jak również uczestniczyć w projektach plastycznych opartych na przeczytanej książce.
+Biblioteczka <span lang="en">My School of English</span> rozrasta się w oczach, ku uciesze pani Gosi, zapalonej czytelniczki, oraz uczniów, którzy, jak się okazuje, bardzo lubią słuchać bajek, zgadywać, co będzie dalej, pomagać w czytaniu, jak również uczestniczyć w projektach plastycznych opartych na przeczytanej książce.
 
 Wybrane pozycje to perełki literatury dziecięcej autorstwa Julii Donaldson, Erica Carle'a, Roalda Dahla, A.A. Milne'a i wielu innych poczytnych pisarzy.
 
@@ -58,9 +58,9 @@ Warsztaty odbywają się w siedzibie szkoły, jak również na zaproszenie w prz
 
 <div class="ms-workshop" markdown="1">
 
-### Warsztaty ogrodnicze „Let's get dirty!” {#warsztaty-ogrodnicze}
+### Warsztaty ogrodnicze „<span lang="en">Let's get dirty!</span>” {#warsztaty-ogrodnicze}
 
-To autorski projekt My School of English.
+To autorski projekt <span lang="en">My School of English</span>.
 
 Na zajęciach dzieci poznają tajniki sztuki ogrodowej rodem z Anglii. Jest to kolejny sposób na wykorzystanie języka angielskiego w zaskakującym dla dzieci kontekście.
 
@@ -72,9 +72,9 @@ Równie ważnym aspektem naszego projektu jest bezpośredni kontakt z naturą po
 
 <div class="ms-workshop" markdown="1">
 
-### Warsztaty kulinarne „Let's eat!” {#warsztaty-kulinarne}
+### Warsztaty kulinarne „<span lang="en">Let's eat!</span>” {#warsztaty-kulinarne}
 
-Cieszą się największym zainteresowaniem wśród uczniów My School of English, zgodnie chyba z zasadą „przez żołądek do serca”.
+Cieszą się największym zainteresowaniem wśród uczniów <span lang="en">My School of English</span>, zgodnie chyba z zasadą „przez żołądek do serca”.
 
 Na spotkaniach poznajemy przysmaki kuchni krajów anglosaskich, uczymy się przygotowywania potraw według konkretnych przepisów, powtarzamy słownictwo związane z jedzeniem.
 
@@ -88,7 +88,7 @@ Efekt finalny – miodzio!
 
 <div class="ms-workshop" markdown="1">
 
-### Warsztaty plastyczne „Let's draw!” {#warsztaty-plastyczne}
+### Warsztaty plastyczne „<span lang="en">Let's draw!</span>” {#warsztaty-plastyczne}
 
 Czyli profesjonalne, absolutnie magiczne lekcje rysunku po angielsku.
 

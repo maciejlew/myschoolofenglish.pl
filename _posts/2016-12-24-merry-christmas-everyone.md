@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Merry Christmas everyone!"
+title_lang: en
 description: "Świąteczne życzenia zdrowych i spokojnych Świąt Bożego Narodzenia oraz szczęśliwego Nowego Roku od Gosi Bachanek."
 author: Małgorzata Bachanek
 date: 2016-12-24 10:11:01

@@ -2,6 +2,7 @@
 layout: post
 title: "Wracamy do normalności :) miejmy nadzieję, że na stałe."
 description: "My School of English w Bytomiu rozpoczyna nowy rok szkolny stacjonarnie, zachowując zalecenia sanitarne i pozostając gotową do przejścia na zajęcia online w razie zmiany sytuacji."
+description_en_parts: ["My School of English"]
 author: Małgorzata Bachanek
 date: 2020-09-07 18:45:28
 is_post: true
@@ -18,7 +19,7 @@ redirect_from:
 
 ## Wracamy do normalności :) miejmy nadzieję, że na stałe.
 
-Zapraszamy zainteresowanych do siedziby My School of English w Bytomiu [przy ulicy Moniuszki 20](/kontakt.html).
+Zapraszamy zainteresowanych do siedziby <span lang="en">My School of English</span> w Bytomiu [przy ulicy Moniuszki 20](/kontakt.html).
 
 Choć nie straszne nam komunikowanie się online, zaczynamy nowy rok szkolny stacjonarnie. Przestrzegamy, rzecz jasna, odgórnych zaleceń sanitarnych, a więc na zajęcia przychodzimy zdrowi, w maseczkach lub przyłbicach, dezynfekujemy ręce i zachowujemy dystans.
 

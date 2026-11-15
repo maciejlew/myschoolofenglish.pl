@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Happy Easter!"
+title_lang: en
 description: "Wielkanocne życzenia radosnego Alleluja dla wszystkich uczniów My School of English i ich rodzin."
+description_en_parts: ["My School of English"]
 author: Małgorzata Bachanek
 date: 2017-04-14 22:38:26
 is_post: true

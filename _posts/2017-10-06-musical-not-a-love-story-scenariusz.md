@@ -1,10 +1,12 @@
 ---
 layout: post
 title: 'Musical "NOT A LOVE STORY" scenariusz.'
+title_en_parts: ["NOT A LOVE STORY"]
 date: 2017-10-06 22:03:25
 author: Małgorzata Bachanek
 is_post: true
 description: 'Scenariusz musicalu "NOT A LOVE STORY", zainspirowanego prawdziwą kłótnią i przygotowanego jako wspólny projekt. Musical miał swoją premierę w czerwcu 2016 roku, a jego oprawę muzyczną stanowiły utwory The Beatles.'
+description_en_parts: ["NOT A LOVE STORY"]
 breadcrumbs:
   - title: "Strona główna"
     url: "/"
@@ -18,7 +20,7 @@ redirect_from:
 
 Zainspirowana pewną kłótnią w damskiej toalecie (nie będąc równocześnie jej uczestniczką), wpadłam na pomysł zaangażowania zwaśnionych dam we wspólny projekt :)
 
-Tak oto powstał musical "NOT A LOVE STORY", którego [premierę mieliśmy w czerwcu 2016 roku](/blog/2016/06/20/uroczyste-zakonczenie-roku-szkolnego-201516.html).
+Tak oto powstał musical <span lang="en">"NOT A LOVE STORY"</span>, którego [premierę mieliśmy w czerwcu 2016 roku](/blog/2016/06/20/uroczyste-zakonczenie-roku-szkolnego-201516.html).
 
 Poniżej scenariusz mojego autorstwa, może się komuś przyda :)
 

@@ -3,6 +3,7 @@ layout: post
 title: "Gala na zakończenie roku zmian 2016/2017"
 date: 2017-06-25 13:46:37 +0200
 description: "Podsumowanie pełnego zmian roku w My school of English. Warsztaty plastyczne, literackie, ogrodnicze, historyczne, kulturowe i rodzinne pokazały, że język angielski może być narzędziem do poznawania świata i rozwijania własnych zainteresowań."
+description_en_parts: ["My school of English"]
 breadcrumbs:
   - title: "Strona główna"
     url: "/"
@@ -15,7 +16,7 @@ author: Małgorzata Bachanek
 
 Mijający rok był naprawdę udany, w założeniu reformatorski, obfitujący w różnorodne wydarzenia. Przyłączyła się do nas pani Agata Pretorian, moja ostoja, jak się okazało, inspiracja i bratnia dusza w kwestii edukacji. Starałyśmy się przez ten rok, aby słowa Konfucjusza: "Powiedz mi, a zapomnę. Pokaż mi, a zapamiętam. Pozwól mi zrobić, a zrozumiem" nabrały właściwego znaczenia.
 
-Stąd wzięły się nasze pomysły na warsztaty tematyczne, póki co w ramach zajęć dodatkowych, a od przyszłego roku, mamy nadzieję, również w pakiecie zajęć standardowych. Zróżnicowanie tematyczne warsztatów miało na celu zainteresowanie maksymalnie wszystkich kursantów My school of English, jak również pokazanie Państwu, choć przede wszystkim dzieciom, jak bardzo wszechobecny jest język angielski i że w naszej szkole, oprócz języka, można nauczyć się wielu innych rzeczy:
+Stąd wzięły się nasze pomysły na warsztaty tematyczne, póki co w ramach zajęć dodatkowych, a od przyszłego roku, mamy nadzieję, również w pakiecie zajęć standardowych. Zróżnicowanie tematyczne warsztatów miało na celu zainteresowanie maksymalnie wszystkich kursantów <span lang="en">My school of English</span>, jak również pokazanie Państwu, choć przede wszystkim dzieciom, jak bardzo wszechobecny jest język angielski i że w naszej szkole, oprócz języka, można nauczyć się wielu innych rzeczy:
 
 - jak profesjonalnie narysować autoportret,
 - jak [zinterpretować "Małego Księcia"](/blog/2017/02/27/kosmiczne-walentynki-nie-tylko-dla-zakochanych.html),
@@ -26,9 +27,9 @@ Stąd wzięły się nasze pomysły na warsztaty tematyczne, póki co w ramach za
 
 Tego wszystkiego i wielu innych ciekawostek można się było dowiedzieć na naszych warsztatach: plastycznych, literackich, ogrodniczych, historycznych, kulturowych i rodzinnych i to nie inaczej, a właśnie po angielsku.
 
-Poprzez tego typu zajęcia chcemy unaocznić naszym słuchaczom, że język angielski wcale nie jest przeszkodą w zdobywaniu wiedzy na jakikolwiek interesujący nas temat, wystarczy odrobina chęci, solidne podstawy wyniesione z My school of English i świat staje przed nami otworem.
+Poprzez tego typu zajęcia chcemy unaocznić naszym słuchaczom, że język angielski wcale nie jest przeszkodą w zdobywaniu wiedzy na jakikolwiek interesujący nas temat, wystarczy odrobina chęci, solidne podstawy wyniesione z <span lang="en">My school of English</span> i świat staje przed nami otworem.
 
-Bo nie uczymy się języka angielskiego dla piątek, choć wiadomo, że są doraźnym potwierdzeniem naszego zaangażowania w naukę, tak naprawdę uczymy się, a przynajmniej powinniśmy, by móc dalej się rozwijać w kierunkach, jakie nas interesują, podróżować bez strachu, być może studiować za granicą. Sky is the limit!
+Bo nie uczymy się języka angielskiego dla piątek, choć wiadomo, że są doraźnym potwierdzeniem naszego zaangażowania w naukę, tak naprawdę uczymy się, a przynajmniej powinniśmy, by móc dalej się rozwijać w kierunkach, jakie nas interesują, podróżować bez strachu, być może studiować za granicą. <span lang="en">Sky is the limit!</span>
 
 Zachęcamy wszystkich do takiego właśnie podejścia, niech język angielski przestanie być celem samym w sobie, niech umożliwi nam osiąganie innych celów!
 

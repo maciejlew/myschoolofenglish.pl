@@ -1,6 +1,8 @@
 ---
 title: "Uwaga! Uwaga! My School of English ogłasza zapisy!"
+title_en_parts: ["My School of English"]
 description: "My School of English zaprasza na naukę języka angielskiego. Szkoła stawia na komunikację, poprawną wymowę, praktyczną gramatykę, kulturę krajów anglosaskich i kreatywne zajęcia dla uczniów w każdym wieku."
+description_en_parts: ["My School of English"]
 author: Małgorzata Bachanek
 date: 2018-09-01 23:54:03
 is_post: true
@@ -14,7 +16,7 @@ breadcrumbs:
 layout: post
 ---
 
-Zapraszamy wszystkich zainteresowanych nauką języka angielskiego do zapoznania się z [ofertą My School of English](/oferta.html).
+Zapraszamy wszystkich zainteresowanych nauką języka angielskiego do zapoznania się z [ofertą <span lang="en">My School of English</span>](/oferta.html).
 
 Co nas wyróżnia:
 

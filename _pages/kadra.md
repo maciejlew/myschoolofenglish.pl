@@ -34,7 +34,7 @@ breadcrumbs:
 
 <div class="ms-about__text" markdown="1">
 
-**Małgorzata Bachanek** – założycielka My School of English, lektorka z wieloletnim doświadczeniem, autorka pomocy dydaktycznych, w tym gier edukacyjnych.
+**Małgorzata Bachanek** – założycielka <span lang="en">My School of English</span>, lektorka z wieloletnim doświadczeniem, autorka pomocy dydaktycznych, w tym gier edukacyjnych.
 
 Uczy poprzez kontekst i w nawiązaniu do szeroko pojętej kultury krajów anglosaskich; w szczególności Wielkiej Brytanii, w której mieszkała cztery lata.
 

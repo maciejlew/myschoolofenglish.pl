@@ -24,11 +24,11 @@ Pewnej marcowej środy o godzinie 6.30 rano wystartowałyśmy z Katowic, ja w ro
 
 Nasze zapoznanie z Londynem rozpoczęłyśmy od złożenia wizyty Królowej Elżbiecie w monumentalnym Pałacu Buckingham. Miałyśmy ogromne szczęście zastać ją akurat w domu, o czym poświadczy trzepocząca na maszcie chorągiew królewska. Żartuję oczywiście — zwiedzanie Pałacu możliwe jest tylko latem, podczas absencji monarchini. Niemniej jednak obejrzałyśmy sobie budynek z zewnątrz, oszczędzając około 20 funtów. Jest to budowla barokowa, dzieło słynnego architekta Johna Nasha.
 
-Pałac Buckingham w całej swej rozciągłości spełnia wszystkie możliwe funkcje w życiu Królowej Elżbiety. Jest jej domem, tu urodziła dwóch synów, a zarazem miejscem pracy, a więc cotygodniowych spotkań z premierem, wystawnych bankietów, uroczystości państwowych i oficjalnych spotkań głów państw. Zainteresowanym postacią Królowej polecam absolutnie fantastyczny serial "The Crown".
+Pałac Buckingham w całej swej rozciągłości spełnia wszystkie możliwe funkcje w życiu Królowej Elżbiety. Jest jej domem, tu urodziła dwóch synów, a zarazem miejscem pracy, a więc cotygodniowych spotkań z premierem, wystawnych bankietów, uroczystości państwowych i oficjalnych spotkań głów państw. Zainteresowanym postacią Królowej polecam absolutnie fantastyczny serial <span lang="en">"The Crown"</span>.
 
 Przechodząc na drugą stronę ulicy wkroczyłyśmy do niezwykle magicznego, zwłaszcza o tej porze roku, parku St. James's. Chwila oddechu na łonie natury, wiosenna flora w leniwym rozkwicie, wiewiórki i ptaki, wszędzie ptaki, a wśród nich pelikany: Louis, Vaclav and Gargi. Ich codzienne karmienie można sobie pooglądać wczesnym popołudniem. Niestety, z naszym napiętym planem wycieczki nie mogłyśmy sobie pozwolić na przesiadywanie w parku.
 
-Wychodząc z parku natknęłyśmy się na straż konną wyjeżdżającą z Horse Guards Parade (that's what I call perfect timing). To właśnie tu, na tym największym placu defilad, na cześć urodzin Królowej Elżbiety odbywa się ceremonia Trooping the Colour.
+Wychodząc z parku natknęłyśmy się na straż konną wyjeżdżającą z Horse Guards Parade (<span lang="en">that's what I call perfect timing</span>). To właśnie tu, na tym największym placu defilad, na cześć urodzin Królowej Elżbiety odbywa się ceremonia Trooping the Colour.
 
 Ulicą The Mall dotarłyśmy na Trafalgar Square pod kolumnę Nelsona, walecznego kapitana brytyjskiej marynarki, zwycięzcy spod... Trafalgar. Uwagę zwiedzających przyciągają tu fontanny sir Lutyensa i towarzyszące im pompatyczne lwy odlane z brązu. Symetrycznie rozmieszczone w narożnikach placu cokoły unoszą ponad przeciętność trzy stałe pomniki: króla Jerzego IV, generała Havelocka i generała Napiera, oraz corocznie zmieniane, kontrastujące dzieło sztuki współczesnej.
 
@@ -38,11 +38,11 @@ Osobiście lubię, będąc w Londynie, wstąpić tu na chwilę, wybrać sobie je
 
 Po przerwie na lunch zakupiłyśmy 1-dniowe bilety na metro i przemieściłyśmy się do Greenwich. Naszym celem było zdobycie południka zero, który, jak wiadomo, przebiega przez Królewskie Obserwatorium Astronomiczne, położone na niewielkim wzniesieniu. Rozciąga się stamtąd przepiękny widok na panoramę miasta.
 
-Wracając do centrum, zahaczyłyśmy o Londyńską Tower, średniowieczne więzienie, z którego podobno nie było ucieczki. To tu została ścięta druga żona [Henryka VIII](/blog/2017/06/20/warsztaty-historyczne-w-bibliotece-publicznej-miejskiej-w-bytomiu.html), Ann Boleyn, jak wielu zresztą innych za czasów panowania niesławnego króla. Obecnie znajduje się tu muzeum, nawiązujące do mrocznej przeszłości, oraz skarbiec, w którym przechowywane są klejnoty i insygnia koronacyjne. Całości strzegą tak zwani "beefeaters", strażnicy mieszkający tu wraz z rodzinami.
+Wracając do centrum, zahaczyłyśmy o Londyńską Tower, średniowieczne więzienie, z którego podobno nie było ucieczki. To tu została ścięta druga żona [Henryka VIII](/blog/2017/06/20/warsztaty-historyczne-w-bibliotece-publicznej-miejskiej-w-bytomiu.html), Ann Boleyn, jak wielu zresztą innych za czasów panowania niesławnego króla. Obecnie znajduje się tu muzeum, nawiązujące do mrocznej przeszłości, oraz skarbiec, w którym przechowywane są klejnoty i insygnia koronacyjne. Całości strzegą tak zwani <span lang="en">"beefeaters"</span>, strażnicy mieszkający tu wraz z rodzinami.
 
 W tak sprzyjających okolicznościach przyrody nie obyło się bez zrobienia sobie pamiątkowych zdjęć na tle Tower Bridge. Zawsze sobie obiecuję, że pewnego dnia zdobędę się na odwagę i przejdę się tą kładką dla pieszych, zawieszoną wysoko pomiędzy wieżami.
 
-W dalszej części programu naszej ekspresowej wycieczki znalazłyśmy czas na tradycyjny obiad, czyli fish & chips, zakupy na Oxford St. i wieczorny spacer po China Town i Soho.
+W dalszej części programu naszej ekspresowej wycieczki znalazłyśmy czas na tradycyjny obiad, czyli <span lang="en">fish & chips</span>, zakupy na Oxford St. i wieczorny spacer po China Town i Soho.
 
 Ostatnie godziny przesiedziałyśmy w barze Italia, kultowym miejscu spotkań ludzi zwykłych i niezwykłych (otwarte non-stop, w odróżnieniu od angielskich pubów, zamykanych o 23.00). Polecam kawę, lepszej w życiu nie piłam.
 
@@ -50,6 +50,7 @@ Około czwartej nad ranem pojechałyśmy na lotnisko.
 
 > "If you can make an order could you get me one.  
 > Two sugars would be great 'cos I'm fading fast and it's nearly dawn."
+{: lang="en"}
 
 *Pulp — "Bar Italia"*
 

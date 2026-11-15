@@ -1,6 +1,7 @@
 ---
 title: "Już za rok matura... Wróć! Za 8 miesięcy!"
 description: "My School of English rozpoczyna kurs przygotowujący do matury z angielskiego. Zajęcia odbywają się raz w tygodniu i prowadzi je Aneta Wilemska-Rudnik."
+description_en_parts: ["My School of English"]
 author: Małgorzata Bachanek
 date: 2018-09-13 09:50:32
 is_post: true

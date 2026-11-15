@@ -4,6 +4,7 @@ title: "Obóz językowy w Chester"
 date: 2016-07-02 17:29:29 +0200
 author: Małgorzata Bachanek
 description: "Relacja z pierwszego obozu językowego My School of English w Chester – nauka angielskiego z native speakerami, pobyt u brytyjskich rodzin, warsztaty historyczne, wycieczki i poznawanie brytyjskiej kultury."
+description_en_parts: ["My School of English"]
 is_post: true
 breadcrumbs:
   - title: "Strona główna"
@@ -14,13 +15,13 @@ breadcrumbs:
     url: "page.url"
 ---
 
-Po raz pierwszy w swej działalności, My school of English we współpracy z English in Chester- angielską szkołą językową, zorganizowała [wakacyjny obóz językowy w Chester](/cennik.html#chester). Przebogaty pakiet obejmował: kurs językowy w English in Chester (zajęcia z native speaker’ami), zakwaterowanie u rodzin brytyjskich, pełne angielskie wyżywienie, wycieczki fakultatywne, warsztaty historyczne i opiekę rezydenta My school of English (w tej roli pani Gosia). W opinii, tak uczestników, jak i pani Gosi, wyjazd ten okazał się strzałem w dziesiątkę i na stałe wpisał w kalendarium poczynań szkoły!
+Po raz pierwszy w swej działalności, <span lang="en">My school of English</span> we współpracy z English in Chester- angielską szkołą językową, zorganizowała [wakacyjny obóz językowy w Chester](/cennik.html#chester). Przebogaty pakiet obejmował: kurs językowy w English in Chester (zajęcia z native speaker’ami), zakwaterowanie u rodzin brytyjskich, pełne angielskie wyżywienie, wycieczki fakultatywne, warsztaty historyczne i opiekę rezydenta <span lang="en">My school of English</span> (w tej roli pani Gosia). W opinii, tak uczestników, jak i pani Gosi, wyjazd ten okazał się strzałem w dziesiątkę i na stałe wpisał w kalendarium poczynań szkoły!
 
 Chester to urokliwe miasto w zachodniej Anglii, przesiąknięte tradycją, historią i wysoką kulturą. Celem naszej wizyty było doświadczenie powyższych, a bogaty program obozu bardzo nam w tym pomógł.
 
 ## TRADYCJA
 
-Chester jest kwintesencją brytyjskiej tradycji; zupełnym przeciwieństwem kosmopolitycznego i rozrywkowego Londynu. Tutaj życie zastygło w przeszłości, tutaj popija się herbatkę w popularnych herbaciarniach (tea rooms), tutaj gromadnie uczestniczy się w wyścigach konnych (panie w obowiązkowych kapeluszach), a w niedzielę kosi trawnik. Każdego dnia poznawaliśmy kolejne obyczaje.
+Chester jest kwintesencją brytyjskiej tradycji; zupełnym przeciwieństwem kosmopolitycznego i rozrywkowego Londynu. Tutaj życie zastygło w przeszłości, tutaj popija się herbatkę w popularnych herbaciarniach (<span lang="en">tea rooms</span>), tutaj gromadnie uczestniczy się w wyścigach konnych (panie w obowiązkowych kapeluszach), a w niedzielę kosi trawnik. Każdego dnia poznawaliśmy kolejne obyczaje.
 
 ## HISTORIA
 

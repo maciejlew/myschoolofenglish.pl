@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "'The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid' Jane Austen"
+title_lang: en
 date: 2017-01-08 20:33:51 +0100
 author: Małgorzata Bachanek
 description: "O Jane Austen, jej twórczości, ekranizacjach powieści oraz „Opactwie Northanger” – pełnej humoru parodii powieści gotyckich."
@@ -28,10 +29,10 @@ Bohaterką, a więc potencjalną heroiną *“Opactwa Northanger”* jest młodz
 
 Reszty nie zdradzę, zachęcam do przeczytania, zresztą nie tylko *“Opactwa”*. Poniżej pełna lista dzieł mojej ulubionej pisarki:
 
-- “Rozważna i romantyczna” [Sense and Sensibility]
-- “Duma i uprzedzenie” [Pride and Prejudice]
+- “Rozważna i romantyczna” [<span lang="en">Sense and Sensibility</span>]
+- “Duma i uprzedzenie” [<span lang="en">Pride and Prejudice</span>]
 - “Mansfield Park”
 - “Emma”
-- “Opactwo Northanger” [Northanger Abbey]
-- “Perswazje” [Persuasion]
+- “Opactwo Northanger” [<span lang="en">Northanger Abbey</span>]
+- “Perswazje” [<span lang="en">Persuasion</span>]
 

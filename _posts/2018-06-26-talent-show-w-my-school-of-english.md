@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Talent Show w My School of English!"
+title_en_parts: ["Talent Show", "My School of English"]
 description: "Tegoroczny Konkurs Talentów w My School of English zgromadził muzyków, tancerzy, akrobatów i poetę, którzy podczas uroczystości zakończenia roku szkolnego zaprezentowali swoje wyjątkowe umiejętności."
+description_en_parts: ["My School of English"]
 date: 2018-06-26 22:09:38
 author: Małgorzata Bachanek
 is_post: true
@@ -20,5 +22,5 @@ W tegorocznym Konkursie Talentów udział wzięli: muzycy, tancerze, akrobaci, a
 
 Przepiękne głosy naszych piosenkarek, wirtuozerska gra muzyków, karkołomne akrobacje oraz niesamowita choreografia tancerzy, no i wreszcie ten wiersz, baaardzo długi, cały po angielsku i wyuczony na pamięć, wszystko to dodało prawdziwego splendoru naszemu spotkaniu.
 
-My School of English to nietypowa szkoła językowa. Tutaj każdy ma swoją historię, każdy może być sobą, każdemu przyglądamy się z osobna, by ostatecznie dotrzeć do tej części serca, w której budzi się miłość do języka angielskiego.
+<span lang="en">My School of English</span> to nietypowa szkoła językowa. Tutaj każdy ma swoją historię, każdy może być sobą, każdemu przyglądamy się z osobna, by ostatecznie dotrzeć do tej części serca, w której budzi się miłość do języka angielskiego.
 

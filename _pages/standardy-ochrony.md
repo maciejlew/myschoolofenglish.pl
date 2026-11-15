@@ -27,8 +27,8 @@ breadcrumbs:
 
 <div class="ms-docs" markdown="1">
 
-- [Standardy ochrony małoletnich My School of English](/files/standardy-ochrony/standardy-ochrony-maloletnich-my-school-of-english.pdf)
-- [Standardy ochrony małoletnich My School of English – wersja skrócona](/files/standardy-ochrony/standardy-ochrony-maloletnich-my-school-of-english-wersja-skrocona.pdf)
+- [Standardy ochrony małoletnich <span lang="en">My School of English</span>](/files/standardy-ochrony/standardy-ochrony-maloletnich-my-school-of-english.pdf)
+- [Standardy ochrony małoletnich <span lang="en">My School of English</span> – wersja skrócona](/files/standardy-ochrony/standardy-ochrony-maloletnich-my-school-of-english-wersja-skrocona.pdf)
 - [Załączniki do standardów](/files/standardy-ochrony/zalaczniki-do-standardow-ochrony-maloletnich-my-school-of-english.pdf)
 
 </div>

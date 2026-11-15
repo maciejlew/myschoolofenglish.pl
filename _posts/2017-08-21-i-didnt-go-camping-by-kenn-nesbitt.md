@@ -1,6 +1,7 @@
 ---
 layout: post
 title: I didn't go camping by Kenn Nesbitt.
+title_lang: en
 date: 2017-08-21 14:13:03
 author: Małgorzata Bachanek
 is_post: true
@@ -18,7 +19,9 @@ redirect_from:
 
 Już za niedługo dowiemy się wszystkiego... Kto gdzie był, z kim i jak długo. Co było fajne, a co nie. Gdzie warto pojechać, co warto obejrzeć. Mam tylko nadzieję, że nikt z naszych uczniów nie okaże się podmiotem lirycznym następującego wiersza Kenna Nesbitta :)
 
-## "I Didn't Go Camping"
+## <span lang="en">"I Didn't Go Camping"</span> {#i-didnt-go-camping}
+
+<div lang="en" markdown="1">
 
 I didn’t go camping.  
 I didn’t go hiking.  
@@ -54,6 +57,8 @@ I didn’t become
 a guitarist or drummer,  
 but, boy, I played plenty  
 of Minecraft this summer.
+
+</div>
 
 *Kenn Nesbitt*
 

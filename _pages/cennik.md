@@ -84,7 +84,7 @@ breadcrumbs:
 
       <p>Tygodniowy obóz języka angielskiego w malowniczym Chester.</p>
 
-      <p>Oferta obejmuje kurs języka angielskiego w partnerskiej szkole English in Chester, warsztaty tematyczne, wycieczki krajoznawcze, zakwaterowanie u rodzin brytyjskich, pełne wyżywienie, ubezpieczenie i opiekę rezydenta My School of English.</p>
+      <p>Oferta obejmuje kurs języka angielskiego w partnerskiej szkole English in Chester, warsztaty tematyczne, wycieczki krajoznawcze, zakwaterowanie u rodzin brytyjskich, pełne wyżywienie, ubezpieczenie i opiekę rezydenta <span lang="en">My School of English</span>.</p>
 
       <p>Gorąco polecamy!</p>
     </div>

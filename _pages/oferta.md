@@ -57,7 +57,7 @@ redirect_from:
 
 ### Zajęcia dla dzieci {#zajecia-dla-dzieci}
 
-#### „Let's go to school!”
+#### „<span lang="en">Let's go to school!</span>” {#lets-go-to-school}
 
 To zajęcia dla dzieci szkolnych, od podstawówki do liceum.
 
@@ -84,13 +84,13 @@ W obliczu egzaminu zachęcamy do wytężonej pracy, sprawdzamy zaangażowanie ku
 
 ### Zajęcia dla dorosłych {#zajecia-dla-doroslych}
 
-#### „Let's talk!”
+#### „<span lang="en">Let's talk!</span>” {#lets-talk}
 
 To zajęcia dla dorosłych mające na celu przełamanie bariery w swobodnym posługiwaniu się językiem angielskim.
 
 Na zajęciach w dużej mierze opieramy się na metodzie Direct English, polegającej na zadawaniu pytań i uzyskiwaniu odpowiedzi, a co za tym idzie – na budowaniu konwersacji w oparciu o stopniowo poznawane słówka i zagadnienia gramatyczne.
 
-Wydawnictwo Direct English, z którym My School of English ma przyjemność współpracować, zaopatruje słuchaczy w podręczniki i płyty CD, jak również umożliwia dostęp do platformy e-learningowej.
+Wydawnictwo Direct English, z którym <span lang="en">My School of English</span> ma przyjemność współpracować, zaopatruje słuchaczy w podręczniki i płyty CD, jak również umożliwia dostęp do platformy e-learningowej.
 
 Na zajęciach nie ograniczamy się jedynie do zadawania pytań w oparciu o podręcznik. Stosujemy także inne materiały (źródłowe i autorskie), gry, prezentacje oraz prelekcje, ponieważ uważamy, że zróżnicowanie planu zajęć zwiększa ich efektywność.
 
@@ -105,13 +105,13 @@ Przyjemna i wesoła atmosfera, towarzysząca naszym spotkaniom, sprawia, że kur
 
 <div class="ms-offer-card" markdown="1">
 
-### „Let's do business!” {#business-english}
+### „<span lang="en">Let's do business!</span>” {#business-english}
 
 #### Zajęcia te skierowane są do klientów korporacyjnych.
 
 Formuła zajęć oraz ich treść, częstotliwość i miejsce spotkań (siedziba szkoły czy firmy) są do ustalenia indywidualnie.
 
-My School of English proponuje Państwu profesjonalne szkolenia. Rozpoczynamy testem kwalifikacyjnym, za pomocą którego oceniamy poziom zaawansowania.
+<span lang="en">My School of English</span> proponuje Państwu profesjonalne szkolenia. Rozpoczynamy testem kwalifikacyjnym, za pomocą którego oceniamy poziom zaawansowania.
 
 Następnie, w odpowiedzi na Państwa oczekiwania, opracowujemy program nauczania i przystępujemy do szkolenia.
 

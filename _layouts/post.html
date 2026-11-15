@@ -29,12 +29,12 @@ layout: default
     </div>
 
     <h1 class="ms-post__title">
-      {{ page.title | escape }}
+      {% include wcag-language-of-parts.html text=page.title whole=page.title_lang parts=page.title_en_parts %}
     </h1>
 
     {% if page.description %}
       <p class="ms-post__description">
-        {{ page.description }}
+        {% include wcag-language-of-parts.html text=page.description parts=page.description_en_parts %}
       </p>
     {% endif %}
 

@@ -1,6 +1,7 @@
 ---
 title: "Czas start!"
 description: "Zapisy na rok szkolny 2025/26 w My School of English ruszają 1 września. Szkoła zaprasza dzieci od pierwszej klasy szkoły podstawowej, nastolatków i dorosłych."
+description_en_parts: ["My School of English"]
 date: 2025-09-01 14:29:13
 is_post: true
 breadcrumbs:

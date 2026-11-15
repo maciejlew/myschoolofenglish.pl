@@ -4,6 +4,7 @@ title: "Bardzo głodna gąsienica z wizytą w kawiarni."
 date: 2016-05-22 19:19:46 +0200
 author: Małgorzata Bachanek
 description: "Relacja z literackich warsztatów „Let's read” poświęconych książce „The Very Hungry Caterpillar” Erica Carle'a, które odbyły się w zaprzyjaźnionej kawiarni."
+description_en_parts: ["Let's read", "The Very Hungry Caterpillar"]
 is_post: true
 breadcrumbs:
   - title: "Strona główna"
@@ -14,9 +15,9 @@ breadcrumbs:
     url: "page.url"
 ---
 
-[Warsztaty literackie "Let's read"](/warsztaty.html#warsztaty-literackie).
+[Warsztaty literackie <span lang="en">"Let's read"</span>](/warsztaty.html#warsztaty-literackie).
 
 Po raz kolejny udowodniliśmy, że angielskiego można się uczyć absolutnie wszędzie. Tym razem odwiedziliśmy zaprzyjaźnioną kawiarnię Big Baba Cupcakes. Nasza nieustannie głodna gąsienica mogła co nieco dorzucić do swej tygodniowej diety, nic więc dziwnego, że zrobiła się taaaka wielka.
 
-"The Very Hungry Caterpillar" by [Eric Carle](/blog/2016/07/27/wakacyjne-warsztaty-literackie.html) to niekwestionowana klasyka literatury dziecięcej i nieoceniona pomoc dydaktyczna nauczycieli angielskiego. Przepiękne ilustracje i dość łatwy przekaz zjednują naszej łakomczuszce wielbicieli na całym świecie.
+<span lang="en">"The Very Hungry Caterpillar" by [Eric Carle](/blog/2016/07/27/wakacyjne-warsztaty-literackie.html)</span> to niekwestionowana klasyka literatury dziecięcej i nieoceniona pomoc dydaktyczna nauczycieli angielskiego. Przepiękne ilustracje i dość łatwy przekaz zjednują naszej łakomczuszce wielbicieli na całym świecie.
 

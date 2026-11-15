@@ -33,13 +33,13 @@ layout: default
 
           <h2>
             <a href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
+              {% include wcag-language-of-parts.html text=post.title whole=post.title_lang parts=post.title_en_parts %}
             </a>
           </h2>
 
           {% if post.description %}
             <div class="ms-blog__post-excerpt">
-              {{ post.description }}
+              {% include wcag-language-of-parts.html text=post.description parts=post.description_en_parts %}
             </div>
           {% elsif post.excerpt %}
             <div class="ms-blog__post-excerpt">

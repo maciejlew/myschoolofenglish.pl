@@ -16,7 +16,7 @@ breadcrumbs:
 
 Jest to propozycja przede wszystkim dla dzieci, ale i dorosłych.
 
-My school of English nawiązała współpracę z wydawnictwem Granna, którego przepięknie wykonane, mądre gry cenimy od dawna. W dobie totalnej cyfryzacji namawiamy do powrotu do źródeł. Pokażmy dzieciom, jak bardzo wciągające i pouczające są planszówki, jak świetnie można się przy nich bawić i to w gronie kolegów.
+<span lang="en">My school of English</span> nawiązała współpracę z wydawnictwem Granna, którego przepięknie wykonane, mądre gry cenimy od dawna. W dobie totalnej cyfryzacji namawiamy do powrotu do źródeł. Pokażmy dzieciom, jak bardzo wciągające i pouczające są planszówki, jak świetnie można się przy nich bawić i to w gronie kolegów.
 
 Językiem obowiązującym na naszych spotkaniach będzie oczywiście angielski. W taki oto sprytny sposób przemycimy trochę słówek i wyrażeń do zaaferowanych głów naszych małych bądź dużych graczy.
 
