@@ -211,6 +211,22 @@ a:hover {
 }
 
 
+/* Blockquotes
+   Replaces Minima's default blockquote color (#828282, 3.6:1 to 3.8:1 on the
+   light surfaces of this site, WCAG 1.4.3 AA needs 4.5:1) and its negative
+   letter-spacing (-1px), which hurts legibility. Italics and the left border
+   from Minima are kept. Scoped to .page-content (like the headings above) so
+   it is more specific than Minima's bare `blockquote` rule and wins
+   regardless of import order. Components with their own blockquote styles
+   (.ms-about, .ms-testimonial, .ms-post__content) come later in this file
+   and keep their layout. */
+
+.page-content blockquote {
+  color: $ms-color-text-muted;
+  letter-spacing: normal;
+}
+
+
 /* ========================================
    Spacing
    ======================================== */
