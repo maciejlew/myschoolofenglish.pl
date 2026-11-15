@@ -32,6 +32,8 @@ $ms-color-text: #1f2937;
 $ms-color-text-muted: #4b5563;
 $ms-color-text-subtle: #5b6472;
 $ms-color-text-inverse: #fff;        /* text on primary and accent backgrounds */
+$ms-color-link: $ms-color-primary;   /* links in running text, min. 4.5:1 on every light surface */
+$ms-color-link-hover: $ms-color-accent; /* link hover, min. 4.5:1 on every light surface */
 
 
 /* Borders */
@@ -188,6 +190,24 @@ $ms-text-h1-min: 1.75rem;
 .page-content .ms-section--price h5,
 .page-content .ms-section--price h6 {
   color: $ms-color-text-inverse;
+}
+
+
+/* Links
+   Replaces Minima's default link color (#2a7ae2), which gives only 3.4:1 to
+   4.2:1 on the light surfaces of this site (WCAG 1.4.3 AA needs 4.5:1).
+   :visited and :hover are set here too: they have the same specificity as
+   Minima's rules and this file comes later, so without them a visited link
+   would not change color on hover. Components that set their own link color
+   (.ms-docs a, .ms-button, ...) come later in this file and keep it. */
+
+a,
+a:visited {
+  color: $ms-color-link;
+}
+
+a:hover {
+  color: $ms-color-link-hover;
 }
 
 
