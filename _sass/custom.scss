@@ -227,6 +227,26 @@ a:hover {
 }
 
 
+/* Link underline
+   Minima removes link underlines, so a link inside a sentence differs from the
+   surrounding text only by color (WCAG 1.4.1 Use of Color). Every link is
+   underlined by default; only interface components whose role is obvious from
+   their position and shape opt out below: header logo and menu, footer logo,
+   buttons, and link lists/cards (footer menu, documents, blog post titles).
+   Phone, e-mail and other links in content are never listed here. */
+
+a {
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+
+.site-title,
+.page-link,
+.footer-brand a {
+  text-decoration: none;
+}
+
+
 /* ========================================
    Spacing
    ======================================== */
@@ -1071,7 +1091,6 @@ html body {
 .ms-offer-phone a {
   color: $ms-color-primary;
   font-weight: 700;
-  text-decoration: none;
 }
 
 .ms-offer-phone a:hover {
@@ -1457,7 +1476,6 @@ html body {
 .ms-contact__details a {
   color: $ms-color-accent;
   font-weight: 700;
-  text-decoration: none;
 }
 
 .ms-contact__details a:hover {
@@ -1724,11 +1742,6 @@ html body {
   margin-bottom: .75rem;
   font-size: $ms-text-lg;
   line-height: 1.3;
-}
-
-.ms-post__content a {
-  color: $ms-color-accent;
-  font-weight: 700;
 }
 
 .ms-post__content blockquote {
