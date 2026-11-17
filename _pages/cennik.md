@@ -19,44 +19,45 @@ breadcrumbs:
 <section class="ms-section ms-section--subtle" id="cennik">
   <div class="ms-container">
     <div class="ms-price-table">
-      <table>
-        <thead>
-          <tr>
-            <th>Liczebność grupy</th>
-            <th>Czas trwania lekcji [minuty]</th>
-            <th>Cena od osoby [zł]</th>
+      <table role="table">
+        <caption>Cennik lekcji angielskiego według liczebności grupy</caption>
+        <thead role="rowgroup">
+          <tr role="row">
+            <th scope="col" role="columnheader">Liczebność grupy</th>
+            <th scope="col" role="columnheader">Czas trwania lekcji [minuty]</th>
+            <th scope="col" role="columnheader">Cena od osoby [zł]</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>5–6</td>
-            <td>50</td>
-            <td>47</td>
+        <tbody role="rowgroup">
+          <tr role="row">
+            <th scope="row" role="rowheader">5–6</th>
+            <td role="cell">50</td>
+            <td role="cell">47</td>
           </tr>
-          <tr>
-            <td>4</td>
-            <td>50</td>
-            <td>53</td>
+          <tr role="row">
+            <th scope="row" role="rowheader">4</th>
+            <td role="cell">50</td>
+            <td role="cell">53</td>
           </tr>
-          <tr>
-            <td>3</td>
-            <td>50</td>
-            <td>63</td>
+          <tr role="row">
+            <th scope="row" role="rowheader">3</th>
+            <td role="cell">50</td>
+            <td role="cell">63</td>
           </tr>
-          <tr>
-            <td>2</td>
-            <td>50</td>
-            <td>74</td>
+          <tr role="row">
+            <th scope="row" role="rowheader">2</th>
+            <td role="cell">50</td>
+            <td role="cell">74</td>
           </tr>
-          <tr>
-            <td>1 dziecko</td>
-            <td>50</td>
-            <td>100</td>
+          <tr role="row">
+            <th scope="row" role="rowheader">1 dziecko</th>
+            <td role="cell">50</td>
+            <td role="cell">100</td>
           </tr>
-          <tr>
-            <td>1 dorosły</td>
-            <td>50</td>
-            <td>115</td>
+          <tr role="row">
+            <th scope="row" role="rowheader">1 dorosły</th>
+            <td role="cell">50</td>
+            <td role="cell">115</td>
           </tr>
         </tbody>
       </table>
