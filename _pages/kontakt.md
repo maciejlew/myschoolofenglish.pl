@@ -20,15 +20,15 @@ breadcrumbs:
   <div class="ms-container">
     <div class="ms-contact">
 
-      <div class="ms-contact__details">
+      <address class="ms-contact__details">
 
-        <h2>Bytom, ul. Moniuszki 20</h2>
+        <p>Bytom, ul. Moniuszki 20</p>
 
-        <h2>Email: <a href="mailto:mbachanek.myschool@gmail.com">mbachanek.myschool@gmail.com</a></h2>
+        <p>Email: <a href="mailto:mbachanek.myschool@gmail.com">mbachanek.myschool@gmail.com</a></p>
 
-        <h2>Tel.: <a href="tel:+48505099321">505-099-321</a></h2>
+        <p>Tel.: <a href="tel:+48505099321">505-099-321</a></p>
 
-      </div>
+      </address>
 
       <div class="ms-contact__map">
 

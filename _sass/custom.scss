@@ -685,6 +685,21 @@ html body {
   color: $ms-color-accent-soft;
 }
 
+/* Kicker as a real heading (price section) or nested in one (about section).
+   Looks the same as the <p> variant: `.page-content h2` would otherwise
+   change its color and `.post-content h2` its size. */
+
+.page-content h2.ms-kicker {
+  color: $ms-color-accent;
+  font-size: $ms-text-xs;
+  line-height: 1.5;
+}
+
+h2 > .ms-kicker {
+  display: block;
+  line-height: 1.5;
+}
+
 
 /* ========================================
    Przyciski
@@ -865,7 +880,7 @@ html body {
   padding: $ms-space-lg 0;
 }
 
-.ms-price .ms-kicker {
+.page-content .ms-price .ms-kicker {
   color: $ms-color-accent-soft;
 }
 
@@ -1069,7 +1084,8 @@ html body {
   line-height: 1.2;
 }
 
-.ms-offer-card h4 {
+.ms-offer-card h4,
+.ms-offer-card__lead {
   margin-top: 0;
   margin-bottom: $ms-space-md;
   color: $ms-color-accent;
@@ -1461,15 +1477,17 @@ html body {
 
 .ms-contact__details {
   padding-top: .5rem;
+  font-style: normal;  /* <address> is italic by default */
 }
 
-.ms-contact__details h2 {
+.ms-contact__details p {
   margin: 0 0 $ms-space-md;
+  color: $ms-color-primary;
   font-size: $ms-text-lg;
   line-height: 1.4;
 }
 
-.ms-contact__details h2:last-child {
+.ms-contact__details p:last-child {
   margin-bottom: 0;
 }
 
@@ -1537,7 +1555,7 @@ html body {
     padding-top: 0;
   }
 
-  .ms-contact__details h2 {
+  .ms-contact__details p {
     margin-bottom: 1.25rem;
     font-size: $ms-text-lg;
   }
@@ -1559,7 +1577,7 @@ html body {
     gap: $ms-space-lg;
   }
 
-  .ms-contact__details h2 {
+  .ms-contact__details p {
     font-size: $ms-text-base;
   }
 

@@ -105,9 +105,9 @@ Przyjemna i wesoła atmosfera, towarzysząca naszym spotkaniom, sprawia, że kur
 
 <div class="ms-offer-card" markdown="1">
 
-### „<span lang="en">Let's do business!</span>” {#business-english}
+### Zajęcia te skierowane są do klientów korporacyjnych. {#zajęcia-dla-korporacji}
 
-#### Zajęcia te skierowane są do klientów korporacyjnych.
+#### „<span lang="en">Let's do business!</span>” {#business-english}
 
 Formuła zajęć oraz ich treść, częstotliwość i miejsce spotkań (siedziba szkoły czy firmy) są do ustalenia indywidualnie.
 
