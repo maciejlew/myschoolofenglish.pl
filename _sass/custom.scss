@@ -1656,6 +1656,7 @@ h2 > .ms-kicker {
 
 .ms-blog__post {
   @include ms-card;
+  position: relative;
   margin-bottom: $ms-space-md;
   padding: $ms-space-lg 2.25rem;
 }
@@ -1683,6 +1684,22 @@ h2 > .ms-kicker {
   color: $ms-color-accent;
 }
 
+.ms-blog__post h2 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: $ms-radius-md;
+}
+
+.ms-blog__post h2 a:focus-visible {
+  outline: none;
+}
+
+.ms-blog__post h2 a:focus-visible::after {
+  outline: 3px solid $ms-color-accent;
+  outline-offset: 2px;
+}
+
 .ms-blog__post-excerpt {
   margin-bottom: 1.25rem;
   color: $ms-color-text-muted;
@@ -1705,6 +1722,11 @@ h2 > .ms-kicker {
   letter-spacing: .06em;
 }
 
+.ms-blog__post-more {
+  color: $ms-color-primary;
+  font-weight: 700;
+}
+
 @media (max-width: $ms-breakpoint-mobile) {
 
   .ms-blog {
@@ -1723,10 +1745,6 @@ h2 > .ms-kicker {
     align-items: flex-start;
     flex-direction: column;
     gap: .5rem;
-  }
-
-  .ms-blog__post-meta a {
-    margin-left: 0;
   }
 
 }
