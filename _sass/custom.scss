@@ -65,6 +65,7 @@ $ms-gutter: 2rem; /* main column margin */
 
 $ms-header-height: 60px;             /* header content height: logo + vertical padding */
 $ms-logo-height: 44px;               /* logo height in the header */
+$ms-logo-width: 60px;                /* logo width in the header (width attribute of the <img>) */
 $ms-minima-palm: 600px;              /* Minima's own mobile menu breakpoint ($on-palm) */
 
 
@@ -552,6 +553,50 @@ html body {
 
 .page-content {
   padding: 0;
+}
+
+
+/* Skip link */
+
+.site-header .wrapper {
+  position: relative;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: calc(#{$ms-gutter} + #{$ms-logo-width} + #{$ms-space-md});
+  z-index: 2;
+  line-height: $ms-header-height;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.skip-link,
+.skip-link:visited {
+  color: $ms-color-text;
+}
+
+.skip-link:not(:focus) {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.page-content:focus {
+  outline: none;
+}
+
+
+/* Current page in the menus */
+
+.page-link[aria-current="page"],
+.footer-nav__link[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-color: $ms-color-accent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .3em;
 }
 
 .page-content > .wrapper {
